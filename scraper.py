@@ -389,7 +389,7 @@ class GoogleDevBlogScraper:
             
             # Self-referencing atom link
             atom_link = ET.SubElement(channel, "atom:link")
-            atom_link.set("href", "https://your-username.github.io/your-repo-name/feed.xml")
+            atom_link.set("href", "https://lawvia.github.io/google-dev-rss/feed.xml")
             atom_link.set("rel", "self")
             atom_link.set("type", "application/rss+xml")
             
