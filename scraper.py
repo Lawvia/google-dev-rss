@@ -40,13 +40,26 @@ class GoogleDevBlogScraper:
     def parse_date(self, date_str):
         """Parse various date formats to ISO format"""
         try:
+            # Clean the date string - remove tags and extra content
+            if '/' in date_str and any(word in date_str.upper() for word in ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']):
+                # Extract date part before the first '/' (e.g., "AUG. 1, 2025 / TAGS" -> "AUG. 1, 2025")
+                date_str = date_str.split('/')[0].strip()
+            
             # Common formats found on Google blogs
             formats = [
-                "%B %d, %Y",  # January 15, 2024
-                "%b %d, %Y",  # Jan 15, 2024
-                "%Y-%m-%d",   # 2024-01-15
-                "%m/%d/%Y",   # 01/15/2024
+                "%B %d, %Y",    # January 15, 2024
+                "%b %d, %Y",    # Jan 15, 2024
+                "%B. %d, %Y",   # January. 15, 2024
+                "%b. %d, %Y",   # Jan. 15, 2024
+                "%Y-%m-%d",     # 2024-01-15
+                "%m/%d/%Y",     # 01/15/2024
             ]
+            
+            # Clean up abbreviations with periods
+            date_str = date_str.replace('JAN.', 'JAN').replace('FEB.', 'FEB').replace('MAR.', 'MAR')
+            date_str = date_str.replace('APR.', 'APR').replace('MAY.', 'MAY').replace('JUN.', 'JUN')
+            date_str = date_str.replace('JUL.', 'JUL').replace('AUG.', 'AUG').replace('SEP.', 'SEP')
+            date_str = date_str.replace('OCT.', 'OCT').replace('NOV.', 'NOV').replace('DEC.', 'DEC')
             
             for fmt in formats:
                 try:
@@ -182,8 +195,8 @@ class GoogleDevBlogScraper:
             desc_elem = article_elem.find(['p', '.summary', '.excerpt', '.description'])
             description = self.clean_text(desc_elem.get_text()) if desc_elem else title
             
-            # Find date
-            date_elem = article_elem.find(['time', '.date', '.published'])
+            # Find date - specifically look for search-result__eyebrow class
+            date_elem = article_elem.find(class_='search-result__eyebrow') or article_elem.find(['time', '.date', '.published'])
             if date_elem:
                 date_str = date_elem.get('datetime') or date_elem.get_text()
                 pub_date = self.parse_date(date_str)
@@ -230,8 +243,8 @@ class GoogleDevBlogScraper:
             if not description:
                 description = title
             
-            # Extract date
-            date_elem = soup.find(['time', '.date', '.published']) or soup.find(attrs={'datetime': True})
+            # Extract date - specifically look for search-result__eyebrow class
+            date_elem = soup.find(class_='search-result__eyebrow') or soup.find(['time', '.date', '.published']) or soup.find(attrs={'datetime': True})
             if date_elem:
                 date_str = date_elem.get('datetime') or date_elem.get_text()
                 pub_date = self.parse_date(date_str)
@@ -268,7 +281,7 @@ class GoogleDevBlogScraper:
             
             # Self-referencing atom link
             atom_link = ET.SubElement(channel, "atom:link")
-            atom_link.set("href", "https://lawvia.github.io/google-dev-rss/feed.xml")
+            atom_link.set("href", "https://your-username.github.io/your-repo-name/feed.xml")
             atom_link.set("rel", "self")
             atom_link.set("type", "application/rss+xml")
             
