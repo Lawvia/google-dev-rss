@@ -2,8 +2,8 @@ name: Generate RSS Feed (Simplified)
 
 on:
   schedule:
-    # Run every 6 hours (at 00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: '0 */6 * * *'
+    # Run daily at 07:00 Jakarta time (00:00 UTC, Jakarta is UTC+7)
+    - cron: '0 0 * * *'
   workflow_dispatch: # Allow manual trigger
   push:
     branches: [ main ]
@@ -142,7 +142,7 @@ jobs:
             </ul>
             
             <h3>🔄 Update Schedule:</h3>
-            <p>This feed updates automatically every 6 hours via GitHub Actions.</p>
+            <p>This feed updates automatically every day at 07:00 Jakarta time (00:00 UTC) via GitHub Actions.</p>
             
             <div class="timestamp">
                 ⏱️ Last updated: $CURRENT_DATE<br>

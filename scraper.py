@@ -217,35 +217,65 @@ class GoogleDevBlogScraper:
     def extract_article_info(self, article_elem):
         """Extract article information from article element"""
         try:
-            # Find title - look for common title elements
-            title_elem = (article_elem.find(['h1', 'h2', 'h3', 'h4']) or 
+            # Find title - look for h3.search-result__title first, then fallbacks
+            title_elem = (article_elem.find('h3', class_='search-result__title') or
+                         article_elem.find(['h1', 'h2', 'h3', 'h4']) or 
                          article_elem.find('a') or 
-                         article_elem.find(class_='title') or
-                         article_elem.find('[class*="title"]'))
+                         article_elem.find(class_='title'))
             title = self.clean_text(title_elem.get_text()) if title_elem else "No Title"
             
-            # Find link - look for the main article link
-            link_elem = (article_elem.find('a') or 
-                        article_elem.find('h1 a') or 
-                        article_elem.find('h2 a') or 
-                        article_elem.find('h3 a'))
+            # Find link - look for the link inside the title
+            link_elem = None
+            if title_elem:
+                link_elem = title_elem.find('a')  # Link inside title
+            if not link_elem:
+                link_elem = article_elem.find('a')  # Any link in the article
+                
             link = urljoin(self.base_url, link_elem.get('href')) if link_elem and link_elem.get('href') else self.search_url
             
-            # Find description
-            desc_selectors = ['p', '.summary', '.excerpt', '.description', '.snippet']
+            # Find description - specifically look for p.search-result__summary
             description = title  # fallback
-            for selector in desc_selectors:
-                desc_elem = article_elem.find(selector)
-                if desc_elem:
-                    desc_text = self.clean_text(desc_elem.get_text())
-                    if desc_text and len(desc_text) > 10:  # Make sure it's meaningful
-                        description = desc_text
-                        break
+            summary_elem = article_elem.find('p', class_='search-result__summary')
+            if summary_elem:
+                description = self.clean_text(summary_elem.get_text())
+                print(f"    Found summary: '{description[:50]}...'")
+            else:
+                # Try other description selectors as fallback
+                desc_selectors = [
+                    ('class', 'summary'),
+                    ('class', 'excerpt'), 
+                    ('class', 'description'), 
+                    ('class', 'snippet'),
+                    ('tag', 'p')
+                ]
+                for selector_type, selector_value in desc_selectors:
+                    if selector_type == 'class':
+                        desc_elem = article_elem.find(class_=selector_value)
+                    else:
+                        desc_elem = article_elem.find(selector_value)
+                        
+                    if desc_elem:
+                        desc_text = self.clean_text(desc_elem.get_text())
+                        if desc_text and len(desc_text) > 10:  # Make sure it's meaningful
+                            description = desc_text
+                            print(f"    Found description with {selector_type}='{selector_value}': '{desc_text[:50]}...'")
+                            break
+            
+            # Find featured image
+            featured_img = None
+            img_elem = article_elem.find('img', class_='search-result__featured-img')
+            if img_elem:
+                img_src = img_elem.get('src')
+                img_alt = img_elem.get('alt', '')
+                if img_src:
+                    featured_img = {
+                        'src': img_src,
+                        'alt': img_alt
+                    }
+                    print(f"    Found featured image: {img_src}")
             
             # Find date - specifically look for the p.search-result__eyebrow element
             pub_date = None
-            
-            # Try to find the exact structure: p.search-result__eyebrow
             eyebrow_elem = article_elem.find('p', class_='search-result__eyebrow')
             if eyebrow_elem:
                 date_str = eyebrow_elem.get_text()
@@ -279,19 +309,27 @@ class GoogleDevBlogScraper:
                 print("    No date found, using current time")
                 pub_date = datetime.now(timezone.utc).isoformat()
             
+            # Create enhanced description with image if available
+            enhanced_description = description
+            if featured_img:
+                # Add image to description for RSS readers that support it
+                enhanced_description = f'<img src="{featured_img["src"]}" alt="{featured_img["alt"]}" style="max-width: 100%; height: auto;"><br><br>{description}'
+            
             # Debug output
             print(f"    Extracted:")
             print(f"      Title: {title[:50]}...")
             print(f"      Link: {link}")
             print(f"      Description: {description[:50]}...")
+            print(f"      Image: {featured_img['src'] if featured_img else 'None'}")
             print(f"      Date: {pub_date}")
             
             return {
                 'title': title[:200],  # Limit title length
                 'link': link,
-                'description': description[:500],  # Limit description length
+                'description': enhanced_description[:1000],  # Increased limit for image + text
                 'pub_date': pub_date,
-                'guid': link
+                'guid': link,
+                'image': featured_img
             }
             
         except Exception as e:
@@ -389,7 +427,7 @@ class GoogleDevBlogScraper:
             
             # Self-referencing atom link
             atom_link = ET.SubElement(channel, "atom:link")
-            atom_link.set("href", "https://lawvia.github.io/google-dev-rss/feed.xml")
+            atom_link.set("href", "https://your-username.github.io/your-repo-name/feed.xml")
             atom_link.set("rel", "self")
             atom_link.set("type", "application/rss+xml")
             
@@ -398,9 +436,19 @@ class GoogleDevBlogScraper:
                 item = ET.SubElement(channel, "item")
                 ET.SubElement(item, "title").text = article['title']
                 ET.SubElement(item, "link").text = article['link']
-                ET.SubElement(item, "description").text = article['description']
+                
+                # Use CDATA for description to allow HTML content (for images)
+                description_elem = ET.SubElement(item, "description")
+                description_elem.text = f"<![CDATA[{article['description']}]]>"
+                
                 ET.SubElement(item, "pubDate").text = datetime.fromisoformat(article['pub_date'].replace('Z', '+00:00')).strftime("%a, %d %b %Y %H:%M:%S %z")
                 ET.SubElement(item, "guid").text = article['guid']
+                
+                # Add image as enclosure if available
+                if article.get('image'):
+                    enclosure = ET.SubElement(item, "enclosure")
+                    enclosure.set("url", article['image']['src'])
+                    enclosure.set("type", "image/png")  # Default, could be improved by checking actual type
             
             # Create tree and write to file
             tree = ET.ElementTree(rss)
