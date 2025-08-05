@@ -133,7 +133,7 @@ jobs:
             
             <div class="feed-link">
                 <strong>RSS Feed URL:</strong><br>
-                <a href="feed.xml">https://your-username.github.io/your-repo-name/feed.xml</a>
+                <a href="feed.xml">https://lawvia.github.io/google-dev-rss/feed.xml</a>
             </div>
             
             <p>The feed is updated every 6 hours automatically via GitHub Actions.</p>
