@@ -90,25 +90,57 @@ class GoogleDevBlogScraper:
             response = self.fetch_page(self.search_url)
             soup = BeautifulSoup(response.content, 'html.parser')
             
-            # Look for article links and content
-            # Google's blog structure may vary, so we'll try multiple selectors
-            article_selectors = [
-                'article',
-                '.post',
-                '.blog-post',
-                '[class*="post"]',
-                '.entry',
-                '.article'
+            print(f"Scraping {self.search_url}")
+            
+            # Look for Google blog specific selectors first - target the wrapper elements
+            google_selectors = [
+                '.search-result__wrapper',   # Main Google search result wrapper
+                '.search-result',           # Google's search result items
+                '.search-result-item',      # Alternative Google selector
+                '[class*="search-result"]', # Any element with search-result in class
+                '.post-preview',            # Google blog post previews
+                '.blog-post-preview'        # Alternative blog preview
             ]
             
             found_articles = []
-            for selector in article_selectors:
+            for selector in google_selectors:
                 found_articles = soup.select(selector)
                 if found_articles:
+                    print(f"Found {len(found_articles)} articles using selector: {selector}")
                     break
             
-            # If no articles found with above selectors, try finding links
+            # If no specific Google selectors work, try general ones
             if not found_articles:
+                print("No Google-specific selectors found, trying general selectors...")
+                general_selectors = [
+                    'article',
+                    '.post',
+                    '.blog-post',
+                    '[class*="post"]',
+                    '.entry',
+                    '.article'
+                ]
+                
+                for selector in general_selectors:
+                    found_articles = soup.select(selector)
+                    if found_articles:
+                        print(f"Found {len(found_articles)} articles using general selector: {selector}")
+                        break
+            
+            # Process found articles - increased limit to get more articles
+            if found_articles:
+                max_articles = min(len(found_articles), 20)  # Process up to 20 articles instead of 10
+                for i, article_elem in enumerate(found_articles[:max_articles]):
+                    print(f"Processing article {i+1}/{max_articles}...")
+                    article = self.extract_article_info(article_elem)
+                    if article:
+                        print(f"  Title: {article['title'][:50]}...")
+                        print(f"  Date: {article['pub_date']}")
+                        articles.append(article)
+                    else:
+                        print(f"  Skipped article {i+1} - could not extract info")
+            else:
+                print("No articles found with any selector, trying to find individual links...")
                 # Look for links that might be article titles
                 link_selectors = [
                     'a[href*="/en/"]',
@@ -120,24 +152,24 @@ class GoogleDevBlogScraper:
                 for selector in link_selectors:
                     links = soup.select(selector)
                     if links:
-                        # Process first few links as potential articles
-                        for link in links[:10]:
+                        print(f"Found {len(links)} links using selector: {selector}")
+                        # Process more links as potential articles
+                        max_links = min(len(links), 20)  # Process up to 20 links
+                        for i, link in enumerate(links[:max_links]):
                             href = link.get('href')
                             if href and self.is_valid_article_url(href):
                                 article_url = urljoin(self.base_url, href)
+                                print(f"  Processing link {i+1}/{max_links}: {article_url}")
                                 article = self.scrape_individual_article(article_url, link.get_text())
                                 if article:
+                                    print(f"    Title: {article['title'][:50]}...")
+                                    print(f"    Date: {article['pub_date']}")
                                     articles.append(article)
                         break
-            else:
-                # Process found articles
-                for article_elem in found_articles[:10]:  # Limit to prevent overload
-                    article = self.extract_article_info(article_elem)
-                    if article:
-                        articles.append(article)
             
             # If still no articles, create a fallback entry
             if not articles:
+                print("No articles found, creating fallback entry")
                 articles.append({
                     'title': 'Google Developers Search Blog',
                     'link': self.search_url,
@@ -157,6 +189,7 @@ class GoogleDevBlogScraper:
                 'guid': f"{self.search_url}#error-{int(time.time())}"
             })
         
+        print(f"Total articles extracted: {len(articles)}")
         return articles
     
     def is_valid_article_url(self, url):
@@ -184,24 +217,74 @@ class GoogleDevBlogScraper:
     def extract_article_info(self, article_elem):
         """Extract article information from article element"""
         try:
-            title_elem = article_elem.find(['h1', 'h2', 'h3', 'h4']) or article_elem.find('a')
+            # Find title - look for common title elements
+            title_elem = (article_elem.find(['h1', 'h2', 'h3', 'h4']) or 
+                         article_elem.find('a') or 
+                         article_elem.find(class_='title') or
+                         article_elem.find('[class*="title"]'))
             title = self.clean_text(title_elem.get_text()) if title_elem else "No Title"
             
-            # Find link
-            link_elem = article_elem.find('a') or title_elem
+            # Find link - look for the main article link
+            link_elem = (article_elem.find('a') or 
+                        article_elem.find('h1 a') or 
+                        article_elem.find('h2 a') or 
+                        article_elem.find('h3 a'))
             link = urljoin(self.base_url, link_elem.get('href')) if link_elem and link_elem.get('href') else self.search_url
             
             # Find description
-            desc_elem = article_elem.find(['p', '.summary', '.excerpt', '.description'])
-            description = self.clean_text(desc_elem.get_text()) if desc_elem else title
+            desc_selectors = ['p', '.summary', '.excerpt', '.description', '.snippet']
+            description = title  # fallback
+            for selector in desc_selectors:
+                desc_elem = article_elem.find(selector)
+                if desc_elem:
+                    desc_text = self.clean_text(desc_elem.get_text())
+                    if desc_text and len(desc_text) > 10:  # Make sure it's meaningful
+                        description = desc_text
+                        break
             
-            # Find date - specifically look for search-result__eyebrow class
-            date_elem = article_elem.find(class_='search-result__eyebrow') or article_elem.find(['time', '.date', '.published'])
-            if date_elem:
-                date_str = date_elem.get('datetime') or date_elem.get_text()
+            # Find date - specifically look for the p.search-result__eyebrow element
+            pub_date = None
+            
+            # Try to find the exact structure: p.search-result__eyebrow
+            eyebrow_elem = article_elem.find('p', class_='search-result__eyebrow')
+            if eyebrow_elem:
+                date_str = eyebrow_elem.get_text()
+                print(f"    Found eyebrow date: '{date_str}'")
                 pub_date = self.parse_date(date_str)
             else:
+                # Try other date selectors as fallback
+                date_selectors = [
+                    ('class', 'search-result__eyebrow'),
+                    ('class', 'search-result-eyebrow'), 
+                    ('class', 'eyebrow'),
+                    ('tag', 'time'),
+                    ('class', 'date'),
+                    ('class', 'published'),
+                    ('class', 'post-date')
+                ]
+                
+                for selector_type, selector_value in date_selectors:
+                    if selector_type == 'class':
+                        date_elem = article_elem.find(class_=selector_value)
+                    else:
+                        date_elem = article_elem.find(selector_value)
+                        
+                    if date_elem:
+                        date_str = date_elem.get('datetime') or date_elem.get_text()
+                        print(f"    Found date with {selector_type}='{selector_value}': '{date_str[:50]}...'")
+                        pub_date = self.parse_date(date_str)
+                        break
+            
+            if not pub_date:
+                print("    No date found, using current time")
                 pub_date = datetime.now(timezone.utc).isoformat()
+            
+            # Debug output
+            print(f"    Extracted:")
+            print(f"      Title: {title[:50]}...")
+            print(f"      Link: {link}")
+            print(f"      Description: {description[:50]}...")
+            print(f"      Date: {pub_date}")
             
             return {
                 'title': title[:200],  # Limit title length
@@ -243,12 +326,37 @@ class GoogleDevBlogScraper:
             if not description:
                 description = title
             
-            # Extract date - specifically look for search-result__eyebrow class
-            date_elem = soup.find(class_='search-result__eyebrow') or soup.find(['time', '.date', '.published']) or soup.find(attrs={'datetime': True})
-            if date_elem:
-                date_str = date_elem.get('datetime') or date_elem.get_text()
-                pub_date = self.parse_date(date_str)
-            else:
+            # Extract date - specifically look for search-result__eyebrow class and other variants
+            pub_date = None
+            
+            date_selectors = [
+                '.search-result__eyebrow',
+                '.search-result-eyebrow', 
+                '[class*="eyebrow"]',
+                'time',
+                '.date',
+                '.published',
+                '.post-date',
+                '.article-date',
+                '[datetime]'
+            ]
+            
+            for selector in date_selectors:
+                if selector.startswith('.') and not selector.startswith('['):
+                    date_elem = soup.find(class_=selector.replace('.', ''))
+                elif selector.startswith('[') and selector.endswith(']'):
+                    date_elem = soup.find(attrs={selector[1:-1]: True})
+                else:
+                    date_elem = soup.find(selector)
+                    
+                if date_elem:
+                    date_str = date_elem.get('datetime') or date_elem.get_text()
+                    print(f"      Found date in individual article with selector '{selector}': '{date_str[:50]}...'")
+                    pub_date = self.parse_date(date_str)
+                    break
+            
+            if not pub_date:
+                print(f"      No date found in individual article {url}, using current time")
                 pub_date = datetime.now(timezone.utc).isoformat()
             
             return {
