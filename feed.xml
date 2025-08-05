@@ -5,77 +5,87 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Aug 2025 06:34:44 +0000</lastBuildDate>
-    <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Aug 2025 06:45:08 +0000</lastBuildDate>
+    <atom:link href="https://your-username.github.io/your-repo-name/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Google Developer Program is evolving</title>
       <link>https://developers.googleblog.com/en/google-developer-program-join-connect-code/</link>
-      <description>AUG. 1, 2025 / Cloud</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-developer-program-meta.2e16d0ba.fill-800x400.png" alt="The Google Developer Program is evolving: New ways to join, connect, and code" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Developer Program is rolling out major updates to make its tools and community more accessible and powerful. These enhancements include a new flexible monthly subscription tier, a centralized GDP Forum for collaboration, and increased Gemini CLI access for all members.]]&gt;</description>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/google-developer-program-join-connect-code/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-developer-program-meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Veo 3 Fast and new image-to-video capabilities</title>
       <link>https://developers.googleblog.com/en/veo-3-fast-image-to-video-capabilities-now-available-gemini-api/</link>
-      <description>JULY 31, 2025 / AI</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo_3_in_the_Gemini_API_meta_sNJ4J.2e16d0ba.fill-800x400.png" alt="Build with Veo 3 Fast and new image-to-video capabilities, now available in the Gemini API" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google introduces Veo 3 Fast, an optimized model for speed and price, along with new image-to-video capabilities for both Veo 3 and Veo 3 Fast, enabling developers to efficiently create high-quality video content from text or still images, with varying pricing based on the model and audio inclusion, now available in the Gemini API.]]&gt;</description>
       <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/veo-3-fast-image-to-video-capabilities-now-available-gemini-api/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo_3_in_the_Gemini_API_meta_sNJ4J.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Introducing LangExtract: A Gemini powered information extraction library</title>
       <link>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</link>
-      <description>JULY 30, 2025 / Gemini</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" alt="LangExtract_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LangExtract is a new open-source Python library powered by Gemini models for extracting structured information from unstructured text, offering precise source grounding, reliable structured outputs using controlled generation, optimized long-context extraction, interactive visualization, and flexible LLM backend support.]]&gt;</description>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Gemini Embedding: Powering RAG and context engineering</title>
       <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
-      <description>JULY 30, 2025 / Gemini</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" alt="Gemini Embedding: Powering RAG and context engineering" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Embedding model enhances AI applications, particularly through context engineering, which is being successfully adopted by various organizations across industries to power context-aware systems, leading to significant improvements in performance, accuracy, and efficiency.]]&gt;</description>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>A roboticist's journey with JAX: Finding efficiency in optimal control and simulation</title>
       <link>https://developers.googleblog.com/en/a-roboticists-journey-with-jax/</link>
-      <description>JULY 29, 2025 / AI</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/RoboticistsJourneyJAX-Meta.2e16d0ba.fill-800x400.jpg" alt="JAX_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Max's journey introduces LQRax, a JAX-native LQR solver, which exemplifies the growing JAX robotics ecosystem that includes tools like Brax, MJX, and JaxSim, highlighting the benefits of JAX for computational efficiency in optimal control and simulation, and for seamlessly integrating model-based and learning-based approaches.]]&gt;</description>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/a-roboticists-journey-with-jax/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/RoboticistsJourneyJAX-Meta.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>The agentic experience: Is MCP the right tool for your AI future?</title>
       <link>https://developers.googleblog.com/en/the-agentic-experience-is-mcp-the-right-tool-for-your-ai-future/</link>
-      <description>JULY 24, 2025 / AI</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" alt="The Agentic experience: Is MCP the right tool for your AI future?" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Apigee helps enterprises integrate large language models (LLMs) into existing API ecosystems securely and scalably, addressing challenges like authentication and authorization not fully covered by the evolving Model Context Protocol (MCP), and offering an open-source MCP server example that demonstrates how to implement enterprise-ready API security for AI agents.]]&gt;</description>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/the-agentic-experience-is-mcp-the-right-tool-for-your-ai-future/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Introducing Opal: describe, create, and share your AI mini-apps</title>
       <link>https://developers.googleblog.com/en/introducing-opal/</link>
-      <description>JULY 24, 2025 / Google Labs</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_card_1600_x_873_px_Purple.2e16d0ba.fill-800x400.png" alt="Opal Metadata card" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Opal is a new experimental tool from Google Labs that helps you compose prompts into dynamic, multi-step mini-apps using natural language, removing the need for code, allowing users to build and deploy shareable AI apps with powerful features and seamless integration with existing Google tools.]]&gt;</description>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-opal/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_card_1600_x_873_px_Purple.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>People of AI podcast Season 5 is here: Meet the builders shaping the future</title>
       <link>https://developers.googleblog.com/en/people-of-ai-podcast-season-5/</link>
-      <description>JULY 24, 2025 / AI</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_-_PAI.2e16d0ba.fill-800x400.png" alt="People of AI Podcast – Season 5" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Co-hosted by Ashley Oldacre and Christina Warren, People of AI podcast's Season 5 will focus on the builders in the space of AI, highlighting the unique journeys, challenges, and triumphs of these innovators.]]&gt;</description>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/people-of-ai-podcast-season-5/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_-_PAI.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Unleashing new AI capabilities for popular frameworks in Firebase Studio</title>
       <link>https://developers.googleblog.com/en/new-ai-capabilities-for-popular-frameworks-in-firebase-studio/</link>
-      <description>JULY 23, 2025 / Firebase</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/firebase-studio-io-connect-india.2e16d0ba.fill-800x400.png" alt="Unleashing new AI capabilities for popular frameworks in Firebase Studio" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New AI capabilities for popular frameworks in Firebase Studio include AI-optimized templates, streamlined integration with Firebase backend services, and the ability to fork workspaces for experimentation and collaboration, making AI-assisted app development more intuitive and faster for developers worldwide.]]&gt;</description>
       <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/new-ai-capabilities-for-popular-frameworks-in-firebase-studio/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/firebase-studio-io-connect-india.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Gemini 2.5 Flash-Lite is now stable and generally available</title>
       <link>https://developers.googleblog.com/en/gemini-25-flash-lite-is-now-stable-and-generally-available/</link>
-      <description>JULY 22, 2025 / Gemini</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/2.5_flash_lite_ga_feature_card_160.2e16d0ba.fill-800x400.jpg" alt="Gemini 2.5 Flash is making it easy to build with the Gemini API in Google AI Studio" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model is ~1.5x faster than 2.0 Flash-Lite and 2.0 Flash, offers high quality, and includes 2.5 family features like a 1 million-token context window and multimodality.]]&gt;</description>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-25-flash-lite-is-now-stable-and-generally-available/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/2.5_flash_lite_ga_feature_card_160.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
