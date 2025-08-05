@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Developers Search Blog</title>
+    <link>https://developers.googleblog.com/en/search/</link>
+    <description>Latest updates from Google Developers Search team</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Aug 2025 05:55:23 +0000</lastBuildDate>
+    <atom:link href="https://your-username.github.io/your-repo-name/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Google Developer Program is evolving</title>
+      <link>https://developers.googleblog.com/en/google-developer-program-join-connect-code/</link>
+      <description>The Google Developer Program is evolving</description>
+      <pubDate>Tue, 05 Aug 2025 05:55:21 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/google-developer-program-join-connect-code/</guid>
+    </item>
+    <item>
+      <title>Veo 3 Fast and new image-to-video capabilities</title>
+      <link>https://developers.googleblog.com/en/veo-3-fast-image-to-video-capabilities-now-available-gemini-api/</link>
+      <description>Veo 3 Fast and new image-to-video capabilities</description>
+      <pubDate>Tue, 05 Aug 2025 05:55:22 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/veo-3-fast-image-to-video-capabilities-now-available-gemini-api/</guid>
+    </item>
+    <item>
+      <title>Introducing LangExtract: A Gemini powered information extraction library</title>
+      <link>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</link>
+      <description>Introducing LangExtract: A Gemini powered information extraction library</description>
+      <pubDate>Tue, 05 Aug 2025 05:55:22 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
+    </item>
+    <item>
+      <title>Gemini Embedding: Powering RAG and context engineering</title>
+      <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
+      <description>Gemini Embedding: Powering RAG and context engineering</description>
+      <pubDate>Tue, 05 Aug 2025 05:55:23 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
+    </item>
+    <item>
+      <title>A roboticist's journey with JAX: Finding efficiency in optimal control and simulation</title>
+      <link>https://developers.googleblog.com/en/a-roboticists-journey-with-jax/</link>
+      <description>A roboticist's journey with JAX: Finding efficiency in optimal control and simulation</description>
+      <pubDate>Tue, 05 Aug 2025 05:55:23 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/a-roboticists-journey-with-jax/</guid>
+    </item>
+  </channel>
+</rss>
