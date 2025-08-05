@@ -1,12 +1,4 @@
-# requirements.txt
-requests>=2.31.0
-beautifulsoup4>=4.12.0
-lxml>=4.9.0
-
----
-
-# README.md
-# Google Developers Search Blog RSS Generator
+# Google Developers Blog RSS Generator
 
 This project automatically scrapes content from the [Google Developers Search blog](https://developers.googleblog.com/en/search/) and generates an RSS feed using GitHub Actions.
 
@@ -172,57 +164,6 @@ This project is open source. Feel free to modify and distribute as needed.
 ## Disclaimer
 
 This scraper is for educational and personal use. Please respect the target website's robots.txt and terms of service. Consider adding delays between requests for large-scale scraping.
-
----
-
-# .gitignore
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual environments
-venv/
-env/
-ENV/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# RSS feed (will be generated)
-feed.xml
-
-# Logs
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-
----
-
-# robots.txt (optional)
-User-agent: *
 Allow: /feed.xml
 Allow: /
 Disallow: /.git
