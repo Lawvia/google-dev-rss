@@ -1,0 +1,162 @@
+name: Generate RSS Feed
+
+on:
+  schedule:
+    # Run every 6 hours (at 00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [ main ]
+    paths:
+      - 'scraper.py'
+      - '.github/workflows/rss-generator.yml'
+
+jobs:
+  generate-rss:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Allow writing to repository
+      pages: write     # Allow writing to GitHub Pages
+      id-token: write  # Allow OIDC token for Pages deployment
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 lxml
+        
+    - name: Run RSS scraper
+      env:
+        RSS_OUTPUT_FILE: feed.xml
+      run: |
+        python scraper.py
+        
+    - name: Validate RSS feed
+      run: |
+        if [ ! -f feed.xml ]; then
+          echo "RSS feed file not found!"
+          exit 1
+        fi
+        
+        # Check if file is not empty
+        if [ ! -s feed.xml ]; then
+          echo "RSS feed file is empty!"
+          exit 1
+        fi
+        
+        # Basic XML validation
+        python -c "import xml.etree.ElementTree as ET; ET.parse('feed.xml')"
+        echo "RSS feed validation passed!"
+        
+    - name: Display feed info
+      run: |
+        echo "RSS feed generated at: $(date)"
+        echo "File size: $(du -h feed.xml | cut -f1)"
+        echo "Number of items: $(grep -c '<item>' feed.xml || echo '0')"
+        
+    - name: Commit and push RSS feed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add timestamp to commit message
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
+        
+        git add feed.xml
+        
+        # Only commit if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to RSS feed"
+        else
+          git commit -m "Update RSS feed - $TIMESTAMP"
+          git push
+          echo "RSS feed updated and pushed"
+        fi
+        
+    - name: Upload RSS feed as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: rss-feed
+        path: feed.xml
+        retention-days: 30
+
+  # Optional: Deploy to GitHub Pages
+  deploy-pages:
+    needs: generate-rss
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Download RSS feed
+      uses: actions/download-artifact@v3
+      with:
+        name: rss-feed
+        
+    - name: Create Pages content
+      run: |
+        mkdir -p _site
+        cp feed.xml _site/
+        
+        # Create a simple index.html
+        cat > _site/index.html << 'EOF'
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Google Developers Search Blog RSS Feed</title>
+            <style>
+                body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
+                .feed-link { background: #f0f0f0; padding: 15px; border-radius: 5px; margin: 20px 0; }
+                .timestamp { color: #666; font-size: 0.9em; }
+            </style>
+        </head>
+        <body>
+            <h1>Google Developers Search Blog RSS Feed</h1>
+            <p>This RSS feed is automatically generated from the <a href="https://developers.googleblog.com/en/search/">Google Developers Search blog</a>.</p>
+            
+            <div class="feed-link">
+                <strong>RSS Feed URL:</strong><br>
+                <a href="feed.xml">https://your-username.github.io/your-repo-name/feed.xml</a>
+            </div>
+            
+            <p>The feed is updated every 6 hours automatically via GitHub Actions.</p>
+            <p class="timestamp">Last updated: $(date)</p>
+            
+            <h2>How to use this feed:</h2>
+            <ol>
+                <li>Copy the RSS feed URL above</li>
+                <li>Add it to your favorite RSS reader (Feedly, Inoreader, etc.)</li>
+                <li>Enjoy automatic updates from Google Developers Search blog!</li>
+            </ol>
+        </body>
+        </html>
+        EOF
+        
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+      
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: '_site'
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
