@@ -31,9 +31,6 @@ ENV/
 *.swp
 *.swo
 
-# RSS feed (will be generated)
-feed.xml
-
 # Logs
 *.log
 
