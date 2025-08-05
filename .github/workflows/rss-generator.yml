@@ -1,4 +1,4 @@
-name: Generate RSS Feed
+name: Generate RSS Feed (Simplified)
 
 on:
   schedule:
@@ -17,12 +17,12 @@ jobs:
     
     permissions:
       contents: write  # Allow writing to repository
-      pages: write     # Allow writing to GitHub Pages
-      id-token: write  # Allow OIDC token for Pages deployment
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -63,63 +63,9 @@ jobs:
         echo "File size: $(du -h feed.xml | cut -f1)"
         echo "Number of items: $(grep -c '<item>' feed.xml || echo '0')"
         
-    - name: Commit and push RSS feed
+    - name: Create simple index page
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        
-        # Add timestamp to commit message
-        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
-        
-        git add feed.xml
-        
-        # Only commit if there are changes
-        if git diff --staged --quiet; then
-          echo "No changes to RSS feed"
-        else
-          git commit -m "Update RSS feed - $TIMESTAMP"
-          git push
-          echo "RSS feed updated and pushed"
-        fi
-        
-    - name: Upload RSS feed as artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: rss-feed
-        path: feed.xml
-        retention-days: 30
-
-  # Optional: Deploy to GitHub Pages
-  deploy-pages:
-    needs: generate-rss
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-      
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      
-    - name: Download RSS feed
-      uses: actions/download-artifact@v4
-      with:
-        name: rss-feed
-        
-    - name: Create Pages content
-      run: |
-        mkdir -p _site
-        cp feed.xml _site/
-        
-        # Create a simple index.html
-        cat > _site/index.html << 'EOF'
+        cat > index.html << 'EOF'
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -127,41 +73,123 @@ jobs:
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Google Developers Search Blog RSS Feed</title>
             <style>
-                body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
-                .feed-link { background: #f0f0f0; padding: 15px; border-radius: 5px; margin: 20px 0; }
-                .timestamp { color: #666; font-size: 0.9em; }
+                body { 
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+                    max-width: 800px; 
+                    margin: 50px auto; 
+                    padding: 20px; 
+                    line-height: 1.6;
+                    color: #333;
+                }
+                .feed-link { 
+                    background: #f8f9fa; 
+                    padding: 20px; 
+                    border-radius: 8px; 
+                    margin: 20px 0; 
+                    border-left: 4px solid #007bff;
+                }
+                .feed-url {
+                    font-family: 'Monaco', 'Menlo', monospace;
+                    background: #e9ecef;
+                    padding: 8px 12px;
+                    border-radius: 4px;
+                    word-break: break-all;
+                }
+                .timestamp { 
+                    color: #666; 
+                    font-size: 0.9em; 
+                    margin-top: 30px;
+                    padding-top: 20px;
+                    border-top: 1px solid #eee;
+                }
+                a { color: #007bff; text-decoration: none; }
+                a:hover { text-decoration: underline; }
+                .header { text-align: center; margin-bottom: 40px; }
+                .instructions { background: #fff3cd; padding: 15px; border-radius: 5px; margin: 20px 0; }
             </style>
         </head>
         <body>
-            <h1>Google Developers Search Blog RSS Feed</h1>
-            <p>This RSS feed is automatically generated from the <a href="https://developers.googleblog.com/en/search/">Google Developers Search blog</a>.</p>
-            
-            <div class="feed-link">
-                <strong>RSS Feed URL:</strong><br>
-                <a href="feed.xml">https://lawvia.github.io/google-dev-rss/feed.xml</a>
+            <div class="header">
+                <h1>🔍 Google Developers Search Blog RSS</h1>
+                <p>Automatically generated RSS feed from the <a href="https://developers.googleblog.com/en/search/" target="_blank">Google Developers Search blog</a></p>
             </div>
             
-            <p>The feed is updated every 6 hours automatically via GitHub Actions.</p>
-            <p class="timestamp">Last updated: $(date)</p>
+            <div class="feed-link">
+                <h3>📡 RSS Feed URL:</h3>
+                <div class="feed-url">
+                    <a href="feed.xml">https://lawvia.github.io/google-dev-rss/feed.xml</a>
+                </div>
+            </div>
             
-            <h2>How to use this feed:</h2>
-            <ol>
-                <li>Copy the RSS feed URL above</li>
-                <li>Add it to your favorite RSS reader (Feedly, Inoreader, etc.)</li>
-                <li>Enjoy automatic updates from Google Developers Search blog!</li>
-            </ol>
+            <div class="instructions">
+                <h3>📚 How to use this RSS feed:</h3>
+                <ol>
+                    <li>Copy the RSS feed URL above</li>
+                    <li>Open your favorite RSS reader (Feedly, Inoreader, Apple News, etc.)</li>
+                    <li>Add a new subscription using the RSS URL</li>
+                    <li>Enjoy automatic updates!</li>
+                </ol>
+            </div>
+            
+            <h3>⚡ Popular RSS Readers:</h3>
+            <ul>
+                <li><strong><a href="https://feedly.com" target="_blank">Feedly</a></strong> - Web-based, most popular</li>
+                <li><strong><a href="https://www.inoreader.com" target="_blank">Inoreader</a></strong> - Feature-rich</li>
+                <li><strong><a href="https://newsblur.com" target="_blank">NewsBlur</a></strong> - Social features</li>
+                <li><strong>Apple News</strong> - Built into iOS/macOS</li>
+                <li><strong>Thunderbird</strong> - Desktop email client</li>
+            </ul>
+            
+            <h3>🔄 Update Schedule:</h3>
+            <p>This feed updates automatically every 6 hours via GitHub Actions.</p>
+            
+            <div class="timestamp">
+                ⏱️ Last updated: $(date)<br>
+                🤖 Generated automatically via <a href="https://github.com/Lawvia/google-dev-rss" target="_blank">GitHub Actions</a>
+            </div>
         </body>
         </html>
         EOF
         
-    - name: Setup Pages
-      uses: actions/configure-pages@v4
-      
-    - name: Upload Pages artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: '_site'
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "RSS Bot"
         
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+        # Add timestamp to commit message
+        TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S UTC')
+        
+        git add feed.xml index.html
+        
+        # Only commit if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🔄 Update RSS feed - $TIMESTAMP [skip ci]"
+          git push
+          echo "✅ RSS feed updated and pushed"
+        fi
+        
+    - name: Upload RSS feed as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: rss-feed-${{ github.run_number }}
+        path: |
+          feed.xml
+          index.html
+        retention-days: 30
+        
+    - name: Summary
+      run: |
+        echo "## 📊 RSS Generation Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ RSS Feed Generated: \`feed.xml\`" >> $GITHUB_STEP_SUMMARY
+        echo "- 📄 Index Page Created: \`index.html\`" >> $GITHUB_STEP_SUMMARY
+        echo "- 📈 Articles Found: $(grep -c '<item>' feed.xml || echo '0')" >> $GITHUB_STEP_SUMMARY
+        echo "- 📦 File Size: $(du -h feed.xml | cut -f1)" >> $GITHUB_STEP_SUMMARY
+        echo "- 🌐 Feed URL: [https://lawvia.github.io/google-dev-rss/feed.xml](https://lawvia.github.io/google-dev-rss/feed.xml)" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🔗 Quick Links" >> $GITHUB_STEP_SUMMARY
+        echo "- [View RSS Feed](https://lawvia.github.io/google-dev-rss/feed.xml)" >> $GITHUB_STEP_SUMMARY
+        echo "- [View Index Page](https://lawvia.github.io/google-dev-rss/)" >> $GITHUB_STEP_SUMMARY
+        echo "- [Source Blog](https://developers.googleblog.com/en/search/)" >> $GITHUB_STEP_SUMMARY
