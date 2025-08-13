@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2025 01:44:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Aug 2025 01:45:44 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meet Jules’ sharpest critic and most valuable ally</title>
+      <link>https://developers.googleblog.com/en/meet-jules-sharpest-critic-and-most-valuable-ally/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_kMncgQY.2e16d0ba.fill-800x400.png" alt="Jules critic agent" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Jules' critic functionality addresses potential issues like subtle bugs and missed edge cases in AI-generated code by acting as a peer reviewer within the generation process. This "critic-augmented generation" means proposed code changes undergo adversarial review, allowing Jules to improve its output and ultimately deliver higher-quality, pre-reviewed code.]]&gt;</description>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/meet-jules-sharpest-critic-and-most-valuable-ally/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_kMncgQY.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>The Google Developer Program is evolving</title>
       <link>https://developers.googleblog.com/en/google-developer-program-join-connect-code/</link>
@@ -24,20 +32,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo_3_in_the_Gemini_API_meta_sNJ4J.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Introducing LangExtract: A Gemini powered information extraction library</title>
-      <link>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" alt="LangExtract_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LangExtract is a new open-source Python library powered by Gemini models for extracting structured information from unstructured text, offering precise source grounding, reliable structured outputs using controlled generation, optimized long-context extraction, interactive visualization, and flexible LLM backend support.]]&gt;</description>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Gemini Embedding: Powering RAG and context engineering</title>
       <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" alt="Gemini Embedding: Powering RAG and context engineering" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Embedding model enhances AI applications, particularly through context engineering, which is being successfully adopted by various organizations across industries to power context-aware systems, leading to significant improvements in performance, accuracy, and efficiency.]]&gt;</description>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Introducing LangExtract: A Gemini powered information extraction library</title>
+      <link>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" alt="LangExtract_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LangExtract is a new open-source Python library powered by Gemini models for extracting structured information from unstructured text, offering precise source grounding, reliable structured outputs using controlled generation, optimized long-context extraction, interactive visualization, and flexible LLM backend support.]]&gt;</description>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>A roboticist's journey with JAX: Finding efficiency in optimal control and simulation</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/new-ai-capabilities-for-popular-frameworks-in-firebase-studio/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/firebase-studio-io-connect-india.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Gemini 2.5 Flash-Lite is now stable and generally available</title>
-      <link>https://developers.googleblog.com/en/gemini-25-flash-lite-is-now-stable-and-generally-available/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/2.5_flash_lite_ga_feature_card_160.2e16d0ba.fill-800x400.jpg" alt="Gemini 2.5 Flash is making it easy to build with the Gemini API in Google AI Studio" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model is ~1.5x faster than 2.0 Flash-Lite and 2.0 Flash, offers high quality, and includes 2.5 family features like a 1 million-token context window and multimodality.]]&gt;</description>
-      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemini-25-flash-lite-is-now-stable-and-generally-available/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/2.5_flash_lite_ga_feature_card_160.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
