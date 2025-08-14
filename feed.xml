@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Aug 2025 01:45:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 01:46:23 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gemini CLI + VS Code: Native diffing and context-aware workflows</title>
+      <link>https://developers.googleblog.com/en/gemini-cli-vs-code-native-diffing-context-aware-workflows/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/VS_Code_integration_metadata_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI + VS Code integration" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The latest Gemini CLI update provides a deep IDE integration within VS Code for intelligent, context-aware suggestions, and native in-editor diffing, allowing developers to review and modify proposed changes directly within the diff view for a more efficient workflow.]]&gt;</description>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-cli-vs-code-native-diffing-context-aware-workflows/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/VS_Code_integration_metadata_image.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Meet Jules’ sharpest critic and most valuable ally</title>
       <link>https://developers.googleblog.com/en/meet-jules-sharpest-critic-and-most-valuable-ally/</link>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/people-of-ai-podcast-season-5/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_-_PAI.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Unleashing new AI capabilities for popular frameworks in Firebase Studio</title>
-      <link>https://developers.googleblog.com/en/new-ai-capabilities-for-popular-frameworks-in-firebase-studio/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/firebase-studio-io-connect-india.2e16d0ba.fill-800x400.png" alt="Unleashing new AI capabilities for popular frameworks in Firebase Studio" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New AI capabilities for popular frameworks in Firebase Studio include AI-optimized templates, streamlined integration with Firebase backend services, and the ability to fork workspaces for experimentation and collaboration, making AI-assisted app development more intuitive and faster for developers worldwide.]]&gt;</description>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/new-ai-capabilities-for-popular-frameworks-in-firebase-studio/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/firebase-studio-io-connect-india.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
