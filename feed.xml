@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Aug 2025 01:46:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 01:46:47 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Gemma 3 270M: The compact model for hyper-efficient AI</title>
+      <link>https://developers.googleblog.com/en/introducing-gemma-3-270m/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemma3-270M_Metadata_RD2-V02.2e16d0ba.fill-800x400.jpg" alt="Gemma 3 270M" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google's new Gemma 3 270M is a compact, 270-million parameter model offering energy efficiency, production-ready quantization, and strong instruction-following, making it a powerful solution for task-specific fine-tuning in on-device and research settings.]]&gt;</description>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-gemma-3-270m/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemma3-270M_Metadata_RD2-V02.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Gemini CLI + VS Code: Native diffing and context-aware workflows</title>
       <link>https://developers.googleblog.com/en/gemini-cli-vs-code-native-diffing-context-aware-workflows/</link>
@@ -40,20 +48,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo_3_in_the_Gemini_API_meta_sNJ4J.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Gemini Embedding: Powering RAG and context engineering</title>
-      <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" alt="Gemini Embedding: Powering RAG and context engineering" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Embedding model enhances AI applications, particularly through context engineering, which is being successfully adopted by various organizations across industries to power context-aware systems, leading to significant improvements in performance, accuracy, and efficiency.]]&gt;</description>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Introducing LangExtract: A Gemini powered information extraction library</title>
       <link>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" alt="LangExtract_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LangExtract is a new open-source Python library powered by Gemini models for extracting structured information from unstructured text, offering precise source grounding, reliable structured outputs using controlled generation, optimized long-context extraction, interactive visualization, and flexible LLM backend support.]]&gt;</description>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Gemini Embedding: Powering RAG and context engineering</title>
+      <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" alt="Gemini Embedding: Powering RAG and context engineering" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Embedding model enhances AI applications, particularly through context engineering, which is being successfully adopted by various organizations across industries to power context-aware systems, leading to significant improvements in performance, accuracy, and efficiency.]]&gt;</description>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>A roboticist's journey with JAX: Finding efficiency in optimal control and simulation</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-opal/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_card_1600_x_873_px_Purple.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>People of AI podcast Season 5 is here: Meet the builders shaping the future</title>
-      <link>https://developers.googleblog.com/en/people-of-ai-podcast-season-5/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_-_PAI.2e16d0ba.fill-800x400.png" alt="People of AI Podcast – Season 5" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Co-hosted by Ashley Oldacre and Christina Warren, People of AI podcast's Season 5 will focus on the builders in the space of AI, highlighting the unique journeys, challenges, and triumphs of these innovators.]]&gt;</description>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/people-of-ai-podcast-season-5/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_-_PAI.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
