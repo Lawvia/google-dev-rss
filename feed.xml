@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Aug 2025 01:46:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Aug 2025 01:41:38 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing Imagen 4 Fast and the general availability of the Imagen 4 family in the Gemini API</title>
+      <link>https://developers.googleblog.com/en/announcing-imagen-4-fast-and-imagen-4-family-generally-available-in-the-gemini-api/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Imagen4-Metadatal_RD1-V01.2e16d0ba.fill-800x400.jpg" alt="Imagen 4 Fast and the generally availability of the Imagen 4 family in the Gemini API" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google announces the general availability of Imagen 4, its advanced text-to-image model, in the Gemini API and Google AI Studio, featuring significant improvements in text rendering. The new Imagen 4 Fast model, designed for speed and rapid image generation, is now available alongside Imagen 4 and Imagen 4 Ultra, with Imagen 4 and Imagen 4 Ultra also supporting up to 2K resolution image generation.]]&gt;</description>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-imagen-4-fast-and-imagen-4-family-generally-available-in-the-gemini-api/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Imagen4-Metadatal_RD1-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Introducing Gemma 3 270M: The compact model for hyper-efficient AI</title>
       <link>https://developers.googleblog.com/en/introducing-gemma-3-270m/</link>
@@ -48,20 +56,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo_3_in_the_Gemini_API_meta_sNJ4J.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Introducing LangExtract: A Gemini powered information extraction library</title>
-      <link>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" alt="LangExtract_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LangExtract is a new open-source Python library powered by Gemini models for extracting structured information from unstructured text, offering precise source grounding, reliable structured outputs using controlled generation, optimized long-context extraction, interactive visualization, and flexible LLM backend support.]]&gt;</description>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Gemini Embedding: Powering RAG and context engineering</title>
       <link>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" alt="Gemini Embedding: Powering RAG and context engineering" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Embedding model enhances AI applications, particularly through context engineering, which is being successfully adopted by various organizations across industries to power context-aware systems, leading to significant improvements in performance, accuracy, and efficiency.]]&gt;</description>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Introducing LangExtract: A Gemini powered information extraction library</title>
+      <link>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" alt="LangExtract_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LangExtract is a new open-source Python library powered by Gemini models for extracting structured information from unstructured text, offering precise source grounding, reliable structured outputs using controlled generation, optimized long-context extraction, interactive visualization, and flexible LLM backend support.]]&gt;</description>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>A roboticist's journey with JAX: Finding efficiency in optimal control and simulation</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/the-agentic-experience-is-mcp-the-right-tool-for-your-ai-future/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing Opal: describe, create, and share your AI mini-apps</title>
-      <link>https://developers.googleblog.com/en/introducing-opal/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_card_1600_x_873_px_Purple.2e16d0ba.fill-800x400.png" alt="Opal Metadata card" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Opal is a new experimental tool from Google Labs that helps you compose prompts into dynamic, multi-step mini-apps using natural language, removing the need for code, allowing users to build and deploy shareable AI apps with powerful features and seamless integration with existing Google tools.]]&gt;</description>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-opal/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Metadata_card_1600_x_873_px_Purple.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
