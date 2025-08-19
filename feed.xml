@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Aug 2025 01:52:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 01:40:58 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>URL context tool for Gemini API now generally available</title>
+      <link>https://developers.googleblog.com/en/url-context-tool-for-gemini-api-now-generally-available/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiAPI_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" alt="URL context tool for Gemini API now generally available" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini API's URL Context tool is now generally available, allowing developers to ground prompts using web content instead of manual uploads. This release expands support to PDFs and images.]]&gt;</description>
+      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/url-context-tool-for-gemini-api-now-generally-available/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiAPI_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Announcing Imagen 4 Fast and the general availability of the Imagen 4 family in the Gemini API</title>
       <link>https://developers.googleblog.com/en/announcing-imagen-4-fast-and-imagen-4-family-generally-available-in-the-gemini-api/</link>
@@ -78,14 +86,6 @@
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/a-roboticists-journey-with-jax/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/RoboticistsJourneyJAX-Meta.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>The agentic experience: Is MCP the right tool for your AI future?</title>
-      <link>https://developers.googleblog.com/en/the-agentic-experience-is-mcp-the-right-tool-for-your-ai-future/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" alt="The Agentic experience: Is MCP the right tool for your AI future?" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Apigee helps enterprises integrate large language models (LLMs) into existing API ecosystems securely and scalably, addressing challenges like authentication and authorization not fully covered by the evolving Model Context Protocol (MCP), and offering an open-source MCP server example that demonstrates how to implement enterprise-ready API security for AI agents.]]&gt;</description>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/the-agentic-experience-is-mcp-the-right-tool-for-your-ai-future/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
