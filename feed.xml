@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Aug 2025 01:40:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Aug 2025 01:39:14 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>URL context tool for Gemini API now generally available</title>
@@ -38,6 +38,14 @@
       <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-cli-vs-code-native-diffing-context-aware-workflows/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/VS_Code_integration_metadata_image.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Train a GPT2 model with JAX on TPU for free</title>
+      <link>https://developers.googleblog.com/en/train-gpt2-model-with-jax-on-tpu/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt-2-model-with-jax-on-tpu.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Build and train a GPT2 model from scratch using JAX on Google TPUs, with a complete Python notebook for free-tier Colab or Kaggle. Learn how to define a hardware mesh, partition model parameters and input data for data parallelism, and optimize the model training process.]]&gt;</description>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/train-gpt2-model-with-jax-on-tpu/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt-2-model-with-jax-on-tpu.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Meet Jules’ sharpest critic and most valuable ally</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>A roboticist's journey with JAX: Finding efficiency in optimal control and simulation</title>
-      <link>https://developers.googleblog.com/en/a-roboticists-journey-with-jax/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/RoboticistsJourneyJAX-Meta.2e16d0ba.fill-800x400.jpg" alt="JAX_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Max's journey introduces LQRax, a JAX-native LQR solver, which exemplifies the growing JAX robotics ecosystem that includes tools like Brax, MJX, and JaxSim, highlighting the benefits of JAX for computational efficiency in optimal control and simulation, and for seamlessly integrating model-based and learning-based approaches.]]&gt;</description>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/a-roboticists-journey-with-jax/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/RoboticistsJourneyJAX-Meta.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
