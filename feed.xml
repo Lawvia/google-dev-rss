@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Aug 2025 01:38:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Aug 2025 01:38:50 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What's new in Gemini Code Assist</title>
+      <link>https://developers.googleblog.com/en/new-in-gemini-code-assist/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/whats-new-code-assist-august.2e16d0ba.fill-800x400.png" alt="New in Gemini Code Assist: Agent Mode more widely available, IDE improvements and Gemini CLI updates" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini Code Assist's Agent Mode, now available in VS Code (Preview) and IntelliJ (Stable), streamlines complex coding tasks by proposing detailed plans for user review and approval. This intelligent, collaborative approach, enhanced with features like inline diffs and persistent chat history, aims to boost developer productivity and efficiency.]]&gt;</description>
+      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/new-in-gemini-code-assist/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/whats-new-code-assist-august.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>URL context tool for Gemini API now generally available</title>
       <link>https://developers.googleblog.com/en/url-context-tool-for-gemini-api-now-generally-available/</link>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-embedding-powering-rag-context-engineering/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Embedding_-_meta-mindlid.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing LangExtract: A Gemini powered information extraction library</title>
-      <link>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" alt="LangExtract_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LangExtract is a new open-source Python library powered by Gemini models for extracting structured information from unstructured text, offering precise source grounding, reliable structured outputs using controlled generation, optimized long-context extraction, interactive visualization, and flexible LLM backend support.]]&gt;</description>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-1-meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
