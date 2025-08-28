@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Aug 2025 01:36:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Aug 2025 01:28:00 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop “vibe testing” your LLMs. It's time for real evals.</title>
+      <link>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" alt="Stax" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Stax, an experimental developer tool, addresses the insufficient nature of "vibe testing" LLMs by streamlining the LLM evaluation lifecycle, allowing users to rigorously test their AI stack and make data-driven decisions through human labeling and scalable LLM-as-a-judge auto-raters.]]&gt;</description>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Beyond the terminal: Gemini CLI comes to Zed</title>
+      <link>https://developers.googleblog.com/en/gemini-cli-is-now-integrated-into-zed/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/CLI-Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" alt="Gemini CLI is now integrated into Zed, bringing AI directly to your code editor" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google and Zed have partnered to integrate Gemini CLI directly into the Zed code editor, bringing AI capabilities directly into the editor for developers and allowing for faster and more focused coding, enabling tasks like in-place code generation, instant answers, and natural chat within the terminal with a seamless review workflow for AI-generated changes.]]&gt;</description>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-cli-is-now-integrated-into-zed/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/CLI-Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Introducing Gemini 2.5 Flash Image, our state-of-the-art image model</title>
       <link>https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/</link>
@@ -70,22 +86,6 @@
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/meet-jules-sharpest-critic-and-most-valuable-ally/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_kMncgQY.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>The Google Developer Program is evolving</title>
-      <link>https://developers.googleblog.com/en/google-developer-program-join-connect-code/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-developer-program-meta.2e16d0ba.fill-800x400.png" alt="The Google Developer Program is evolving: New ways to join, connect, and code" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Developer Program is rolling out major updates to make its tools and community more accessible and powerful. These enhancements include a new flexible monthly subscription tier, a centralized GDP Forum for collaboration, and increased Gemini CLI access for all members.]]&gt;</description>
-      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/google-developer-program-join-connect-code/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-developer-program-meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Veo 3 Fast and new image-to-video capabilities</title>
-      <link>https://developers.googleblog.com/en/veo-3-fast-image-to-video-capabilities-now-available-gemini-api/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo_3_in_the_Gemini_API_meta_sNJ4J.2e16d0ba.fill-800x400.png" alt="Build with Veo 3 Fast and new image-to-video capabilities, now available in the Gemini API" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google introduces Veo 3 Fast, an optimized model for speed and price, along with new image-to-video capabilities for both Veo 3 and Veo 3 Fast, enabling developers to efficiently create high-quality video content from text or still images, with varying pricing based on the model and audio inclusion, now available in the Gemini API.]]&gt;</description>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/veo-3-fast-image-to-video-capabilities-now-available-gemini-api/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo_3_in_the_Gemini_API_meta_sNJ4J.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
