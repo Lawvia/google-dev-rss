@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 01:28:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 01:36:16 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to prompt Gemini 2.5 Flash Image Generation for the best results</title>
+      <link>https://developers.googleblog.com/en/how-to-prompt-gemini-2-5-flash-image-generation-for-the-best-results/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini2.5FlashImage_Metadatal_RD1-.2e16d0ba.fill-800x400.jpg" alt="Gemini 2.5 Flash Image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Detailed prompting techniques and best practices for various applications, including photorealistic scenes, stylized illustrations, product mockups, and more using Google's newly released Gemini 2.5 Flash Image; a natively multimodal model capable of generating, editing, and composing images using text, supporting capabilities like text-to-image, image editing, style transfer, and multi-image composition.]]&gt;</description>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-to-prompt-gemini-2-5-flash-image-generation-for-the-best-results/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini2.5FlashImage_Metadatal_RD1-.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Stop “vibe testing” your LLMs. It's time for real evals.</title>
       <link>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</link>
@@ -78,14 +86,6 @@
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/train-gpt2-model-with-jax-on-tpu/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt-2-model-with-jax-on-tpu.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Meet Jules’ sharpest critic and most valuable ally</title>
-      <link>https://developers.googleblog.com/en/meet-jules-sharpest-critic-and-most-valuable-ally/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_kMncgQY.2e16d0ba.fill-800x400.png" alt="Jules critic agent" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Jules' critic functionality addresses potential issues like subtle bugs and missed edge cases in AI-generated code by acting as a peer reviewer within the generation process. This "critic-augmented generation" means proposed code changes undergo adversarial review, allowing Jules to improve its output and ultimately deliver higher-quality, pre-reviewed code.]]&gt;</description>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/meet-jules-sharpest-critic-and-most-valuable-ally/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_kMncgQY.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
