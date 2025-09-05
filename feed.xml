@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Sep 2025 01:24:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 01:26:38 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing EmbeddingGemma: The Best-in-Class Open Model for On-Device Embeddings</title>
+      <link>https://developers.googleblog.com/en/introducing-embeddinggemma/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EmbeddingGemma_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" alt="EmbeddingGemma_Metadata" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing EmbeddingGemma: a new embedding model designed for efficient on-device AI applications from Google. This open model is the highest-ranking text-only multilingual embedding model under 500M parameters on the MTEB benchmark, enabling powerful features like RAG and semantic search directly on mobile devices without an internet connection.]]&gt;</description>
+      <pubDate>Fri, 05 Sep 2025 01:26:38 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-embeddinggemma/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EmbeddingGemma_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>How to prompt Gemini 2.5 Flash Image Generation for the best results</title>
       <link>https://developers.googleblog.com/en/how-to-prompt-gemini-2-5-flash-image-generation-for-the-best-results/</link>
@@ -16,20 +24,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini2.5FlashImage_Metadatal_RD1-.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Stop “vibe testing” your LLMs. It's time for real evals.</title>
-      <link>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" alt="Stax" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Stax, an experimental developer tool, addresses the insufficient nature of "vibe testing" LLMs by streamlining the LLM evaluation lifecycle, allowing users to rigorously test their AI stack and make data-driven decisions through human labeling and scalable LLM-as-a-judge auto-raters.]]&gt;</description>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Beyond the terminal: Gemini CLI comes to Zed</title>
       <link>https://developers.googleblog.com/en/gemini-cli-is-now-integrated-into-zed/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/CLI-Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" alt="Gemini CLI is now integrated into Zed, bringing AI directly to your code editor" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google and Zed have partnered to integrate Gemini CLI directly into the Zed code editor, bringing AI capabilities directly into the editor for developers and allowing for faster and more focused coding, enabling tasks like in-place code generation, instant answers, and natural chat within the terminal with a seamless review workflow for AI-generated changes.]]&gt;</description>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-cli-is-now-integrated-into-zed/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/CLI-Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Stop “vibe testing” your LLMs. It's time for real evals.</title>
+      <link>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" alt="Stax" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Stax, an experimental developer tool, addresses the insufficient nature of "vibe testing" LLMs by streamlining the LLM evaluation lifecycle, allowing users to rigorously test their AI stack and make data-driven decisions through human labeling and scalable LLM-as-a-judge auto-raters.]]&gt;</description>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Introducing Gemini 2.5 Flash Image, our state-of-the-art image model</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-cli-vs-code-native-diffing-context-aware-workflows/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/VS_Code_integration_metadata_image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Train a GPT2 model with JAX on TPU for free</title>
-      <link>https://developers.googleblog.com/en/train-gpt2-model-with-jax-on-tpu/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt-2-model-with-jax-on-tpu.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Build and train a GPT2 model from scratch using JAX on Google TPUs, with a complete Python notebook for free-tier Colab or Kaggle. Learn how to define a hardware mesh, partition model parameters and input data for data parallelism, and optimize the model training process.]]&gt;</description>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/train-gpt2-model-with-jax-on-tpu/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt-2-model-with-jax-on-tpu.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
