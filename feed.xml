@@ -5,13 +5,13 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Sep 2025 01:38:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 01:38:49 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Fine-Tuning to Production: A Scalable Embedding Pipeline with Dataflow</title>
       <link>https://developers.googleblog.com/en/deploying-embeddinggemma-at-scale-with-dataflow/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EGDataflow_Metadatal_RD1-V01_qBoeg.2e16d0ba.fill-800x400.jpg" alt="EG+Dataflow_Metadatal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Learn how to use Google's EmbeddingGemma, an efficient open model, with Google Cloud's Dataflow and vector databases like AlloyDB to build scalable, real-time knowledge ingestion pipelines.]]&gt;</description>
-      <pubDate>Sun, 07 Sep 2025 01:38:49 +0000</pubDate>
+      <pubDate>Mon, 08 Sep 2025 01:38:49 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/deploying-embeddinggemma-at-scale-with-dataflow/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EGDataflow_Metadatal_RD1-V01_qBoeg.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
@@ -19,7 +19,7 @@
       <title>Introducing EmbeddingGemma: The Best-in-Class Open Model for On-Device Embeddings</title>
       <link>https://developers.googleblog.com/en/introducing-embeddinggemma/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EmbeddingGemma_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" alt="EmbeddingGemma_Metadata" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing EmbeddingGemma: a new embedding model designed for efficient on-device AI applications from Google. This open model is the highest-ranking text-only multilingual embedding model under 500M parameters on the MTEB benchmark, enabling powerful features like RAG and semantic search directly on mobile devices without an internet connection.]]&gt;</description>
-      <pubDate>Sun, 07 Sep 2025 01:38:49 +0000</pubDate>
+      <pubDate>Mon, 08 Sep 2025 01:38:49 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-embeddinggemma/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EmbeddingGemma_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
