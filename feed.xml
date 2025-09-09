@@ -5,13 +5,21 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Sep 2025 01:38:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 01:27:47 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Veo 3 and Veo 3 Fast – new pricing, new configurations and better resolution</title>
+      <link>https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_UYdtEmV.2e16d0ba.fill-800x400.png" alt="veo3-generally-available-social" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Today, we’re launching three big Veo updates: support for vertical format outputs (9:16 aspect ratio...]]&gt;</description>
+      <pubDate>Tue, 09 Sep 2025 01:27:47 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_UYdtEmV.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>From Fine-Tuning to Production: A Scalable Embedding Pipeline with Dataflow</title>
       <link>https://developers.googleblog.com/en/deploying-embeddinggemma-at-scale-with-dataflow/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EGDataflow_Metadatal_RD1-V01_qBoeg.2e16d0ba.fill-800x400.jpg" alt="EG+Dataflow_Metadatal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Learn how to use Google's EmbeddingGemma, an efficient open model, with Google Cloud's Dataflow and vector databases like AlloyDB to build scalable, real-time knowledge ingestion pipelines.]]&gt;</description>
-      <pubDate>Mon, 08 Sep 2025 01:38:49 +0000</pubDate>
+      <pubDate>Tue, 09 Sep 2025 01:27:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/deploying-embeddinggemma-at-scale-with-dataflow/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EGDataflow_Metadatal_RD1-V01_qBoeg.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
@@ -19,7 +27,7 @@
       <title>Introducing EmbeddingGemma: The Best-in-Class Open Model for On-Device Embeddings</title>
       <link>https://developers.googleblog.com/en/introducing-embeddinggemma/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EmbeddingGemma_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" alt="EmbeddingGemma_Metadata" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing EmbeddingGemma: a new embedding model designed for efficient on-device AI applications from Google. This open model is the highest-ranking text-only multilingual embedding model under 500M parameters on the MTEB benchmark, enabling powerful features like RAG and semantic search directly on mobile devices without an internet connection.]]&gt;</description>
-      <pubDate>Mon, 08 Sep 2025 01:38:49 +0000</pubDate>
+      <pubDate>Tue, 09 Sep 2025 01:27:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-embeddinggemma/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EmbeddingGemma_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
@@ -32,20 +40,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini2.5FlashImage_Metadatal_RD1-.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Stop “vibe testing” your LLMs. It's time for real evals.</title>
-      <link>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" alt="Stax" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Stax, an experimental developer tool, addresses the insufficient nature of "vibe testing" LLMs by streamlining the LLM evaluation lifecycle, allowing users to rigorously test their AI stack and make data-driven decisions through human labeling and scalable LLM-as-a-judge auto-raters.]]&gt;</description>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Beyond the terminal: Gemini CLI comes to Zed</title>
       <link>https://developers.googleblog.com/en/gemini-cli-is-now-integrated-into-zed/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/CLI-Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" alt="Gemini CLI is now integrated into Zed, bringing AI directly to your code editor" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google and Zed have partnered to integrate Gemini CLI directly into the Zed code editor, bringing AI capabilities directly into the editor for developers and allowing for faster and more focused coding, enabling tasks like in-place code generation, instant answers, and natural chat within the terminal with a seamless review workflow for AI-generated changes.]]&gt;</description>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-cli-is-now-integrated-into-zed/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/CLI-Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Stop “vibe testing” your LLMs. It's time for real evals.</title>
+      <link>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" alt="Stax" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Stax, an experimental developer tool, addresses the insufficient nature of "vibe testing" LLMs by streamlining the LLM evaluation lifecycle, allowing users to rigorously test their AI stack and make data-driven decisions through human labeling and scalable LLM-as-a-judge auto-raters.]]&gt;</description>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/stax-launch.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Introducing Gemini 2.5 Flash Image, our state-of-the-art image model</title>
@@ -78,14 +86,6 @@
       <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-imagen-4-fast-and-imagen-4-family-generally-available-in-the-gemini-api/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Imagen4-Metadatal_RD1-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing Gemma 3 270M: The compact model for hyper-efficient AI</title>
-      <link>https://developers.googleblog.com/en/introducing-gemma-3-270m/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemma3-270M_Metadata_RD2-V02.2e16d0ba.fill-800x400.jpg" alt="Gemma 3 270M" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google's new Gemma 3 270M is a compact, 270-million parameter model offering energy efficiency, production-ready quantization, and strong instruction-following, making it a powerful solution for task-specific fine-tuning in on-device and research settings.]]&gt;</description>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-gemma-3-270m/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemma3-270M_Metadata_RD2-V02.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
