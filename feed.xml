@@ -5,13 +5,13 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Sep 2025 01:25:32 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Sep 2025 01:25:53 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gemini CLI 🤝 FastMCP: Simplifying MCP server development</title>
       <link>https://developers.googleblog.com/en/gemini-cli-fastmcp-simplifying-mcp-server-development/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_FastMCP_metadata_imag.2e16d0ba.fill-800x400.png" alt="Gemini CLI - FastMCP metadata image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini CLI now seamlessly integrates with FastMCP, Python's leading library for building MCP servers. We’re thrilled to announce this integration between two open-source projects that empowers you to effortlessly connect your custom MCP tools and prompts, directly to Gemini CLI!]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-cli-fastmcp-simplifying-mcp-server-development/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_FastMCP_metadata_imag.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -19,7 +19,7 @@
       <title>ADK for Java opening up to third-party language models via LangChain4j integration</title>
       <link>https://developers.googleblog.com/en/adk-for-java-opening-up-to-third-party-language-models-via-langchain4j-integration/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/img1_12.2e16d0ba.fill-800x400.jpg" alt="adk-langchain4j" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The recent 0.2.0 release of Google’s Agent Development Kit (ADK) for Java adds an integration with t...]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/adk-for-java-opening-up-to-third-party-language-models-via-langchain4j-integration/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/img1_12.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
@@ -27,7 +27,7 @@
       <title>Gemini Batch API now supports Embeddings and OpenAI Compatibility</title>
       <link>https://developers.googleblog.com/en/gemini-batch-api-now-supports-embeddings-and-openai-compatibility/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiBatchAPI_Metadatal_Alt-RD1-V.2e16d0ba.fill-800x400.png" alt="GeminiBatchAPI_16x9_RD2-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Batch API now supports Embeddings and OpenAI CompatibilityToday we are extending the Gemini Batch AP...]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-batch-api-now-supports-embeddings-and-openai-compatibility/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiBatchAPI_Metadatal_Alt-RD1-V.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -35,7 +35,7 @@
       <title>Announcing Genkit Go 1.0 and Enhanced AI-Assisted Development</title>
       <link>https://developers.googleblog.com/en/announcing-genkit-go-10-and-enhanced-ai-assisted-development/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Genkit-Go-1.0-BlogMeta.2e16d0ba.fill-800x400.png" alt="Genkit-Go-1.0-BlogMeta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We are launching 1.0 stable release of Genkit Go, empowering Go developers to build performant, production-ready AI-powered applications with Genkit. Recent enhancements include support for integrating and building MCP tools, expanding third-party model provider support, and production AI monitoring with Firebase. Additionally, we are announcing a new feature in the Genkit CLI to provide AI development tools, like the Gemini CLI and Cursor, with the latest knowledge of Genkit - supercharging Genkit development experience when using AI assistance.]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-genkit-go-10-and-enhanced-ai-assisted-development/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Genkit-Go-1.0-BlogMeta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -43,7 +43,7 @@
       <title>Beyond backpropagation: JAX's symbolic power unlocks new frontiers in scientific computing</title>
       <link>https://developers.googleblog.com/en/jax-symbolic-power-unlocks-new-frontiers-in-scientific-computing/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/JAXs-Symbolic-Power-Blog-Meta.2e16d0ba.fill-800x400.jpg" alt="JAX's-Symbolic-Power-Blog-Meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;JAX, a framework known for large-scale AI model development, is proving to be a powerful tool in scientific computing, particularly for solving complex Partial Differential Equations (PDEs), now being leveraged by researchers to achieve significant speed-ups and memory reductions in solving high-order PDEs and demonstrating its potential to unlock new frontiers in scientific discovery.]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/jax-symbolic-power-unlocks-new-frontiers-in-scientific-computing/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/JAXs-Symbolic-Power-Blog-Meta.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
@@ -51,7 +51,7 @@
       <title>A2A Extensions: Empowering Custom Agent Functionality</title>
       <link>https://developers.googleblog.com/en/a2a-extensions-empowering-custom-agent-functionality/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GfD_evergreen_meta.2e16d0ba.fill-800x400.png" alt="GfD_evergreen_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;A2A Extensions provide a flexible way to add custom functionalities to agent-to-agent communication, going beyond the core A2A protocol. They enable specialized features and are openly defined and implemented.]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/a2a-extensions-empowering-custom-agent-functionality/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GfD_evergreen_meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -59,7 +59,7 @@
       <title>Veo 3 and Veo 3 Fast – new pricing, new configurations and better resolution</title>
       <link>https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_UYdtEmV.2e16d0ba.fill-800x400.png" alt="veo3-generally-available-social" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Today, we’re launching three big Veo updates: support for vertical format outputs (9:16 aspect ratio...]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_UYdtEmV.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -67,7 +67,7 @@
       <title>Google AI Edge Gallery: Now with audio and on Google Play</title>
       <link>https://developers.googleblog.com/en/google-ai-edge-gallery-now-with-audio-and-on-google-play/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleAIEdge_Metadatal_RD2-V01.2e16d0ba.fill-800x400.png" alt="GoogleAIEdge_Metadatal_RD2-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge has expanded the Gemma 3n preview to include audio support. Users can play with it on their own mobile phone using the Google AI Edge Gallery, which is now available in Open Beta on Play Store.]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/google-ai-edge-gallery-now-with-audio-and-on-google-play/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleAIEdge_Metadatal_RD2-V01.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -75,7 +75,7 @@
       <title>Introducing EmbeddingGemma: The Best-in-Class Open Model for On-Device Embeddings</title>
       <link>https://developers.googleblog.com/en/introducing-embeddinggemma/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EmbeddingGemma_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" alt="EmbeddingGemma_Metadata" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing EmbeddingGemma: a new embedding model designed for efficient on-device AI applications from Google. This open model is the highest-ranking text-only multilingual embedding model under 500M parameters on the MTEB benchmark, enabling powerful features like RAG and semantic search directly on mobile devices without an internet connection.]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-embeddinggemma/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EmbeddingGemma_Metadatal_RD2-V01.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
@@ -83,7 +83,7 @@
       <title>From Fine-Tuning to Production: A Scalable Embedding Pipeline with Dataflow</title>
       <link>https://developers.googleblog.com/en/deploying-embeddinggemma-at-scale-with-dataflow/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EGDataflow_Metadatal_RD1-V01_qBoeg.2e16d0ba.fill-800x400.jpg" alt="EG+Dataflow_Metadatal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Learn how to use Google's EmbeddingGemma, an efficient open model, with Google Cloud's Dataflow and vector databases like AlloyDB to build scalable, real-time knowledge ingestion pipelines.]]&gt;</description>
-      <pubDate>Tue, 23 Sep 2025 01:25:32 +0000</pubDate>
+      <pubDate>Wed, 24 Sep 2025 01:25:53 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/deploying-embeddinggemma-at-scale-with-dataflow/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/EGDataflow_Metadatal_RD1-V01_qBoeg.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
