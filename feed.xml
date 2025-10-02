@@ -5,13 +5,29 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Oct 2025 01:43:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Oct 2025 01:24:47 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gemini for Home: Expanding the Platform for a New Era of Smart Home AI</title>
+      <link>https://developers.googleblog.com/en/gemini-for-home-expanding-the-platform-for-a-new-era-of-smart-home-ai/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Geminicomingtohome_Hero.2e16d0ba.fill-800x400.png" alt="Geminicomingtohome_Hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Home is enabling new Gemini-powered features for our partners’ devices and launching a new program to help them build the next generation of AI cameras.]]&gt;</description>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-for-home-expanding-the-platform-for-a-new-era-of-smart-home-ai/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Geminicomingtohome_Hero.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Unlocking Multi-Spectral Data with Gemini</title>
+      <link>https://developers.googleblog.com/en/unlocking-multi-spectral-data-with-gemini/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/MultiSpectral-Metadatal_RD1-V01.2e16d0ba.fill-800x400.png" alt="MultiSpectral-Metadatal_RD1-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Multi-spectral imagery, which captures wavelengths beyond human vision, offers a "superhuman" way to understand the world, and Google's Gemini models make this accessible without specialized training. By mapping invisible bands to RGB channels and providing context in the prompt, developers can leverage Gemini's power for tasks like environmental monitoring and agriculture.]]&gt;</description>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/unlocking-multi-spectral-data-with-gemini/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/MultiSpectral-Metadatal_RD1-V01.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Introducing Tunix: A JAX-Native Library for LLM Post-Training</title>
       <link>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" alt="Tunix logo" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;For developers and researchers in the JAX ecosystem, the path from a pre-trained model to a fully al...]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
+      <pubDate>Thu, 02 Oct 2025 01:24:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -19,15 +35,23 @@
       <title>Gemma explained: EmbeddingGemma Architecture and Recipe</title>
       <link>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" alt="Building-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The previous posts in the “Gemma explained” series provided a detailed overview of the Gemma model f...]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
+      <pubDate>Thu, 02 Oct 2025 01:24:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Your AI is now a local expert: Grounding with Google Maps is now GA</title>
+      <link>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" alt="unnamed" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We are excited to announce Grounding with Google Maps in Vertex AI is now Generally Available (GA). ...]]&gt;</description>
+      <pubDate>Thu, 02 Oct 2025 01:24:47 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Delight users by combining ADK Agents with Fancy Frontends using AG-UI</title>
       <link>https://developers.googleblog.com/en/delight-users-by-combining-adk-agents-with-fancy-frontends-using-ag-ui/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screens-2-banner.2e16d0ba.fill-800x400.png" alt="Screens-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Delight users by combining ADK Agents with Fancy Frontends using AG-UIFor developers building genera...]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
+      <pubDate>Thu, 02 Oct 2025 01:24:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/delight-users-by-combining-adk-agents-with-fancy-frontends-using-ag-ui/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screens-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -35,23 +59,15 @@
       <title>Apigee Operator for Kubernetes and GKE Inference Gateway integration for Auth and AI/LLM policies</title>
       <link>https://developers.googleblog.com/en/apigee-operator-for-kubernetes-and-gke-inference-gateway-integration-for-auth-and-aillm-policies/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GfD-Apigee-IG-Blog.2e16d0ba.fill-800x400.jpg" alt="GfD-Apigee-IG-Blog" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;No AI/Agents without APIs!Many users interact with generative AI daily without realizing the crucial...]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
+      <pubDate>Thu, 02 Oct 2025 01:24:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/apigee-operator-for-kubernetes-and-gke-inference-gateway-integration-for-auth-and-aillm-policies/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GfD-Apigee-IG-Blog.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Your AI is now a local expert: Grounding with Google Maps is now GA</title>
-      <link>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" alt="unnamed" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We are excited to announce Grounding with Google Maps in Vertex AI is now Generally Available (GA). ...]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Continuing to bring you our latest models, with an improved Gemini 2.5 Flash and Flash-Lite release</title>
       <link>https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Rev21Flash_Metadatal_RD2-V01.2e16d0ba.fill-800x400.png" alt="Rev21Flash_Metadatal_RD2-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is releasing updated Gemini 2.5 Flash and Flash-Lite preview models with improved quality, speed, and efficiency. These releases introduce a "-latest" alias for easy access to the newest versions, allowing developers to test and provide feedback to shape future stable releases.]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
+      <pubDate>Thu, 02 Oct 2025 01:24:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Rev21Flash_Metadatal_RD2-V01.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -59,7 +75,7 @@
       <title>Building the Next Generation of Physical Agents with Gemini Robotics-ER 1.5</title>
       <link>https://developers.googleblog.com/en/building-the-next-generation-of-physical-agents-with-gemini-robotics-er-15/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics-ER_1.5_Metadatal_RD6-V01.2e16d0ba.fill-800x400.png" alt="Robotics-ER 1.5_Metadatal_RD6-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini Robotics-ER 1.5, now available to developers, is a state-of-the-art embodied reasoning model for robots. It excels in visual, spatial understanding, task planning, and progress estimation, allowing robots to perform complex, multi-step tasks.]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
+      <pubDate>Thu, 02 Oct 2025 01:24:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/building-the-next-generation-of-physical-agents-with-gemini-robotics-er-15/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics-ER_1.5_Metadatal_RD6-V01.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -67,25 +83,9 @@
       <title>Google Colab Adds More Back to School Improvements!</title>
       <link>https://developers.googleblog.com/en/google-colab-adds-more-back-to-school-improvements/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ColabCorgi_Hero.2e16d0ba.fill-800x400.png" alt="ColabCorgi_Hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Colab is back with a few new and exciting features meant to simplify and enhance your notebook-based...]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
+      <pubDate>Thu, 02 Oct 2025 01:24:47 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/google-colab-adds-more-back-to-school-improvements/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ColabCorgi_Hero.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing the Data Commons Model Context Protocol (MCP) Server: Streamlining Public Data Access for AI Developers</title>
-      <link>https://developers.googleblog.com/en/datacommonsmcp/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BLOG-HERO-A2.2e16d0ba.fill-800x400.png" alt="BLOG-HERO-A2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Data Commons announces the availability of its MCP Server, which is a major milestone in making all of Data Commons’ vast public datasets instantly accessible and actionable for AI developers worldwide.]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/datacommonsmcp/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BLOG-HERO-A2.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>On-device GenAI in Chrome, Chromebook Plus, and Pixel Watch with LiteRT-LM</title>
-      <link>https://developers.googleblog.com/en/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screens-1-banner_1.2e16d0ba.fill-800x400.png" alt="Screens-1-banner (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge provides the tools to run AI features on-device, and its new LiteRT-LM runtime is a significant leap forward for generative AI. LiteRT-LM is an open-source C++ API, cross-platform compatibility, and hardware acceleration designed to efficiently run large language models like Gemma and Gemini Nano across a vast range of hardware. Its key innovation is a flexible, modular architecture that can scale to power complex, multi-task features in Chrome and Chromebook Plus, while also being lean enough for resource-constrained devices like the Pixel Watch. This versatility is already enabling a new wave of on-device generative AI, bringing capabilities like WebAI and smart replies to users.]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 01:43:42 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/on-device-genai-in-chrome-chromebook-plus-and-pixel-watch-with-litert-lm/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screens-1-banner_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
