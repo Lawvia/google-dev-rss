@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Oct 2025 01:40:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 01:27:03 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Level Up Your Dev Game: The Jules API is Here!</title>
@@ -51,7 +51,7 @@
       <title>Introducing Tunix: A JAX-Native Library for LLM Post-Training</title>
       <link>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" alt="Tunix logo" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;For developers and researchers in the JAX ecosystem, the path from a pre-trained model to a fully al...]]&gt;</description>
-      <pubDate>Sun, 05 Oct 2025 01:40:59 +0000</pubDate>
+      <pubDate>Mon, 06 Oct 2025 01:27:03 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -59,7 +59,7 @@
       <title>Gemma explained: EmbeddingGemma Architecture and Recipe</title>
       <link>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" alt="Building-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The previous posts in the “Gemma explained” series provided a detailed overview of the Gemma model f...]]&gt;</description>
-      <pubDate>Sun, 05 Oct 2025 01:40:59 +0000</pubDate>
+      <pubDate>Mon, 06 Oct 2025 01:27:03 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -67,7 +67,7 @@
       <title>Your AI is now a local expert: Grounding with Google Maps is now GA</title>
       <link>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" alt="unnamed" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We are excited to announce Grounding with Google Maps in Vertex AI is now Generally Available (GA). ...]]&gt;</description>
-      <pubDate>Sun, 05 Oct 2025 01:40:59 +0000</pubDate>
+      <pubDate>Mon, 06 Oct 2025 01:27:03 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -75,7 +75,7 @@
       <title>Apigee Operator for Kubernetes and GKE Inference Gateway integration for Auth and AI/LLM policies</title>
       <link>https://developers.googleblog.com/en/apigee-operator-for-kubernetes-and-gke-inference-gateway-integration-for-auth-and-aillm-policies/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GfD-Apigee-IG-Blog.2e16d0ba.fill-800x400.jpg" alt="GfD-Apigee-IG-Blog" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;No AI/Agents without APIs!Many users interact with generative AI daily without realizing the crucial...]]&gt;</description>
-      <pubDate>Sun, 05 Oct 2025 01:40:59 +0000</pubDate>
+      <pubDate>Mon, 06 Oct 2025 01:27:03 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/apigee-operator-for-kubernetes-and-gke-inference-gateway-integration-for-auth-and-aillm-policies/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GfD-Apigee-IG-Blog.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
@@ -83,7 +83,7 @@
       <title>Delight users by combining ADK Agents with Fancy Frontends using AG-UI</title>
       <link>https://developers.googleblog.com/en/delight-users-by-combining-adk-agents-with-fancy-frontends-using-ag-ui/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screens-2-banner.2e16d0ba.fill-800x400.png" alt="Screens-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Delight users by combining ADK Agents with Fancy Frontends using AG-UIFor developers building genera...]]&gt;</description>
-      <pubDate>Sun, 05 Oct 2025 01:40:59 +0000</pubDate>
+      <pubDate>Mon, 06 Oct 2025 01:27:03 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/delight-users-by-combining-adk-agents-with-fancy-frontends-using-ag-ui/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screens-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
