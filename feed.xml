@@ -5,23 +5,23 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Oct 2025 01:25:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 01:26:05 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building High-Performance Data Pipelines with Grain and ArrayRecord</title>
+      <link>https://developers.googleblog.com/en/building-high-performance-data-pipelines-with-grain-and-arrayrecord/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" alt="The Agentic experience: Is MCP the right tool for your AI future?" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To avoid data bottlenecks when training large models, this guide introduces Grain and ArrayRecord for building high-performance data pipelines.]]&gt;</description>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/building-high-performance-data-pipelines-with-grain-and-arrayrecord/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Level Up Your Dev Game: The Jules API is Here!</title>
       <link>https://developers.googleblog.com/en/level-up-your-dev-game-the-jules-api-is-here/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_API.2e16d0ba.fill-800x400.png" alt="Thumb_API" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Ready to help turbocharge your workflow? We’re excited to introduce the Jules API—a new way to autom...]]&gt;</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_API.2e16d0ba.fill-800x400.png" alt="Thumb_API" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has released the Jules API, a new tool for developers to automate and integrate the software development lifecycle. The API is based on "Source," "Session," and "Activity" concepts, and Google has provided a quickstart guide to help developers begin using it.]]&gt;</description>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/level-up-your-dev-game-the-jules-api-is-here/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_API.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Gemini 2.5 Flash Image now ready for production with new aspect ratios</title>
-      <link>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" alt="image2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Our state-of-the-art image generation and editing model which has captured the imagination of the wo...]]&gt;</description>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Meet Jules Tools: A Command Line Companion for Google’s Async Coding Agent</title>
@@ -30,6 +30,14 @@
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/meet-jules-tools-a-command-line-companion-for-googles-async-coding-agent/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_CLI_2096x1182.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Gemini 2.5 Flash Image now ready for production with new aspect ratios</title>
+      <link>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" alt="image2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Our state-of-the-art image generation and editing model which has captured the imagination of the wo...]]&gt;</description>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Unlocking Multi-Spectral Data with Gemini</title>
@@ -51,7 +59,7 @@
       <title>Introducing Tunix: A JAX-Native Library for LLM Post-Training</title>
       <link>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" alt="Tunix logo" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;For developers and researchers in the JAX ecosystem, the path from a pre-trained model to a fully al...]]&gt;</description>
-      <pubDate>Tue, 07 Oct 2025 01:25:37 +0000</pubDate>
+      <pubDate>Wed, 08 Oct 2025 01:26:05 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -59,33 +67,25 @@
       <title>Gemma explained: EmbeddingGemma Architecture and Recipe</title>
       <link>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" alt="Building-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The previous posts in the “Gemma explained” series provided a detailed overview of the Gemma model f...]]&gt;</description>
-      <pubDate>Tue, 07 Oct 2025 01:25:37 +0000</pubDate>
+      <pubDate>Wed, 08 Oct 2025 01:26:05 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Your AI is now a local expert: Grounding with Google Maps is now GA</title>
-      <link>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" alt="unnamed" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We are excited to announce Grounding with Google Maps in Vertex AI is now Generally Available (GA). ...]]&gt;</description>
-      <pubDate>Tue, 07 Oct 2025 01:25:37 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Apigee Operator for Kubernetes and GKE Inference Gateway integration for Auth and AI/LLM policies</title>
       <link>https://developers.googleblog.com/en/apigee-operator-for-kubernetes-and-gke-inference-gateway-integration-for-auth-and-aillm-policies/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GfD-Apigee-IG-Blog.2e16d0ba.fill-800x400.jpg" alt="GfD-Apigee-IG-Blog" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;No AI/Agents without APIs!Many users interact with generative AI daily without realizing the crucial...]]&gt;</description>
-      <pubDate>Tue, 07 Oct 2025 01:25:37 +0000</pubDate>
+      <pubDate>Wed, 08 Oct 2025 01:26:05 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/apigee-operator-for-kubernetes-and-gke-inference-gateway-integration-for-auth-and-aillm-policies/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GfD-Apigee-IG-Blog.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Delight users by combining ADK Agents with Fancy Frontends using AG-UI</title>
-      <link>https://developers.googleblog.com/en/delight-users-by-combining-adk-agents-with-fancy-frontends-using-ag-ui/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screens-2-banner.2e16d0ba.fill-800x400.png" alt="Screens-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Delight users by combining ADK Agents with Fancy Frontends using AG-UIFor developers building genera...]]&gt;</description>
-      <pubDate>Tue, 07 Oct 2025 01:25:37 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/delight-users-by-combining-adk-agents-with-fancy-frontends-using-ag-ui/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screens-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Your AI is now a local expert: Grounding with Google Maps is now GA</title>
+      <link>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" alt="unnamed" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We are excited to announce Grounding with Google Maps in Vertex AI is now Generally Available (GA). ...]]&gt;</description>
+      <pubDate>Wed, 08 Oct 2025 01:26:05 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/your-ai-is-now-a-local-expert-grounding-with-google-maps-is-now-ga/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
