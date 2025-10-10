@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Oct 2025 01:26:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 01:26:56 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device</title>
@@ -75,7 +75,7 @@
       <title>Introducing Tunix: A JAX-Native Library for LLM Post-Training</title>
       <link>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" alt="Tunix logo" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;For developers and researchers in the JAX ecosystem, the path from a pre-trained model to a fully al...]]&gt;</description>
-      <pubDate>Thu, 09 Oct 2025 01:26:27 +0000</pubDate>
+      <pubDate>Fri, 10 Oct 2025 01:26:56 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -83,7 +83,7 @@
       <title>Gemma explained: EmbeddingGemma Architecture and Recipe</title>
       <link>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" alt="Building-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The previous posts in the “Gemma explained” series provided a detailed overview of the Gemma model f...]]&gt;</description>
-      <pubDate>Thu, 09 Oct 2025 01:26:27 +0000</pubDate>
+      <pubDate>Fri, 10 Oct 2025 01:26:56 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
