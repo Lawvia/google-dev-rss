@@ -5,15 +5,31 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Oct 2025 01:37:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 01:27:59 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device</title>
-      <link>https://developers.googleblog.com/en/own-your-ai-fine-tune-gemma-3-270m-for-on-device/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/OYOAI_Metadata_RD2-V01.2e16d0ba.fill-800x400.png" alt="OYOAI_Metadata_RD2-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This guide shows you how to fine-tune the Gemma 3 270M model for custom tasks, like an emoji translator. Learn to quantize and convert the model for on-device use, deploying it in a web app with MediaPipe or Transformers.js for a fast, private, and offline-capable user experience.]]&gt;</description>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/own-your-ai-fine-tune-gemma-3-270m-for-on-device/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/OYOAI_Metadata_RD2-V01.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Introducing Veo 3.1 and new creative capabilities in the Gemini API</title>
+      <link>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" alt="Veo3.1_16x9_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is releasing Veo 3.1 and Veo 3.1 Fast, an updated video generation model, in paid preview via the Gemini API. This version offers richer native audio, greater narrative control, and enhanced image-to-video capabilities. New features include guiding generation with reference images, extending existing Veo videos, and generating transitions between frames. Companies like Promise Studios, Latitude, and Whering are already using Veo 3.1 for various applications.]]&gt;</description>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Say hello to a new level of interactivity in Gemini CLI</title>
+      <link>https://developers.googleblog.com/en/say-hello-to-a-new-level-of-interactivity-in-gemini-cli/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Interactive_Shell_her.2e16d0ba.fill-800x400_pwOGIW4.png" alt="Gemini CLI - Interactive Shell hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We're excited to announce an enhancement to Gemini CLI that makes your workflow more powerful a...]]&gt;</description>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/say-hello-to-a-new-level-of-interactivity-in-gemini-cli/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Interactive_Shell_her.2e16d0ba.fill-800x400_pwOGIW4.png" type="image/png" />
+    </item>
+    <item>
+      <title>Introducing Coral NPU: A full-stack platform for Edge AI</title>
+      <link>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" alt="blogpost" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Coral NPU is a full-stack platform for Edge AI, addressing performance, fragmentation, and user trust deficits. It's an AI-first architecture, prioritizing ML matrix engines, and offers a unified developer experience. Designed for ultra-low-power, always-on AI in wearables and IoT, it enables contextual awareness, audio/image processing, and user interaction with hardware-enforced privacy. Synaptics is the first partner to implement Coral NPU.]]&gt;</description>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Announcing the Genkit Extension for Gemini CLI</title>
@@ -22,6 +38,14 @@
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-the-genkit-extension-for-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini-CLI-Extension-for-Genkit-Bl.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device</title>
+      <link>https://developers.googleblog.com/en/own-your-ai-fine-tune-gemma-3-270m-for-on-device/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/OYOAI_Metadata_RD2-V01.2e16d0ba.fill-800x400.png" alt="OYOAI_Metadata_RD2-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This guide shows you how to fine-tune the Gemma 3 270M model for custom tasks, like an emoji translator. Learn to quantize and convert the model for on-device use, deploying it in a web app with MediaPipe or Transformers.js for a fast, private, and offline-capable user experience.]]&gt;</description>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/own-your-ai-fine-tune-gemma-3-270m-for-on-device/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/OYOAI_Metadata_RD2-V01.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Building High-Performance Data Pipelines with Grain and ArrayRecord</title>
@@ -40,14 +64,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_API.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Gemini 2.5 Flash Image now ready for production with new aspect ratios</title>
-      <link>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" alt="image2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Our state-of-the-art image generation and editing model which has captured the imagination of the wo...]]&gt;</description>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Meet Jules Tools: A Command Line Companion for Google’s Async Coding Agent</title>
       <link>https://developers.googleblog.com/en/meet-jules-tools-a-command-line-companion-for-googles-async-coding-agent/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_CLI_2096x1182.2e16d0ba.fill-800x400.png" alt="Thumb_CLI 2096x1182" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;You can now work with Jules directly in your command line. Jules is our asynchronous coding agent th...]]&gt;</description>
@@ -56,12 +72,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_CLI_2096x1182.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Unlocking Multi-Spectral Data with Gemini</title>
-      <link>https://developers.googleblog.com/en/unlocking-multi-spectral-data-with-gemini/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/MultiSpectral-Metadatal_RD1-V01.2e16d0ba.fill-800x400.png" alt="MultiSpectral-Metadatal_RD1-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Multi-spectral imagery, which captures wavelengths beyond human vision, offers a "superhuman" way to understand the world, and Google's Gemini models make this accessible without specialized training. By mapping invisible bands to RGB channels and providing context in the prompt, developers can leverage Gemini's power for tasks like environmental monitoring and agriculture.]]&gt;</description>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/unlocking-multi-spectral-data-with-gemini/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/MultiSpectral-Metadatal_RD1-V01.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Gemini 2.5 Flash Image now ready for production with new aspect ratios</title>
+      <link>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" alt="image2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Our state-of-the-art image generation and editing model which has captured the imagination of the wo...]]&gt;</description>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Gemini for Home: Expanding the Platform for a New Era of Smart Home AI</title>
@@ -70,22 +86,6 @@
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-for-home-expanding-the-platform-for-a-new-era-of-smart-home-ai/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Geminicomingtohome_Hero.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing Tunix: A JAX-Native Library for LLM Post-Training</title>
-      <link>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" alt="Tunix logo" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;For developers and researchers in the JAX ecosystem, the path from a pre-trained model to a fully al...]]&gt;</description>
-      <pubDate>Wed, 15 Oct 2025 01:37:21 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-tunix-a-jax-native-library-for-llm-post-training/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Tunix_logo.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Gemma explained: EmbeddingGemma Architecture and Recipe</title>
-      <link>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" alt="Building-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The previous posts in the “Gemma explained” series provided a detailed overview of the Gemma model f...]]&gt;</description>
-      <pubDate>Wed, 15 Oct 2025 01:37:21 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemma-explained-embeddinggemma-architecture-and-recipe/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
