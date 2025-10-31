@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Oct 2025 01:42:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Oct 2025 01:39:31 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Request-Response: Architecting Real-time Bidirectional Streaming Multi-agent System</title>
+      <link>https://developers.googleblog.com/en/beyond-request-response-architecting-real-time-bidirectional-streaming-multi-agent-system/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" alt="ADK + Gemini CLI: Supercharge Your Agent Building Vibe" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The blog post argues the request-response model fails for advanced multi-agent AI. It advocates for a real-time bidirectional streaming architecture, implemented by the Agent Development Kit (ADK). This streaming model enables true concurrency, natural interruptibility, and unified multimodal processing. ADK's core features are real-time I/O management, stateful sessions for agent handoffs, and streaming-native tools.]]&gt;</description>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/beyond-request-response-architecting-real-time-bidirectional-streaming-multi-agent-system/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Introducing the Jules extension for Gemini CLI</title>
       <link>https://developers.googleblog.com/en/introducing-the-jules-extension-for-gemini-cli/</link>
@@ -16,12 +24,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Jules_Extension_-_Blog_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Introducing Veo 3.1 and new creative capabilities in the Gemini API</title>
-      <link>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" alt="Veo3.1_16x9_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is releasing Veo 3.1 and Veo 3.1 Fast, an updated video generation model, in paid preview via the Gemini API. This version offers richer native audio, greater narrative control, and enhanced image-to-video capabilities. New features include guiding generation with reference images, extending existing Veo videos, and generating transitions between frames. Companies like Promise Studios, Latitude, and Whering are already using Veo 3.1 for various applications.]]&gt;</description>
+      <title>Introducing Coral NPU: A full-stack platform for Edge AI</title>
+      <link>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" alt="blogpost" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Coral NPU is a full-stack platform for Edge AI, addressing performance, fragmentation, and user trust deficits. It's an AI-first architecture, prioritizing ML matrix engines, and offers a unified developer experience. Designed for ultra-low-power, always-on AI in wearables and IoT, it enables contextual awareness, audio/image processing, and user interaction with hardware-enforced privacy. Synaptics is the first partner to implement Coral NPU.]]&gt;</description>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Say hello to a new level of interactivity in Gemini CLI</title>
@@ -32,12 +40,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Interactive_Shell_her.2e16d0ba.fill-800x400_pwOGIW4.png" type="image/png" />
     </item>
     <item>
-      <title>Introducing Coral NPU: A full-stack platform for Edge AI</title>
-      <link>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" alt="blogpost" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Coral NPU is a full-stack platform for Edge AI, addressing performance, fragmentation, and user trust deficits. It's an AI-first architecture, prioritizing ML matrix engines, and offers a unified developer experience. Designed for ultra-low-power, always-on AI in wearables and IoT, it enables contextual awareness, audio/image processing, and user interaction with hardware-enforced privacy. Synaptics is the first partner to implement Coral NPU.]]&gt;</description>
+      <title>Introducing Veo 3.1 and new creative capabilities in the Gemini API</title>
+      <link>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" alt="Veo3.1_16x9_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is releasing Veo 3.1 and Veo 3.1 Fast, an updated video generation model, in paid preview via the Gemini API. This version offers richer native audio, greater narrative control, and enhanced image-to-video capabilities. New features include guiding generation with reference images, extending existing Veo videos, and generating transitions between frames. Companies like Promise Studios, Latitude, and Whering are already using Veo 3.1 for various applications.]]&gt;</description>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device</title>
@@ -70,14 +78,6 @@
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/level-up-your-dev-game-the-jules-api-is-here/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_API.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Meet Jules Tools: A Command Line Companion for Google’s Async Coding Agent</title>
-      <link>https://developers.googleblog.com/en/meet-jules-tools-a-command-line-companion-for-googles-async-coding-agent/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_CLI_2096x1182.2e16d0ba.fill-800x400.png" alt="Thumb_CLI 2096x1182" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;You can now work with Jules directly in your command line. Jules is our asynchronous coding agent th...]]&gt;</description>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/meet-jules-tools-a-command-line-companion-for-googles-async-coding-agent/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_CLI_2096x1182.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Gemini 2.5 Flash Image now ready for production with new aspect ratios</title>
