@@ -5,8 +5,32 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Nov 2025 01:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 01:27:27 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing User Simulation in ADK Evaluation</title>
+      <link>https://developers.googleblog.com/en/announcing-user-simulation-in-adk-evaluation/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-2-banner_1.2e16d0ba.fill-800x400.png" alt="Ai-2-banner (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The new **User Simulation** feature in the Agent Development Kit (ADK) replaces rigid, brittle manual test scripts with dynamic, LLM-powered conversation generation. Developers define a high-level `conversation_plan`, and the simulator handles the multi-turn interaction to achieve the goal. This dramatically reduces test creation time, builds more resilient tests, and creates a reliable regression suite for AI agents.]]&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-user-simulation-in-adk-evaluation/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-2-banner_1.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Announcing the Agent Development Kit for Go: Build Powerful AI Agents with Your Favorite Languages</title>
+      <link>https://developers.googleblog.com/en/announcing-the-agent-development-kit-for-go-build-powerful-ai-agents-with-your-favorite-languages/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Agent Development Kit (ADK), an open-source, code-first toolkit for building powerful and sophisticated AI agents, now supports Go. ADK moves LLM orchestration and agent behavior directly into your code, giving you robust debugging, versioning, and deployment freedom. ADK for Go is idiomatic and performant, leveraging Go's strengths, and includes support for over 30+ databases and the Agent-to-Agent (A2A) protocol for collaborative multi-agent systems. Start building today!]]&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-the-agent-development-kit-for-go-build-powerful-ai-agents-with-your-favorite-languages/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Agent Garden - Samples for learning, discovering and building</title>
+      <link>https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Garden is now available to all users to simplify AI agent creation and deployment using the Agent Development Kit (ADK). It provides curated agent samples, one-click deployment via Agent Starter Pack, and customization through Firebase Studio. It helps developers with complex business challenges and multi-agent workflows, with Renault Group cited as an early success story.]]&gt;</description>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Beyond Request-Response: Architecting Real-time Bidirectional Streaming Multi-agent System</title>
       <link>https://developers.googleblog.com/en/beyond-request-response-architecting-real-time-bidirectional-streaming-multi-agent-system/</link>
@@ -24,12 +48,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Jules_Extension_-_Blog_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Introducing Coral NPU: A full-stack platform for Edge AI</title>
-      <link>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" alt="blogpost" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Coral NPU is a full-stack platform for Edge AI, addressing performance, fragmentation, and user trust deficits. It's an AI-first architecture, prioritizing ML matrix engines, and offers a unified developer experience. Designed for ultra-low-power, always-on AI in wearables and IoT, it enables contextual awareness, audio/image processing, and user interaction with hardware-enforced privacy. Synaptics is the first partner to implement Coral NPU.]]&gt;</description>
+      <title>Introducing Veo 3.1 and new creative capabilities in the Gemini API</title>
+      <link>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" alt="Veo3.1_16x9_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is releasing Veo 3.1 and Veo 3.1 Fast, an updated video generation model, in paid preview via the Gemini API. This version offers richer native audio, greater narrative control, and enhanced image-to-video capabilities. New features include guiding generation with reference images, extending existing Veo videos, and generating transitions between frames. Companies like Promise Studios, Latitude, and Whering are already using Veo 3.1 for various applications.]]&gt;</description>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Say hello to a new level of interactivity in Gemini CLI</title>
@@ -40,12 +64,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Interactive_Shell_her.2e16d0ba.fill-800x400_pwOGIW4.png" type="image/png" />
     </item>
     <item>
-      <title>Introducing Veo 3.1 and new creative capabilities in the Gemini API</title>
-      <link>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" alt="Veo3.1_16x9_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is releasing Veo 3.1 and Veo 3.1 Fast, an updated video generation model, in paid preview via the Gemini API. This version offers richer native audio, greater narrative control, and enhanced image-to-video capabilities. New features include guiding generation with reference images, extending existing Veo videos, and generating transitions between frames. Companies like Promise Studios, Latitude, and Whering are already using Veo 3.1 for various applications.]]&gt;</description>
+      <title>Introducing Coral NPU: A full-stack platform for Edge AI</title>
+      <link>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" alt="blogpost" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Coral NPU is a full-stack platform for Edge AI, addressing performance, fragmentation, and user trust deficits. It's an AI-first architecture, prioritizing ML matrix engines, and offers a unified developer experience. Designed for ultra-low-power, always-on AI in wearables and IoT, it enables contextual awareness, audio/image processing, and user interaction with hardware-enforced privacy. Synaptics is the first partner to implement Coral NPU.]]&gt;</description>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device</title>
@@ -62,30 +86,6 @@
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-the-genkit-extension-for-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini-CLI-Extension-for-Genkit-Bl.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Building High-Performance Data Pipelines with Grain and ArrayRecord</title>
-      <link>https://developers.googleblog.com/en/building-high-performance-data-pipelines-with-grain-and-arrayrecord/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" alt="The Agentic experience: Is MCP the right tool for your AI future?" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To avoid data bottlenecks when training large models, this guide introduces Grain and ArrayRecord for building high-performance data pipelines.]]&gt;</description>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/building-high-performance-data-pipelines-with-grain-and-arrayrecord/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience-meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Level Up Your Dev Game: The Jules API is Here!</title>
-      <link>https://developers.googleblog.com/en/level-up-your-dev-game-the-jules-api-is-here/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_API.2e16d0ba.fill-800x400.png" alt="Thumb_API" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has released the Jules API, a new tool for developers to automate and integrate the software development lifecycle. The API is based on "Source," "Session," and "Activity" concepts, and Google has provided a quickstart guide to help developers begin using it.]]&gt;</description>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/level-up-your-dev-game-the-jules-api-is-here/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Thumb_API.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Gemini 2.5 Flash Image now ready for production with new aspect ratios</title>
-      <link>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" alt="image2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Our state-of-the-art image generation and editing model which has captured the imagination of the wo...]]&gt;</description>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemini-2-5-flash-image-now-ready-for-production-with-new-aspect-ratios/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/edited-edited-1759361529722.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
