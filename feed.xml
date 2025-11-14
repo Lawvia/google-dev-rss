@@ -5,15 +5,39 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Nov 2025 01:42:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 01:42:12 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcing User Simulation in ADK Evaluation</title>
-      <link>https://developers.googleblog.com/en/announcing-user-simulation-in-adk-evaluation/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-2-banner_1.2e16d0ba.fill-800x400.png" alt="Ai-2-banner (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The new **User Simulation** feature in the Agent Development Kit (ADK) replaces rigid, brittle manual test scripts with dynamic, LLM-powered conversation generation. Developers define a high-level `conversation_plan`, and the simulator handles the multi-turn interaction to achieve the goal. This dramatically reduces test creation time, builds more resilient tests, and creates a reliable regression suite for AI agents.]]&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-user-simulation-in-adk-evaluation/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-2-banner_1.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Introducing Code Wiki: Accelerating your code understanding</title>
+      <link>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" alt="Code Wiki Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Code Wiki is a new platform that tackles the bottleneck of reading existing code by providing an automated, continuously updated, structured wiki for code repositories. It features hyper-linked documentation, a Gemini-powered chat agent that understands your repo, and automated diagrams. A public preview is available for open-source projects, and a Gemini CLI extension is coming soon for secure use on private repos.]]&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Making the terminal beautiful one pixel at a time</title>
+      <link>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" alt="Gemini CLI - UI Improvements (hero image)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has launched the redesigned **Android AI Sample Catalog**, a dedicated, open-source application to inspire and educate Android developers on building AI-powered apps. It showcases examples using both on-device (Gemini Nano via ML Kit GenAI API) and Cloud models (via Firebase AI Logic SDK), including image generation with Imagen, on-device summarization, and a "Chat with Nano Banana" chatbot. The code is easy to copy and paste to help developers quickly start their own projects.]]&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Introducing Metrax: performant, efficient, and robust model evaluation metrics in JAX</title>
+      <link>https://developers.googleblog.com/en/introducing-metrax-performant-efficient-and-robust-model-evaluation-metrics-in-jax/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" alt="Data-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Metrax is a high-performance JAX-based metrics library developed by Google. It standardizes model evaluation by offering robust, efficient metrics for classification, NLP, and vision, eliminating manual re-implementation after migrating from TensorFlow. Key strengths include parallel computation of "at K" metrics (e.g., PrecisionAtK) for multiple K values and strong integration with the JAX AI Stack, leveraging JAX's performance features. It is open-source on GitHub.]]&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-metrax-performant-efficient-and-robust-model-evaluation-metrics-in-jax/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Google Colab is Coming to VS Code</title>
+      <link>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" alt="Data-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Colab has launched an official VS Code extension, bridging the gap between the popular code editor and the AI/ML platform. The extension combines VS Code's powerful development environment with Colab's seamless access to high-powered runtimes (GPUs/TPUs), allowing users to connect local notebooks to Colab. This aims to meet developers where they are and brings the best of both worlds.]]&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Announcing the Agent Development Kit for Go: Build Powerful AI Agents with Your Favorite Languages</title>
@@ -22,6 +46,14 @@
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-the-agent-development-kit-for-go-build-powerful-ai-agents-with-your-favorite-languages/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Announcing User Simulation in ADK Evaluation</title>
+      <link>https://developers.googleblog.com/en/announcing-user-simulation-in-adk-evaluation/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-2-banner_1.2e16d0ba.fill-800x400.png" alt="Ai-2-banner (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The new **User Simulation** feature in the Agent Development Kit (ADK) replaces rigid, brittle manual test scripts with dynamic, LLM-powered conversation generation. Developers define a high-level `conversation_plan`, and the simulator handles the multi-turn interaction to achieve the goal. This dramatically reduces test creation time, builds more resilient tests, and creates a reliable regression suite for AI agents.]]&gt;</description>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-user-simulation-in-adk-evaluation/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-2-banner_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Agent Garden - Samples for learning, discovering and building</title>
@@ -48,44 +80,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Jules_Extension_-_Blog_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Introducing Veo 3.1 and new creative capabilities in the Gemini API</title>
-      <link>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" alt="Veo3.1_16x9_meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is releasing Veo 3.1 and Veo 3.1 Fast, an updated video generation model, in paid preview via the Gemini API. This version offers richer native audio, greater narrative control, and enhanced image-to-video capabilities. New features include guiding generation with reference images, extending existing Veo videos, and generating transitions between frames. Companies like Promise Studios, Latitude, and Whering are already using Veo 3.1 for various applications.]]&gt;</description>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Veo3.1_16x9_meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Say hello to a new level of interactivity in Gemini CLI</title>
       <link>https://developers.googleblog.com/en/say-hello-to-a-new-level-of-interactivity-in-gemini-cli/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Interactive_Shell_her.2e16d0ba.fill-800x400_pwOGIW4.png" alt="Gemini CLI - Interactive Shell hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We're excited to announce an enhancement to Gemini CLI that makes your workflow more powerful a...]]&gt;</description>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/say-hello-to-a-new-level-of-interactivity-in-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Interactive_Shell_her.2e16d0ba.fill-800x400_pwOGIW4.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing Coral NPU: A full-stack platform for Edge AI</title>
-      <link>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" alt="blogpost" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Coral NPU is a full-stack platform for Edge AI, addressing performance, fragmentation, and user trust deficits. It's an AI-first architecture, prioritizing ML matrix engines, and offers a unified developer experience. Designed for ultra-low-power, always-on AI in wearables and IoT, it enables contextual awareness, audio/image processing, and user interaction with hardware-enforced privacy. Synaptics is the first partner to implement Coral NPU.]]&gt;</description>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-coral-npu-a-full-stack-platform-for-edge-ai/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blogpost.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Own your AI: Learn how to fine-tune Gemma 3 270M and run it on-device</title>
-      <link>https://developers.googleblog.com/en/own-your-ai-fine-tune-gemma-3-270m-for-on-device/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/OYOAI_Metadata_RD2-V01.2e16d0ba.fill-800x400.png" alt="OYOAI_Metadata_RD2-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This guide shows you how to fine-tune the Gemma 3 270M model for custom tasks, like an emoji translator. Learn to quantize and convert the model for on-device use, deploying it in a web app with MediaPipe or Transformers.js for a fast, private, and offline-capable user experience.]]&gt;</description>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/own-your-ai-fine-tune-gemma-3-270m-for-on-device/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/OYOAI_Metadata_RD2-V01.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Announcing the Genkit Extension for Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/announcing-the-genkit-extension-for-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini-CLI-Extension-for-Genkit-Bl.2e16d0ba.fill-800x400.jpg" alt="Gemini-CLI-Extension-for-Genkit-Blog-Meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The new Genkit Extension for Gemini CLI gives the command line deep knowledge of Genkit's architecture. It helps you build, debug, and iterate on AI apps with intelligent code generation, context-aware assistance, and tools to run flows and analyze traces directly from your terminal.]]&gt;</description>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-the-genkit-extension-for-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini-CLI-Extension-for-Genkit-Bl.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
