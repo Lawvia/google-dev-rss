@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Nov 2025 01:42:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 01:40:43 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Code Wiki: Accelerating your code understanding</title>
@@ -34,10 +34,10 @@
     <item>
       <title>Google Colab is Coming to VS Code</title>
       <link>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" alt="Data-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Colab has launched an official VS Code extension, bridging the gap between the popular code editor and the AI/ML platform. The extension combines VS Code's powerful development environment with Colab's seamless access to high-powered runtimes (GPUs/TPUs), allowing users to connect local notebooks to Colab. This aims to meet developers where they are and brings the best of both worlds.]]&gt;</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" alt="colab-hearts-vsc@2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Colab has launched an official VS Code extension, bridging the gap between the popular code editor and the AI/ML platform. The extension combines VS Code's powerful development environment with Colab's seamless access to high-powered runtimes (GPUs/TPUs), allowing users to connect local notebooks to Colab. This aims to meet developers where they are and brings the best of both worlds.]]&gt;</description>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Announcing the Agent Development Kit for Go: Build Powerful AI Agents with Your Favorite Languages</title>
