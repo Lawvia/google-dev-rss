@@ -5,23 +5,15 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Nov 2025 01:40:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 01:40:58 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introducing Code Wiki: Accelerating your code understanding</title>
-      <link>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" alt="Code Wiki Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Code Wiki is a new platform that tackles the bottleneck of reading existing code by providing an automated, continuously updated, structured wiki for code repositories. It features hyper-linked documentation, a Gemini-powered chat agent that understands your repo, and automated diagrams. A public preview is available for open-source projects, and a Gemini CLI extension is coming soon for secure use on private repos.]]&gt;</description>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Making the terminal beautiful one pixel at a time</title>
-      <link>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" alt="Gemini CLI - UI Improvements (hero image)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has launched the redesigned **Android AI Sample Catalog**, a dedicated, open-source application to inspire and educate Android developers on building AI-powered apps. It showcases examples using both on-device (Gemini Nano via ML Kit GenAI API) and Cloud models (via Firebase AI Logic SDK), including image generation with Imagen, on-device summarization, and a "Chat with Nano Banana" chatbot. The code is easy to copy and paste to help developers quickly start their own projects.]]&gt;</description>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>5 things to try with Gemini 3 Pro in Gemini CLI</title>
+      <link>https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI_BlogHeader_02.2e16d0ba.fill-800x400.png" alt="GeminiCLI_BlogHeader_02" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 Pro is now integrated into Gemini CLI, unlocking state-of-the-art reasoning, agentic coding, and advanced tool use for enhanced developer productivity. It's available now for Google AI Ultra and paid Gemini API key subscribers (upgrade CLI to 0.16.x). Features include generating 3D apps and code from visual sketches, running complex shell commands, creating documentation, and debugging live Cloud Run services.]]&gt;</description>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI_BlogHeader_02.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Introducing Metrax: performant, efficient, and robust model evaluation metrics in JAX</title>
@@ -32,12 +24,28 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
+      <title>Making the terminal beautiful one pixel at a time</title>
+      <link>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" alt="Gemini CLI - UI Improvements (hero image)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has launched the redesigned **Android AI Sample Catalog**, a dedicated, open-source application to inspire and educate Android developers on building AI-powered apps. It showcases examples using both on-device (Gemini Nano via ML Kit GenAI API) and Cloud models (via Firebase AI Logic SDK), including image generation with Imagen, on-device summarization, and a "Chat with Nano Banana" chatbot. The code is easy to copy and paste to help developers quickly start their own projects.]]&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
       <title>Google Colab is Coming to VS Code</title>
       <link>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" alt="colab-hearts-vsc@2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Colab has launched an official VS Code extension, bridging the gap between the popular code editor and the AI/ML platform. The extension combines VS Code's powerful development environment with Colab's seamless access to high-powered runtimes (GPUs/TPUs), allowing users to connect local notebooks to Colab. This aims to meet developers where they are and brings the best of both worlds.]]&gt;</description>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Introducing Code Wiki: Accelerating your code understanding</title>
+      <link>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" alt="Code Wiki Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Code Wiki is a new platform that tackles the bottleneck of reading existing code by providing an automated, continuously updated, structured wiki for code repositories. It features hyper-linked documentation, a Gemini-powered chat agent that understands your repo, and automated diagrams. A public preview is available for open-source projects, and a Gemini CLI extension is coming soon for secure use on private repos.]]&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Announcing the Agent Development Kit for Go: Build Powerful AI Agents with Your Favorite Languages</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-the-jules-extension-for-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Jules_Extension_-_Blog_Header.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Say hello to a new level of interactivity in Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/say-hello-to-a-new-level-of-interactivity-in-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Interactive_Shell_her.2e16d0ba.fill-800x400_pwOGIW4.png" alt="Gemini CLI - Interactive Shell hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We're excited to announce an enhancement to Gemini CLI that makes your workflow more powerful a...]]&gt;</description>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/say-hello-to-a-new-level-of-interactivity-in-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Interactive_Shell_her.2e16d0ba.fill-800x400_pwOGIW4.png" type="image/png" />
     </item>
   </channel>
 </rss>
