@@ -5,8 +5,32 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2025 01:40:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 01:39:40 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building AI Agents with Google Gemini 3 and Open Source Frameworks</title>
+      <link>https://developers.googleblog.com/en/building-ai-agents-with-google-gemini-3-and-open-source-frameworks/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BuildingWAgents-Gemini3_16x9_RD1-V.2e16d0ba.fill-800x400.png" alt="BuildingWAgents-Gemini3_16x9_RD1-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 Pro Preview is introduced as a powerful, agentic model for complex, (semi)-autonomous workflows. New agentic features include `thinking_level` for reasoning control, Stateful Tool Use via Thought Signatures, and `media_resolution` for multimodal fidelity. It has Day 0 support for open-source frameworks like LangChain, AI SDK, LlamaIndex, Pydantic AI, and n8n. Best practices include simplifying prompts and keeping temperature at 1.0.]]&gt;</description>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/building-ai-agents-with-google-gemini-3-and-open-source-frameworks/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BuildingWAgents-Gemini3_16x9_RD1-V.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Building production AI on Google Cloud TPUs with JAX</title>
+      <link>https://developers.googleblog.com/en/building-production-ai-on-google-cloud-tpus-with-jax/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The JAX AI Stack is a modular, industrial-grade, end-to-end machine learning platform built on the core JAX library, co-designed with Cloud TPUs. It features key components like JAX, Flax, Optax, and Orbax for foundational model development, plus an extended ecosystem for the full ML lifecycle and production. This integration provides a powerful, scalable foundation for AI development, delivering significant performance advantages.]]&gt;</description>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/building-production-ai-on-google-cloud-tpus-with-jax/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Jules + Gemini 3</title>
+      <link>https://developers.googleblog.com/en/jules-gemini-3/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Wagtail_1600x476.2e16d0ba.fill-800x400.jpg" alt="Wagtail 1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Jules, an always-on, multi-step software development agent, now features Gemini 3, offering clearer reasoning and better reliability. Recent improvements include parallel CLI runs, a stable API, and safer Git handling. Upcoming features include directory attachment without GitHub and automatic PR creation. Jules aims to reduce software writing overhead so developers can focus on building.]]&gt;</description>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/jules-gemini-3/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Wagtail_1600x476.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>5 things to try with Gemini 3 Pro in Gemini CLI</title>
       <link>https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/</link>
@@ -14,14 +38,6 @@
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI_BlogHeader_02.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing Metrax: performant, efficient, and robust model evaluation metrics in JAX</title>
-      <link>https://developers.googleblog.com/en/introducing-metrax-performant-efficient-and-robust-model-evaluation-metrics-in-jax/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" alt="Data-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Metrax is a high-performance JAX-based metrics library developed by Google. It standardizes model evaluation by offering robust, efficient metrics for classification, NLP, and vision, eliminating manual re-implementation after migrating from TensorFlow. Key strengths include parallel computation of "at K" metrics (e.g., PrecisionAtK) for multiple K values and strong integration with the JAX AI Stack, leveraging JAX's performance features. It is open-source on GitHub.]]&gt;</description>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-metrax-performant-efficient-and-robust-model-evaluation-metrics-in-jax/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Making the terminal beautiful one pixel at a time</title>
@@ -32,12 +48,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Google Colab is Coming to VS Code</title>
-      <link>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" alt="colab-hearts-vsc@2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Colab has launched an official VS Code extension, bridging the gap between the popular code editor and the AI/ML platform. The extension combines VS Code's powerful development environment with Colab's seamless access to high-powered runtimes (GPUs/TPUs), allowing users to connect local notebooks to Colab. This aims to meet developers where they are and brings the best of both worlds.]]&gt;</description>
+      <title>Introducing Metrax: performant, efficient, and robust model evaluation metrics in JAX</title>
+      <link>https://developers.googleblog.com/en/introducing-metrax-performant-efficient-and-robust-model-evaluation-metrics-in-jax/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" alt="Data-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Metrax is a high-performance JAX-based metrics library developed by Google. It standardizes model evaluation by offering robust, efficient metrics for classification, NLP, and vision, eliminating manual re-implementation after migrating from TensorFlow. Key strengths include parallel computation of "at K" metrics (e.g., PrecisionAtK) for multiple K values and strong integration with the JAX AI Stack, leveraging JAX's performance features. It is open-source on GitHub.]]&gt;</description>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/introducing-metrax-performant-efficient-and-robust-model-evaluation-metrics-in-jax/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Introducing Code Wiki: Accelerating your code understanding</title>
@@ -46,6 +62,14 @@
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Google Colab is Coming to VS Code</title>
+      <link>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" alt="colab-hearts-vsc@2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Colab has launched an official VS Code extension, bridging the gap between the popular code editor and the AI/ML platform. The extension combines VS Code's powerful development environment with Colab's seamless access to high-powered runtimes (GPUs/TPUs), allowing users to connect local notebooks to Colab. This aims to meet developers where they are and brings the best of both worlds.]]&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Announcing the Agent Development Kit for Go: Build Powerful AI Agents with Your Favorite Languages</title>
@@ -62,30 +86,6 @@
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-user-simulation-in-adk-evaluation/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-2-banner_1.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Agent Garden - Samples for learning, discovering and building</title>
-      <link>https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Garden is now available to all users to simplify AI agent creation and deployment using the Agent Development Kit (ADK). It provides curated agent samples, one-click deployment via Agent Starter Pack, and customization through Firebase Studio. It helps developers with complex business challenges and multi-agent workflows, with Renault Group cited as an early success story.]]&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/agent-garden-samples-for-learning-discovering-and-building/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Beyond Request-Response: Architecting Real-time Bidirectional Streaming Multi-agent System</title>
-      <link>https://developers.googleblog.com/en/beyond-request-response-architecting-real-time-bidirectional-streaming-multi-agent-system/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" alt="ADK + Gemini CLI: Supercharge Your Agent Building Vibe" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The blog post argues the request-response model fails for advanced multi-agent AI. It advocates for a real-time bidirectional streaming architecture, implemented by the Agent Development Kit (ADK). This streaming model enables true concurrency, natural interruptibility, and unified multimodal processing. ADK's core features are real-time I/O management, stateful sessions for agent handoffs, and streaming-native tools.]]&gt;</description>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/beyond-request-response-architecting-real-time-bidirectional-streaming-multi-agent-system/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing the Jules extension for Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/introducing-the-jules-extension-for-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Jules_Extension_-_Blog_Header.2e16d0ba.fill-800x400.png" alt="Jules Extension - Blog Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing the Jules extension for Gemini CLI, an autonomous sidekick for developers. It accelerates coding workflows by offloading tasks like asynchronous work, bug fixes, and changes in new branches to Jules, while you stay in flow with Gemini CLI. Get started by installing the extension and using the /jules command to initiate and check task statuses.]]&gt;</description>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-the-jules-extension-for-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Jules_Extension_-_Blog_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
