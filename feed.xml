@@ -5,15 +5,15 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Nov 2025 01:39:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Nov 2025 01:40:44 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building AI Agents with Google Gemini 3 and Open Source Frameworks</title>
-      <link>https://developers.googleblog.com/en/building-ai-agents-with-google-gemini-3-and-open-source-frameworks/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BuildingWAgents-Gemini3_16x9_RD1-V.2e16d0ba.fill-800x400.png" alt="BuildingWAgents-Gemini3_16x9_RD1-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 Pro Preview is introduced as a powerful, agentic model for complex, (semi)-autonomous workflows. New agentic features include `thinking_level` for reasoning control, Stateful Tool Use via Thought Signatures, and `media_resolution` for multimodal fidelity. It has Day 0 support for open-source frameworks like LangChain, AI SDK, LlamaIndex, Pydantic AI, and n8n. Best practices include simplifying prompts and keeping temperature at 1.0.]]&gt;</description>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/building-ai-agents-with-google-gemini-3-and-open-source-frameworks/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BuildingWAgents-Gemini3_16x9_RD1-V.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Build with Google Antigravity, our new agentic development platform</title>
+      <link>https://developers.googleblog.com/en/build-with-google-antigravity-our-new-agentic-development-platform/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Experience_liftoff_1.2e16d0ba.fill-800x400.png" alt="Experience liftoff (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing Google Antigravity, a new agentic development platform for orchestrating code. It combines an AI-powered Editor View with a Manager Surface to deploy agents that autonomously plan, execute, and verify complex tasks across your editor, terminal, and browser. Agents communicate progress via Artifacts (screenshots, recordings) for easy verification. Available now in public preview.]]&gt;</description>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/build-with-google-antigravity-our-new-agentic-development-platform/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Experience_liftoff_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Building production AI on Google Cloud TPUs with JAX</title>
@@ -24,12 +24,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Jules + Gemini 3</title>
+      <title>Building with Gemini 3 in Jules</title>
       <link>https://developers.googleblog.com/en/jules-gemini-3/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Wagtail_1600x476.2e16d0ba.fill-800x400.jpg" alt="Wagtail 1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Jules, an always-on, multi-step software development agent, now features Gemini 3, offering clearer reasoning and better reliability. Recent improvements include parallel CLI runs, a stable API, and safer Git handling. Upcoming features include directory attachment without GitHub and automatic PR creation. Jules aims to reduce software writing overhead so developers can focus on building.]]&gt;</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-post-wagtail-2.2e16d0ba.fill-800x400.png" alt="blog-post-wagtail-2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Jules, an always-on, multi-step software development agent, now features Gemini 3, offering clearer reasoning and better reliability. Recent improvements include parallel CLI runs, a stable API, and safer Git handling. Upcoming features include directory attachment without GitHub and automatic PR creation. Jules aims to reduce software writing overhead so developers can focus on building.]]&gt;</description>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/jules-gemini-3/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Wagtail_1600x476.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-post-wagtail-2.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Building AI Agents with Google Gemini 3 and Open Source Frameworks</title>
+      <link>https://developers.googleblog.com/en/building-ai-agents-with-google-gemini-3-and-open-source-frameworks/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BuildingWAgents-Gemini3_16x9_RD1-V.2e16d0ba.fill-800x400.png" alt="BuildingWAgents-Gemini3_16x9_RD1-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 Pro Preview is introduced as a powerful, agentic model for complex, (semi)-autonomous workflows. New agentic features include `thinking_level` for reasoning control, Stateful Tool Use via Thought Signatures, and `media_resolution` for multimodal fidelity. It has Day 0 support for open-source frameworks like LangChain, AI SDK, LlamaIndex, Pydantic AI, and n8n. Best practices include simplifying prompts and keeping temperature at 1.0.]]&gt;</description>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/building-ai-agents-with-google-gemini-3-and-open-source-frameworks/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BuildingWAgents-Gemini3_16x9_RD1-V.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>5 things to try with Gemini 3 Pro in Gemini CLI</title>
@@ -40,14 +48,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI_BlogHeader_02.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Making the terminal beautiful one pixel at a time</title>
-      <link>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" alt="Gemini CLI - UI Improvements (hero image)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has launched the redesigned **Android AI Sample Catalog**, a dedicated, open-source application to inspire and educate Android developers on building AI-powered apps. It showcases examples using both on-device (Gemini Nano via ML Kit GenAI API) and Cloud models (via Firebase AI Logic SDK), including image generation with Imagen, on-device summarization, and a "Chat with Nano Banana" chatbot. The code is easy to copy and paste to help developers quickly start their own projects.]]&gt;</description>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Introducing Metrax: performant, efficient, and robust model evaluation metrics in JAX</title>
       <link>https://developers.googleblog.com/en/introducing-metrax-performant-efficient-and-robust-model-evaluation-metrics-in-jax/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" alt="Data-2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Metrax is a high-performance JAX-based metrics library developed by Google. It standardizes model evaluation by offering robust, efficient metrics for classification, NLP, and vision, eliminating manual re-implementation after migrating from TensorFlow. Key strengths include parallel computation of "at K" metrics (e.g., PrecisionAtK) for multiple K values and strong integration with the JAX AI Stack, leveraging JAX's performance features. It is open-source on GitHub.]]&gt;</description>
@@ -56,12 +56,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Data-2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Introducing Code Wiki: Accelerating your code understanding</title>
-      <link>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" alt="Code Wiki Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Code Wiki is a new platform that tackles the bottleneck of reading existing code by providing an automated, continuously updated, structured wiki for code repositories. It features hyper-linked documentation, a Gemini-powered chat agent that understands your repo, and automated diagrams. A public preview is available for open-source projects, and a Gemini CLI extension is coming soon for secure use on private repos.]]&gt;</description>
+      <title>Making the terminal beautiful one pixel at a time</title>
+      <link>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" alt="Gemini CLI - UI Improvements (hero image)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has launched the redesigned **Android AI Sample Catalog**, a dedicated, open-source application to inspire and educate Android developers on building AI-powered apps. It showcases examples using both on-device (Gemini Nano via ML Kit GenAI API) and Cloud models (via Firebase AI Logic SDK), including image generation with Imagen, on-device summarization, and a "Chat with Nano Banana" chatbot. The code is easy to copy and paste to help developers quickly start their own projects.]]&gt;</description>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Google Colab is Coming to VS Code</title>
@@ -72,12 +72,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Announcing the Agent Development Kit for Go: Build Powerful AI Agents with Your Favorite Languages</title>
-      <link>https://developers.googleblog.com/en/announcing-the-agent-development-kit-for-go-build-powerful-ai-agents-with-your-favorite-languages/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Agent Development Kit (ADK), an open-source, code-first toolkit for building powerful and sophisticated AI agents, now supports Go. ADK moves LLM orchestration and agent behavior directly into your code, giving you robust debugging, versioning, and deployment freedom. ADK for Go is idiomatic and performant, leveraging Go's strengths, and includes support for over 30+ databases and the Agent-to-Agent (A2A) protocol for collaborative multi-agent systems. Start building today!]]&gt;</description>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-the-agent-development-kit-for-go-build-powerful-ai-agents-with-your-favorite-languages/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Introducing Code Wiki: Accelerating your code understanding</title>
+      <link>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" alt="Code Wiki Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Code Wiki is a new platform that tackles the bottleneck of reading existing code by providing an automated, continuously updated, structured wiki for code repositories. It features hyper-linked documentation, a Gemini-powered chat agent that understands your repo, and automated diagrams. A public preview is available for open-source projects, and a Gemini CLI extension is coming soon for secure use on private repos.]]&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Announcing User Simulation in ADK Evaluation</title>
