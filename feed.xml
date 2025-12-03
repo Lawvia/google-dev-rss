@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Dec 2025 01:44:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 01:43:40 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing the Data Commons Gemini CLI extension</title>
+      <link>https://developers.googleblog.com/en/announcing-the-data-commons-gemini-cli-extension/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DC_Extension_Blog_Header.2e16d0ba.fill-800x400.png" alt="DC_Extension_Blog_Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The new Data Commons extension for the Gemini CLI makes accessing public data easier. It allows users to ask complex, natural-language questions to query Data Commons' public datasets, grounding LLM responses in authoritative sources to reduce AI hallucinations. Data Commons is an organized library of public data from sources like the UN and World Bank. The extension enables instant data analysis, exploration, and integration with other data-related extensions.]]&gt;</description>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-the-data-commons-gemini-cli-extension/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DC_Extension_Blog_Header.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>New Gemini API updates for Gemini 3</title>
       <link>https://developers.googleblog.com/en/new-gemini-api-updates-for-gemini-3/</link>
@@ -64,12 +72,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI_BlogHeader_02.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Making the terminal beautiful one pixel at a time</title>
-      <link>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" alt="Gemini CLI - UI Improvements (hero image)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has launched the redesigned **Android AI Sample Catalog**, a dedicated, open-source application to inspire and educate Android developers on building AI-powered apps. It showcases examples using both on-device (Gemini Nano via ML Kit GenAI API) and Cloud models (via Firebase AI Logic SDK), including image generation with Imagen, on-device summarization, and a "Chat with Nano Banana" chatbot. The code is easy to copy and paste to help developers quickly start their own projects.]]&gt;</description>
+      <title>Introducing Code Wiki: Accelerating your code understanding</title>
+      <link>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" alt="Code Wiki Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Code Wiki is a new platform that tackles the bottleneck of reading existing code by providing an automated, continuously updated, structured wiki for code repositories. It features hyper-linked documentation, a Gemini-powered chat agent that understands your repo, and automated diagrams. A public preview is available for open-source projects, and a Gemini CLI extension is coming soon for secure use on private repos.]]&gt;</description>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/making-the-terminal-beautiful-one-pixel-at-a-time/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_UI_Improvements_hero_.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Google Colab is Coming to VS Code</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/google-colab-is-coming-to-vs-code/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/colab-hearts-vsc2x.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing Code Wiki: Accelerating your code understanding</title>
-      <link>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" alt="Code Wiki Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Code Wiki is a new platform that tackles the bottleneck of reading existing code by providing an automated, continuously updated, structured wiki for code repositories. It features hyper-linked documentation, a Gemini-powered chat agent that understands your repo, and automated diagrams. A public preview is available for open-source projects, and a Gemini CLI extension is coming soon for secure use on private repos.]]&gt;</description>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
