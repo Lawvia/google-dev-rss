@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Dec 2025 01:44:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 01:45:21 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecting efficient context-aware multi-agent framework for production</title>
+      <link>https://developers.googleblog.com/en/architecting-efficient-context-aware-multi-agent-framework-for-production/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;ADK introduces **Context Engineering** to scale AI agents beyond large context windows. It treats context as a compiled view over a tiered, stateful system (**Session, Memory, Artifacts**). This architecture uses explicit processors for transformation, enables efficient compaction and caching, and allows for strict, scoped context handoffs in multi-agent workflows to ensure reliability and cost-effectiveness in production.]]&gt;</description>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/architecting-efficient-context-aware-multi-agent-framework-for-production/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Announcing the Data Commons Gemini CLI extension</title>
       <link>https://developers.googleblog.com/en/announcing-the-data-commons-gemini-cli-extension/</link>
@@ -70,14 +78,6 @@
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/5-things-to-try-with-gemini-3-pro-in-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI_BlogHeader_02.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing Code Wiki: Accelerating your code understanding</title>
-      <link>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" alt="Code Wiki Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Code Wiki is a new platform that tackles the bottleneck of reading existing code by providing an automated, continuously updated, structured wiki for code repositories. It features hyper-linked documentation, a Gemini-powered chat agent that understands your repo, and automated diagrams. A public preview is available for open-source projects, and a Gemini CLI extension is coming soon for secure use on private repos.]]&gt;</description>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-code-wiki-accelerating-your-code-understanding/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Code_Wiki_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Google Colab is Coming to VS Code</title>
