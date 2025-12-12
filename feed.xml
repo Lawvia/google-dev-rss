@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 01:47:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 01:47:05 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building agents with the ADK and the new Interactions API</title>
+      <link>https://developers.googleblog.com/en/building-agents-with-the-adk-and-the-new-interactions-api/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience.2e16d0ba.fill-800x400.png" alt="The Agentic experience: Is MCP the right tool for your AI future?" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The new Gemini Interactions API enables stateful, multi-turn AI agent workflows, providing a single interface for raw models and the Gemini Deep Research Agent. It can be integrated with existing ADK systems as a superior inference engine with simplified state management, or used as a transparent remote A2A agent via InteractionsApiTransport, allowing seamless expansion of multi-agent systems with minimal refactoring.]]&gt;</description>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/building-agents-with-the-adk-and-the-new-interactions-api/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Pick up exactly where you left off with Session Management in Gemini CLI</title>
       <link>https://developers.googleblog.com/en/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/</link>
@@ -70,14 +78,6 @@
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/build-with-google-antigravity-our-new-agentic-development-platform/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Experience_liftoff_1.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Building production AI on Google Cloud TPUs with JAX</title>
-      <link>https://developers.googleblog.com/en/building-production-ai-on-google-cloud-tpus-with-jax/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The JAX AI Stack is a modular, industrial-grade, end-to-end machine learning platform built on the core JAX library, co-designed with Cloud TPUs. It features key components like JAX, Flax, Optax, and Orbax for foundational model development, plus an extended ecosystem for the full ML lifecycle and production. This integration provides a powerful, scalable foundation for AI development, delivering significant performance advantages.]]&gt;</description>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/building-production-ai-on-google-cloud-tpus-with-jax/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Building with Gemini 3 in Jules</title>
