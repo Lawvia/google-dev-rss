@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 01:50:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 01:48:18 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing A2UI: An open project for agent-driven interfaces</title>
+      <link>https://developers.googleblog.com/en/introducing-a2ui-an-open-project-for-agent-driven-interfaces/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;A2UI is an open-source project for agent-driven, cross-platform, and generative UI. It provides a secure, declarative data format for agents to compose bespoke interfaces from a trusted component catalog, allowing for native styling and incremental updates. Designed for the multi-agent mesh (A2A), it offers a framework-agnostic solution to safely render remote agent UIs, with integrations in AG UI, Flutter's GenUI SDK, Opal, and Gemini Enterprise.]]&gt;</description>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-a2ui-an-open-project-for-agent-driven-interfaces/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Building agents with the ADK and the new Interactions API</title>
       <link>https://developers.googleblog.com/en/building-agents-with-the-adk-and-the-new-interactions-api/</link>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/build-with-google-antigravity-our-new-agentic-development-platform/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Experience_liftoff_1.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Building with Gemini 3 in Jules</title>
-      <link>https://developers.googleblog.com/en/jules-gemini-3/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-post-wagtail-2.2e16d0ba.fill-800x400.png" alt="blog-post-wagtail-2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Jules, an always-on, multi-step software development agent, now features Gemini 3, offering clearer reasoning and better reliability. Recent improvements include parallel CLI runs, a stable API, and safer Git handling. Upcoming features include directory attachment without GitHub and automatic PR creation. Jules aims to reduce software writing overhead so developers can focus on building.]]&gt;</description>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/jules-gemini-3/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-post-wagtail-2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
