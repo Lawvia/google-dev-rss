@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Dec 2025 01:48:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 01:43:19 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developer’s guide to multi-agent patterns in ADK</title>
+      <link>https://developers.googleblog.com/en/developers-guide-to-multi-agent-patterns-in-adk/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-data_image.2e16d0ba.fill-800x400.png" alt="meta-data image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Learn how to build modular and reliable agentic applications using 8 effective multi-agent design patterns with the Agent Development Kit (ADK).]]&gt;</description>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/developers-guide-to-multi-agent-patterns-in-adk/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-data_image.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Introducing A2UI: An open project for agent-driven interfaces</title>
       <link>https://developers.googleblog.com/en/introducing-a2ui-an-open-project-for-agent-driven-interfaces/</link>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/unlocking-peak-performance-on-qualcomm-npu-with-litert/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Build with Google Antigravity, our new agentic development platform</title>
-      <link>https://developers.googleblog.com/en/build-with-google-antigravity-our-new-agentic-development-platform/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Experience_liftoff_1.2e16d0ba.fill-800x400.png" alt="Experience liftoff (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing Google Antigravity, a new agentic development platform for orchestrating code. It combines an AI-powered Editor View with a Manager Surface to deploy agents that autonomously plan, execute, and verify complex tasks across your editor, terminal, and browser. Agents communicate progress via Artifacts (screenshots, recordings) for easy verification. Available now in public preview.]]&gt;</description>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/build-with-google-antigravity-our-new-agentic-development-platform/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Experience_liftoff_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
