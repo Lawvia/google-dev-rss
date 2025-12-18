@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Dec 2025 01:43:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 01:44:05 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach</title>
+      <link>https://developers.googleblog.com/en/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Building-1-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.]]&gt;</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Gemini 3 Flash is now available in Gemini CLI</title>
+      <link>https://developers.googleblog.com/en/gemini-3-flash-is-now-available-in-gemini-cli/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/output_padded.2e16d0ba.fill-800x400.png" alt="output_padded" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly outperforms 2.5 Pro, improving auto-routing and agentic coding. It's ideal for high-frequency development tasks, handling complex code generation, large context windows (like processing 1,000 comment pull requests), and generating load-testing scripts quickly and reliably.]]&gt;</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-3-flash-is-now-available-in-gemini-cli/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/output_padded.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Developer’s guide to multi-agent patterns in ADK</title>
       <link>https://developers.googleblog.com/en/developers-guide-to-multi-agent-patterns-in-adk/</link>
@@ -70,22 +86,6 @@
       <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-the-data-commons-gemini-cli-extension/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DC_Extension_Blog_Header.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>New Gemini API updates for Gemini 3</title>
-      <link>https://developers.googleblog.com/en/new-gemini-api-updates-for-gemini-3/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiAPI_Wagtial_RD1-V01.2e16d0ba.fill-800x400.png" alt="GeminiAPI_Wagtial_RD1-V01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 is available via API with updates for developers: new `thinking_level` for depth control, `media_resolution` for multimodal processing, and enforced `Thought Signatures` for agentic workflows, especially with function calling and image generation. It also introduces combining Google Search/URL Grounding with Structured Outputs and new usage-based pricing for Grounding. Best practices, like using default temperature, are advised for optimal results.]]&gt;</description>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/new-gemini-api-updates-for-gemini-3/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiAPI_Wagtial_RD1-V01.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Unlocking Peak Performance on Qualcomm NPU with LiteRT</title>
-      <link>https://developers.googleblog.com/en/unlocking-peak-performance-on-qualcomm-npu-with-litert/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT's new Qualcomm AI Engine Direct (QNN) Accelerator unlocks dedicated NPU power for on-device GenAI on Android. It offers a unified mobile deployment workflow, SOTA performance (up to 100x speedup over CPU), and full model delegation. This enables smooth, real-time AI experiences, with FastVLM-0.5B achieving over 11,000 tokens/sec prefill on Snapdragon 8 Elite Gen 5 NPU.]]&gt;</description>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/unlocking-peak-performance-on-qualcomm-npu-with-litert/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
