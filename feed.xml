@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Dec 2025 01:47:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 01:41:38 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-World Agent Examples with Gemini 3</title>
+      <link>https://developers.googleblog.com/en/real-world-agent-examples-with-gemini-3/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/social-meta.2e16d0ba.fill-800x400.png" alt="social-meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 is powering the next generation of reliable, production-ready AI agents. This post highlights 6 open-source framework collaborations (ADK, Agno, Browser Use, Eigent, Letta, mem0), demonstrating practical agentic workflows for tasks like deep search, multi-agent systems, browser and enterprise automation, and stateful agents with advanced memory. Clone the examples and start building today.]]&gt;</description>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/real-world-agent-examples-with-gemini-3/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/social-meta.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Conductor: Introducing context-driven development for Gemini CLI</title>
+      <link>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" alt="GCLI005-Conductor-Metadata-Image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for "brownfield" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.]]&gt;</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Gemini 3 Flash is now available in Gemini CLI</title>
       <link>https://developers.googleblog.com/en/gemini-3-flash-is-now-available-in-gemini-cli/</link>
@@ -22,14 +38,6 @@
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Conductor: Introducing context-driven development for Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" alt="GCLI005-Conductor-Metadata-Image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for "brownfield" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.]]&gt;</description>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Developer’s guide to multi-agent patterns in ADK</title>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/mediatek-npu-and-litert-powering-the-next-generation-of-on-device-ai/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Architecting efficient context-aware multi-agent framework for production</title>
-      <link>https://developers.googleblog.com/en/architecting-efficient-context-aware-multi-agent-framework-for-production/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;ADK introduces **Context Engineering** to scale AI agents beyond large context windows. It treats context as a compiled view over a tiered, stateful system (**Session, Memory, Artifacts**). This architecture uses explicit processors for transformation, enables efficient compaction and caching, and allows for strict, scoped context handoffs in multi-agent workflows to ensure reliability and cost-effectiveness in production.]]&gt;</description>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/architecting-efficient-context-aware-multi-agent-framework-for-production/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
