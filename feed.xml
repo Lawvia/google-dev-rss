@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jan 2026 02:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 01:50:30 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques</title>
+      <link>https://developers.googleblog.com/en/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta.2e16d0ba.fill-800x400.png" alt="meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps for compiler debugging, and the XProf suite for in-depth performance analysis.]]&gt;</description>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Real-World Agent Examples with Gemini 3</title>
       <link>https://developers.googleblog.com/en/real-world-agent-examples-with-gemini-3/</link>
@@ -16,20 +24,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/social-meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Conductor: Introducing context-driven development for Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" alt="GCLI005-Conductor-Metadata-Image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for "brownfield" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.]]&gt;</description>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Gemini 3 Flash is now available in Gemini CLI</title>
       <link>https://developers.googleblog.com/en/gemini-3-flash-is-now-available-in-gemini-cli/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/output_padded.2e16d0ba.fill-800x400.png" alt="output_padded" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly outperforms 2.5 Pro, improving auto-routing and agentic coding. It's ideal for high-frequency development tasks, handling complex code generation, large context windows (like processing 1,000 comment pull requests), and generating load-testing scripts quickly and reliably.]]&gt;</description>
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-3-flash-is-now-available-in-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/output_padded.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Conductor: Introducing context-driven development for Gemini CLI</title>
+      <link>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" alt="GCLI005-Conductor-Metadata-Image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for "brownfield" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.]]&gt;</description>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach</title>
@@ -78,14 +86,6 @@
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/dont-trust-verify-building-end-to-end-confidential-applications-on-google-cloud/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Security-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>MediaTek NPU and LiteRT: Powering the next generation of on-device AI</title>
-      <link>https://developers.googleblog.com/en/mediatek-npu-and-litert-powering-the-next-generation-of-on-device-ai/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT and MediaTek are announcing the new LiteRT NeuroPilot Accelerator. This is a ground-up successor for the TFLite NeuroPilot delegate, bringing seamless deployment experience, state-of-the-art LLM support, and advanced performance to millions of devices worldwide.]]&gt;</description>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/mediatek-npu-and-litert-powering-the-next-generation-of-on-device-ai/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
