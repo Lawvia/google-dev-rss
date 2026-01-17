@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jan 2026 01:52:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 01:46:17 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Guide to Fine-Tuning FunctionGemma</title>
+      <link>https://developers.googleblog.com/en/a-guide-to-fine-tuning-functiongemma/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-specialization, transforming it into a strict, enterprise-compliant agent. A case study demonstrates the improved logic. It also introduces the "FunctionGemma Tuning Lab," a no-code demo on Hugging Face Spaces, which streamlines the entire fine-tuning process for developers.]]&gt;</description>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/a-guide-to-fine-tuning-functiongemma/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Under the Hood: Universal Commerce Protocol (UCP)</title>
       <link>https://developers.googleblog.com/en/under-the-hood-universal-commerce-protocol-ucp/</link>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/building-agents-with-the-adk-and-the-new-interactions-api/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/mcp-apigee-agentic-experience.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Pick up exactly where you left off with Session Management in Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Session_Management_me.2e16d0ba.fill-800x400.png" alt="Gemini CLI - Session Management metadata" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini CLI's new automatic **Session Management** (v0.20.0+) saves your conversation history, tool outputs, and reasoning, providing project-specific context. Resume easily using the **Interactive Session Browser** (`/resume`) or command-line flags (`--resume`). This feature ensures you never lose your work state, capturing prompts, tool execution details, and usage stats. Customize history with cleanup policies in `settings.json`.]]&gt;</description>
-      <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_-_Session_Management_me.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
