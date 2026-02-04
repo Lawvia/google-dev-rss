@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Feb 2026 02:22:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 02:09:48 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Easy FunctionGemma finetuning with Tunix on Google TPUs</title>
+      <link>https://developers.googleblog.com/en/easy-functiongemma-finetuning-with-tunix-on-google-tpus/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Building-1-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Finetuning the FunctionGemma model is made fast and easy using the lightweight JAX-based Tunix library on Google TPUs, a process demonstrated here using LoRA for supervised finetuning. This approach delivers significant accuracy improvements with high TPU efficiency, culminating in a model ready for deployment.]]&gt;</description>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/easy-functiongemma-finetuning-with-tunix-on-google-tpus/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Beyond the Chatbot: A Blueprint for Trustable AI</title>
       <link>https://developers.googleblog.com/en/beyond-the-chatbot-a-blueprint-for-trustable-ai/</link>
@@ -16,20 +24,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>LiteRT: The Universal Framework for On-Device AI</title>
-      <link>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" alt="LiteERT_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.]]&gt;</description>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Tailor Gemini CLI to your workflow with hooks</title>
       <link>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI Hooks hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.]]&gt;</description>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>LiteRT: The Universal Framework for On-Device AI</title>
+      <link>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" alt="LiteERT_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.]]&gt;</description>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>A Guide to Fine-Tuning FunctionGemma</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing Agent Development Kit for TypeScript: Build AI Agents with the Power of a Code-First Approach</title>
-      <link>https://developers.googleblog.com/en/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" alt="Building-1-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Introducing the Agent Development Kit (ADK) for TypeScript, an open-source framework for building complex, multi-agent AI systems with a code-first approach. Developers can define agent logic in TypeScript, applying traditional software development best practices (version control, testing). ADK offers end-to-end type safety, modularity, and deployment-agnostic functionality, leveraging the familiar TypeScript/JavaScript ecosystem.]]&gt;</description>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-agent-development-kit-for-typescript-build-ai-agents-with-the-power-of-a-code-first-approach/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
