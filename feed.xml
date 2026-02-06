@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Feb 2026 02:10:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 02:10:59 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing the Developer Knowledge API and MCP Server</title>
+      <link>https://developers.googleblog.com/en/introducing-the-developer-knowledge-api-and-mcp-server/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yujtz0yujtz.2e16d0ba.fill-800x400.png" alt="Gemini_Generated_Image_yujtz0yujtz0yujt" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.]]&gt;</description>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-the-developer-knowledge-api-and-mcp-server/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yujtz0yujtz.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Easy FunctionGemma finetuning with Tunix on Google TPUs</title>
       <link>https://developers.googleblog.com/en/easy-functiongemma-finetuning-with-tunix-on-google-tpus/</link>
@@ -24,20 +32,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Tailor Gemini CLI to your workflow with hooks</title>
-      <link>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI Hooks hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.]]&gt;</description>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>LiteRT: The Universal Framework for On-Device AI</title>
       <link>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" alt="LiteERT_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.]]&gt;</description>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Tailor Gemini CLI to your workflow with hooks</title>
+      <link>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI Hooks hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.]]&gt;</description>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>A Guide to Fine-Tuning FunctionGemma</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-3-flash-is-now-available-in-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/output_padded.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Conductor: Introducing context-driven development for Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" alt="GCLI005-Conductor-Metadata-Image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor is a new Gemini CLI extension that promotes context-driven development. It shifts project context from chat logs to persistent Markdown files for formal specs and plans, ensuring AI agents adhere to project goals, style, and tech stack. This structured workflow is great for "brownfield" projects and teams, allowing for safe iteration and consistent code contributions while keeping the human developer in control.]]&gt;</description>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/conductor-introducing-context-driven-development-for-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Metadata-Image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
