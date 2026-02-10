@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Feb 2026 02:26:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 02:33:43 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Access public data insights faster: Data Commons MCP is now hosted on Google Cloud</title>
+      <link>https://developers.googleblog.com/en/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DevBlogPostFinal.2e16d0ba.fill-800x400.png" alt="DevBlogPostFinal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Data Commons has launched a free, hosted Model Context Protocol (MCP) service on Google Cloud Platform, eliminating the need for users to manage complex local server installations. This update simplifies connecting AI agents and the Gemini CLI to Data Commons, allowing Google to handle security, updates, and resource management while users query data natively.]]&gt;</description>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DevBlogPostFinal.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Introducing the Developer Knowledge API and MCP Server</title>
       <link>https://developers.googleblog.com/en/introducing-the-developer-knowledge-api-and-mcp-server/</link>
@@ -32,20 +40,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>LiteRT: The Universal Framework for On-Device AI</title>
-      <link>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" alt="LiteERT_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.]]&gt;</description>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Tailor Gemini CLI to your workflow with hooks</title>
       <link>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI Hooks hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.]]&gt;</description>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>LiteRT: The Universal Framework for On-Device AI</title>
+      <link>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" alt="LiteERT_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.]]&gt;</description>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>A Guide to Fine-Tuning FunctionGemma</title>
@@ -78,14 +86,6 @@
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/real-world-agent-examples-with-gemini-3/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/social-meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Gemini 3 Flash is now available in Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/gemini-3-flash-is-now-available-in-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/output_padded.2e16d0ba.fill-800x400.png" alt="output_padded" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 3 Flash is now available in Gemini CLI. It delivers Pro-grade coding performance with low latency and a lower cost, matching Gemini 3 Pro's SWE-bench Verified score of 76%. It significantly outperforms 2.5 Pro, improving auto-routing and agentic coding. It's ideal for high-frequency development tasks, handling complex code generation, large context windows (like processing 1,000 comment pull requests), and generating load-testing scripts quickly and reliably.]]&gt;</description>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemini-3-flash-is-now-available-in-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/output_padded.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
