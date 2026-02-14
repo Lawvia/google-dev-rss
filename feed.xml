@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Feb 2026 02:27:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 02:08:43 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conductor Update: Introducing Automated Reviews</title>
+      <link>https://developers.googleblog.com/en/conductor-update-introducing-automated-reviews/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Blog-Header_Bmva.2e16d0ba.fill-800x400.png" alt="GCLI005-Conductor-Blog-Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guides, and identifying security risks or bugs. by incorporating test-suite validation and providing actionable reports, Conductor helps developers ensure that their AI agents deliver safe, predictable, and architecturally sound code before it is finalized.]]&gt;</description>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/conductor-update-introducing-automated-reviews/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Blog-Header_Bmva.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Making Gemini CLI extensions easier to use</title>
       <link>https://developers.googleblog.com/en/making-gemini-cli-extensions-easier-to-use/</link>
@@ -78,14 +86,6 @@
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/under-the-hood-universal-commerce-protocol-ucp/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Meta_Banner_Image-3_1.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>A Developer's Guide to Debugging JAX on Cloud TPUs: Essential Tools and Techniques</title>
-      <link>https://developers.googleblog.com/en/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta.2e16d0ba.fill-800x400.png" alt="meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;A practical guide to debugging and profiling JAX on Cloud TPUs. It outlines core components (libtpu, JAX/jaxlib) and essential techniques. Tools covered include: Verbose Logging (via libtpu env vars), TPU Monitoring Library for performance metrics, tpu-info for real-time utilization, XLA HLO Dumps for compiler debugging, and the XProf suite for in-depth performance analysis.]]&gt;</description>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/a-developers-guide-to-debugging-jax-on-cloud-tpus-essential-tools-and-techniques/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
