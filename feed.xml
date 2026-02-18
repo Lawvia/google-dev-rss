@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 02:12:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 02:24:06 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get ready for Google I/O 2026</title>
+      <link>https://developers.googleblog.com/en/get-ready-for-google-io-2026/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1600x873_SVD_Blog_Hero_Metacard-Da.2e16d0ba.fill-800x400.png" alt="1600x873 SVD Blog Hero Metacard-Dark-Version-3" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google I/O returns May 19-20. Watch the livestreams for updates on Android, AI, Chrome, and Cloud. Registration is open on the Google I/O website.]]&gt;</description>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/get-ready-for-google-io-2026/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1600x873_SVD_Blog_Hero_Metacard-Da.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Conductor Update: Introducing Automated Reviews</title>
       <link>https://developers.googleblog.com/en/conductor-update-introducing-automated-reviews/</link>
@@ -78,14 +86,6 @@
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/a-guide-to-fine-tuning-functiongemma/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Under the Hood: Universal Commerce Protocol (UCP)</title>
-      <link>https://developers.googleblog.com/en/under-the-hood-universal-commerce-protocol-ucp/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Meta_Banner_Image-3_1.2e16d0ba.fill-800x400.png" alt="Meta Banner Image-3_1" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Universal Commerce Protocol (UCP) is a new, open-source standard for agentic commerce, co-developed by Google and industry leaders. It establishes a common, secure language to connect consumer surfaces (like Gemini and AI Mode in Search) with business backends, enabling seamless shopping from product discovery to purchase. UCP simplifies integration for businesses, supports various payment providers, and is designed to power the next generation of conversational commerce experiences.]]&gt;</description>
-      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/under-the-hood-universal-commerce-protocol-ucp/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Meta_Banner_Image-3_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
