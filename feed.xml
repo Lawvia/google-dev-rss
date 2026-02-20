@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Feb 2026 02:23:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 02:11:28 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turn creative prompts into interactive XR experiences with Gemini</title>
+      <link>https://developers.googleblog.com/en/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gasezsgasez.2e16d0ba.fill-800x400.png" alt="Gemini_Generated_Image_gasezsgasezsgase" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Android XR team is using Gemini's Canvas feature to make creating immersive extended reality (XR) experiences more accessible. This allows developers to rapidly prototype interactive 3D environments and models on a Samsung Galaxy XR headset using simple creative prompts.]]&gt;</description>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gasezsgasez.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Get ready for Google I/O 2026</title>
       <link>https://developers.googleblog.com/en/get-ready-for-google-io-2026/</link>
@@ -64,14 +72,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Tailor Gemini CLI to your workflow with hooks</title>
-      <link>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI Hooks hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.]]&gt;</description>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>LiteRT: The Universal Framework for On-Device AI</title>
       <link>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" alt="LiteERT_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.]]&gt;</description>
@@ -80,12 +80,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>A Guide to Fine-Tuning FunctionGemma</title>
-      <link>https://developers.googleblog.com/en/a-guide-to-fine-tuning-functiongemma/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;FunctionGemma is a specialized AI model for function calling. This post explains why fine-tuning is key to resolving tool selection ambiguity (e.g., internal vs. Google search) and achieving ultra-specialization, transforming it into a strict, enterprise-compliant agent. A case study demonstrates the improved logic. It also introduces the "FunctionGemma Tuning Lab," a no-code demo on Hugging Face Spaces, which streamlines the entire fine-tuning process for developers.]]&gt;</description>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/a-guide-to-fine-tuning-functiongemma/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Tailor Gemini CLI to your workflow with hooks</title>
+      <link>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI Hooks hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.]]&gt;</description>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
