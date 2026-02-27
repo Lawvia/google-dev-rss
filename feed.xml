@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Feb 2026 02:10:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 02:09:26 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On-Device Function Calling in Google AI Edge Gallery</title>
+      <link>https://developers.googleblog.com/en/on-device-function-calling-in-google-ai-edge-gallery/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner2.2e16d0ba.fill-800x400.png" alt="banner2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has introduced FunctionGemma, a specialized 270M parameter model designed to bring efficient, action-oriented AI experiences directly to mobile devices through on-device function calling. By leveraging Google AI Edge and LiteRT-LM, the model enables complex tasks—such as managing calendars, controlling device hardware, or executing specific game logic in the "Tiny Garden" demo—to be performed entirely offline with high speed and low latency. Available for testing in the Google AI Edge Gallery app on both Android and iOS, FunctionGemma allows developers to move beyond simple text generation toward building responsive, "agentic" applications that interact seamlessly with the physical and digital world without relying on cloud processing.]]&gt;</description>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/on-device-function-calling-in-google-ai-edge-gallery/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner2.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Turn creative prompts into interactive XR experiences with Gemini</title>
       <link>https://developers.googleblog.com/en/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/</link>
@@ -70,14 +78,6 @@
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/beyond-the-chatbot-a-blueprint-for-trustable-ai/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>LiteRT: The Universal Framework for On-Device AI</title>
-      <link>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" alt="LiteERT_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT, the evolution of TFLite, is now the universal framework for on-device AI. It delivers up to 1.4x faster GPU, new NPU support, and streamlined GenAI deployment for models like Gemma.]]&gt;</description>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/litert-the-universal-framework-for-on-device-ai/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/LiteERT_banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Tailor Gemini CLI to your workflow with hooks</title>
