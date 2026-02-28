@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 02:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 01:59:53 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supercharge your AI agents: The New ADK Integrations Ecosystem</title>
+      <link>https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_banner.2e16d0ba.fill-800x400.jpg" alt="blog_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Development Kit (ADK) now supports a robust ecosystem of third-party tools and integrations. Connect your agents to GitHub, Notion, Hugging Face, and more to build capable, real-world applications.]]&gt;</description>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>On-Device Function Calling in Google AI Edge Gallery</title>
       <link>https://developers.googleblog.com/en/on-device-function-calling-in-google-ai-edge-gallery/</link>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/beyond-the-chatbot-a-blueprint-for-trustable-ai/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Tailor Gemini CLI to your workflow with hooks</title>
-      <link>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI Hooks hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;New Gemini CLI hooks (v0.26.0+) let you tailor the agentic loop. Add context, enforce policies, and block secrets with custom scripts that run at predefined points in your workflow.]]&gt;</description>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/tailor-gemini-cli-to-your-workflow-with-hooks/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Hooks_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
