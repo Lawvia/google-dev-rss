@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Mar 2026 02:10:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 02:03:29 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What's new in TensorFlow 2.21</title>
+      <link>https://developers.googleblog.com/en/whats-new-in-tensorflow-221/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_1.2e16d0ba.fill-800x400.png" alt="image1 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has officially launched LiteRT, the successor to TFLite, which offers significantly faster GPU and NPU acceleration alongside seamless support for PyTorch and JAX. The update also introduces lower-precision data type support for increased efficiency and a commitment to more frequent security and dependency updates across the TensorFlow ecosystem. This transition solidifies LiteRT as Google's primary high-performance framework for deploying GenAI and advanced on-device inference.]]&gt;</description>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/whats-new-in-tensorflow-221/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_1.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>You can't stream the energy: A developer's guide to Google Cloud Next '26 in Vegas</title>
       <link>https://developers.googleblog.com/en/you-cant-stream-the-energy-a-developers-guide-to-google-cloud-next-26-in-vegas/</link>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DevBlogPostFinal.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing the Developer Knowledge API and MCP Server</title>
-      <link>https://developers.googleblog.com/en/introducing-the-developer-knowledge-api-and-mcp-server/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yujtz0yujtz.2e16d0ba.fill-800x400.png" alt="Gemini_Generated_Image_yujtz0yujtz0yujt" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.]]&gt;</description>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-the-developer-knowledge-api-and-mcp-server/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yujtz0yujtz.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
