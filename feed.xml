@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2026 02:22:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 02:07:06 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing Wednesday Build Hour</title>
+      <link>https://developers.googleblog.com/en/introducing-wednesday-build-hour/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Google_Cloud_EMEA_Developers_Wedne.2e16d0ba.fill-800x400.png" alt="Google Cloud EMEA Developers Wednesday Build Hour Cover Template - 800 x 320 (2)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Wednesday Build Hour is a weekly, interactive "technical gym session" led by Google Cloud experts to help developers and architects sharpen their cloud skills. Moving beyond passive slide decks, the program focuses on hands-on building, covering advanced topics like AI agents, Vertex AI, and developer productivity tools. Each hour-long session is designed to provide tangible results that participants can immediately deploy into their own workflows. It serves as a consistent, dedicated space for builders to stay ahead of the curve and connect with a community of cloud engineers.]]&gt;</description>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-wednesday-build-hour/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Google_Cloud_EMEA_Developers_Wedne.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>What's new in TensorFlow 2.21</title>
       <link>https://developers.googleblog.com/en/whats-new-in-tensorflow-221/</link>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/making-gemini-cli-extensions-easier-to-use/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Extension_settings_hero.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Access public data insights faster: Data Commons MCP is now hosted on Google Cloud</title>
-      <link>https://developers.googleblog.com/en/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DevBlogPostFinal.2e16d0ba.fill-800x400.png" alt="DevBlogPostFinal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Data Commons has launched a free, hosted Model Context Protocol (MCP) service on Google Cloud Platform, eliminating the need for users to manage complex local server installations. This update simplifies connecting AI agents and the Gemini CLI to Data Commons, allowing Google to handle security, updates, and resource management while users query data natively.]]&gt;</description>
-      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/access-public-data-insights-faster-data-commons-mcp-is-now-hosted-on-google-cloud/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/DevBlogPostFinal.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
