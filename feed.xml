@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Mar 2026 02:07:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 02:06:42 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unleash Your Development Superpowers: Refining the Core Coding Experience</title>
+      <link>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_y2nrxky2nrxky2nr" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Code Assist team has introduced a suite of updates focused on streamlining the core coding workflow through high-velocity tools like Agent Mode with Auto Approve and Inline Diff Views. These enhancements, along with new features for precise context management and custom commands, aim to transform the AI from a general assistant into a highly tailored, seamless collaborator that adapts to your specific development style.]]&gt;</description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code</title>
+      <link>https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has introduced Finish Changes and Outlines for Gemini Code Assist in IntelliJ and VS Code to reduce developer friction and eliminate the need for long, manual prompting. Finish Changes acts as an AI pair programmer that completes code, implements pseudocode, and applies refactoring patterns by observing your current edits and context. Meanwhile, Outlines improves code comprehension by generating interactive, high-level English summaries interleaved directly within the source code to help engineers navigate and understand complex files.]]&gt;</description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Introducing Wednesday Build Hour</title>
       <link>https://developers.googleblog.com/en/introducing-wednesday-build-hour/</link>
@@ -70,22 +86,6 @@
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/get-ready-for-google-io-2026/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1600x873_SVD_Blog_Hero_Metacard-Da.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Conductor Update: Introducing Automated Reviews</title>
-      <link>https://developers.googleblog.com/en/conductor-update-introducing-automated-reviews/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Blog-Header_Bmva.2e16d0ba.fill-800x400.png" alt="GCLI005-Conductor-Blog-Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor for the Gemini CLI has introduced a new Automated Review feature designed to verify the quality and accuracy of AI-generated code. This update addresses the challenge of validating agentic development by automatically checking implementations against original plans, enforcing style guides, and identifying security risks or bugs. by incorporating test-suite validation and providing actionable reports, Conductor helps developers ensure that their AI agents deliver safe, predictable, and architecturally sound code before it is finalized.]]&gt;</description>
-      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/conductor-update-introducing-automated-reviews/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GCLI005-Conductor-Blog-Header_Bmva.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Making Gemini CLI extensions easier to use</title>
-      <link>https://developers.googleblog.com/en/making-gemini-cli-extensions-easier-to-use/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Extension_settings_hero.2e16d0ba.fill-800x400.png" alt="Gemini CLI Extension settings hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To simplify the user experience and prevent startup failures, the Gemini CLI has introduced structured extension settings that eliminate the need for manual environment variable configuration. This update enables extensions to automatically prompt users for required details during installation and securely stores sensitive information, such as API keys, directly in the system keychain. Users can now easily manage and override these configurations globally or per project using the new Gemini extensions config command.]]&gt;</description>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/making-gemini-cli-extensions-easier-to-use/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_Extension_settings_hero.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
