@@ -5,15 +5,15 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2026 02:06:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 02:12:55 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Unleash Your Development Superpowers: Refining the Core Coding Experience</title>
-      <link>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_y2nrxky2nrxky2nr" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Code Assist team has introduced a suite of updates focused on streamlining the core coding workflow through high-velocity tools like Agent Mode with Auto Approve and Inline Diff Views. These enhancements, along with new features for precise context management and custom commands, aim to transform the AI from a general assistant into a highly tailored, seamless collaborator that adapts to your specific development style.]]&gt;</description>
-      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>Plan mode is now available in Gemini CLI</title>
+      <link>https://developers.googleblog.com/en/plan-mode-now-available-in-gemini-cli/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_plan_mode_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI plan mode hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini CLI now features Plan Mode, a read-only environment that allows the AI to analyze complex codebases and map out architectural changes without the risk of accidental execution. By leveraging the new ask_user tool and expanded Model Context Protocol (MCP) support, developers can collaboratively refine strategies and pull in external data before committing to implementation.]]&gt;</description>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/plan-mode-now-available-in-gemini-cli/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_plan_mode_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code</title>
@@ -22,6 +22,14 @@
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Unleash Your Development Superpowers: Refining the Core Coding Experience</title>
+      <link>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_y2nrxky2nrxky2nr" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Code Assist team has introduced a suite of updates focused on streamlining the core coding workflow through high-velocity tools like Agent Mode with Auto Approve and Inline Diff Views. These enhancements, along with new features for precise context management and custom commands, aim to transform the AI from a general assistant into a highly tailored, seamless collaborator that adapts to your specific development style.]]&gt;</description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Introducing Wednesday Build Hour</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/turn-creative-prompts-into-interactive-xr-experiences-with-gemini/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gasezsgasez.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Get ready for Google I/O 2026</title>
-      <link>https://developers.googleblog.com/en/get-ready-for-google-io-2026/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1600x873_SVD_Blog_Hero_Metacard-Da.2e16d0ba.fill-800x400.png" alt="1600x873 SVD Blog Hero Metacard-Dark-Version-3" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google I/O returns May 19-20. Watch the livestreams for updates on Android, AI, Chrome, and Cloud. Registration is open on the Google I/O website.]]&gt;</description>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/get-ready-for-google-io-2026/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1600x873_SVD_Blog_Hero_Metacard-Da.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
