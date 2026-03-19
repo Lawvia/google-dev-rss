@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 02:25:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 02:26:02 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developer’s Guide to AI Agent Protocols</title>
+      <link>https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agent_protocol_banner.2e16d0ba.fill-800x400.png" alt="agent_protocol_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This blog post introduces a suite of six protocols, such as MCP and A2A, designed to eliminate custom integration code by standardizing how AI agents access data and communicate. Using a "kitchen manager" agent as a practical example, it demonstrates how these tools handle complex tasks like real-time inventory checks, wholesale commerce via UCP, and secure payment authorization through AP2. By leveraging the Agent Development Kit (ADK), developers can also implement A2UI and AG-UI to deliver interactive dashboards and seamless streaming interfaces to users.]]&gt;</description>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/developers-guide-to-ai-agent-protocols/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agent_protocol_banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Announcing the Colab MCP Server: Connect Any AI Agent to Google Colab</title>
       <link>https://developers.googleblog.com/en/announcing-the-colab-mcp-server-connect-any-ai-agent-to-google-colab/</link>
@@ -24,20 +32,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_plan_mode_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Unleash Your Development Superpowers: Refining the Core Coding Experience</title>
-      <link>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_y2nrxky2nrxky2nr" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Code Assist team has introduced a suite of updates focused on streamlining the core coding workflow through high-velocity tools like Agent Mode with Auto Approve and Inline Diff Views. These enhancements, along with new features for precise context management and custom commands, aim to transform the AI from a general assistant into a highly tailored, seamless collaborator that adapts to your specific development style.]]&gt;</description>
-      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
       <title>Introducing Finish Changes and Outlines, now available in Gemini Code Assist extensions on IntelliJ and VS Code</title>
       <link>https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" alt="Train a GPT2 model with JAX on TPU for free" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has introduced Finish Changes and Outlines for Gemini Code Assist in IntelliJ and VS Code to reduce developer friction and eliminate the need for long, manual prompting. Finish Changes acts as an AI pair programmer that completes code, implements pseudocode, and applies refactoring patterns by observing your current edits and context. Meanwhile, Outlines improves code comprehension by generating interactive, high-level English summaries interleaved directly within the source code to help engineers navigate and understand complex files.]]&gt;</description>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-finish-changes-and-outlines-now-available-in-gemini-code-assist-extensions-on-intellij-and-vs-code/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/train-gpt2-model-with-jax-on-tpu-b.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Unleash Your Development Superpowers: Refining the Core Coding Experience</title>
+      <link>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_y2nrxky2nrxky2nr" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Code Assist team has introduced a suite of updates focused on streamlining the core coding workflow through high-velocity tools like Agent Mode with Auto Approve and Inline Diff Views. These enhancements, along with new features for precise context management and custom commands, aim to transform the AI from a general assistant into a highly tailored, seamless collaborator that adapts to your specific development style.]]&gt;</description>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/unleash-your-development-superpowers-refining-the-core-coding-experience/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_y2nrxky2nrx.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Introducing Wednesday Build Hour</title>
@@ -78,14 +86,6 @@
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/supercharge-your-ai-agents-adk-integrations-ecosystem/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>On-Device Function Calling in Google AI Edge Gallery</title>
-      <link>https://developers.googleblog.com/en/on-device-function-calling-in-google-ai-edge-gallery/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner2.2e16d0ba.fill-800x400.png" alt="banner2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has introduced FunctionGemma, a specialized 270M parameter model designed to bring efficient, action-oriented AI experiences directly to mobile devices through on-device function calling. By leveraging Google AI Edge and LiteRT-LM, the model enables complex tasks—such as managing calendars, controlling device hardware, or executing specific game logic in the "Tiny Garden" demo—to be performed entirely offline with high speed and low latency. Available for testing in the Google AI Edge Gallery app on both Android and iOS, FunctionGemma allows developers to move beyond simple text generation toward building responsive, "agentic" applications that interact seamlessly with the physical and digital world without relying on cloud processing.]]&gt;</description>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/on-device-function-calling-in-google-ai-edge-gallery/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
