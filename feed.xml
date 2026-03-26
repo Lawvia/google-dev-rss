@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Mar 2026 02:24:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 02:31:03 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Closing the knowledge gap with agent skills</title>
+      <link>https://developers.googleblog.com/en/closing-the-knowledge-gap-with-agent-skills/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_API_Skills_Banner_v2.2e16d0ba.fill-800x400.png" alt="Gemini API Skills Banner v2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To bridge the gap between static model knowledge and rapidly evolving software practices, Google DeepMind developed a "Gemini API developer skill" that provides agents with live documentation and SDK guidance. Evaluation results show a massive performance boost, with the gemini-3.1-pro-preview model jumping from a 28.2% to a 96.6% success rate when equipped with the skill. This lightweight approach demonstrates how giving models strong reasoning capabilities and access to a "source of truth" can effectively eliminate outdated coding patterns.]]&gt;</description>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/closing-the-knowledge-gap-with-agent-skills/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_API_Skills_Banner_v2.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Jump to play: Building with Gemini &amp; MediaPipe</title>
       <link>https://developers.googleblog.com/en/jump-to-play-building-with-gemini-mediapipe/</link>
@@ -78,14 +86,6 @@
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/whats-new-in-tensorflow-221/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_1.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>You can't stream the energy: A developer's guide to Google Cloud Next '26 in Vegas</title>
-      <link>https://developers.googleblog.com/en/you-cant-stream-the-energy-a-developers-guide-to-google-cloud-next-26-in-vegas/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/PXL_20250410_214904365.PANO.2e16d0ba.fill-800x400.jpg" alt="PXL_20250410_214904365.PANO" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;While keynotes are available online, Google Cloud Next '26 in Las Vegas offers an irreplaceable in-person experience centered on networking, hands-on problem solving, and the transition to agentic AI. The event features specialized technical tracks covering everything from Gemini multimodal breakthroughs to zero-trust security on Cloud Run, providing developers with the tools to balance individual speed with organizational stability. Beyond formal sessions, the "in-person advantage" lies in over 20 developer meetups and collaborative whiteboard sessions designed to foster serendipitous breakthroughs. Ultimately, the conference serves as a high-energy hub for engineers to move beyond the hype and master the modern building blocks of software architecture together.]]&gt;</description>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/you-cant-stream-the-energy-a-developers-guide-to-google-cloud-next-26-in-vegas/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/PXL_20250410_214904365.PANO.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
