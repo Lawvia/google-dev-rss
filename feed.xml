@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2026 02:38:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 02:32:42 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcing ADK for Java 1.0.0: Building the Future of AI Agents in Java</title>
+      <link>https://developers.googleblog.com/en/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-java-1-0-release-1600x476.2e16d0ba.fill-800x400.jpg" alt="adk-java-1-0-release-1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has released version 1.0.0 of the Agent Development Kit (ADK) for Java, introducing powerful new features like Google Maps grounding, built-in URL fetching, and a standardized Agent2Agent protocol for cross-framework collaboration. The update enhances agent control through a new "App" and "Plugin" architecture, which allows for global logging, automated context window management via event compaction, and "Human-in-the-Loop" workflows for action confirmations. Additionally, the release provides robust session and memory services using Google Cloud integrations like Firestore and Vertex AI to manage long-term state and large data artifacts.]]&gt;</description>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-adk-for-java-100-building-the-future-of-ai-agents-in-java/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-java-1-0-release-1600x476.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Closing the knowledge gap with agent skills</title>
       <link>https://developers.googleblog.com/en/closing-the-knowledge-gap-with-agent-skills/</link>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-wednesday-build-hour/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Google_Cloud_EMEA_Developers_Wedne.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>What's new in TensorFlow 2.21</title>
-      <link>https://developers.googleblog.com/en/whats-new-in-tensorflow-221/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_1.2e16d0ba.fill-800x400.png" alt="image1 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has officially launched LiteRT, the successor to TFLite, which offers significantly faster GPU and NPU acceleration alongside seamless support for PyTorch and JAX. The update also introduces lower-precision data type support for increased efficiency and a commitment to more frequent security and dependency updates across the TensorFlow ecosystem. This transition solidifies LiteRT as Google's primary high-performance framework for deploying GenAI and advanced on-device inference.]]&gt;</description>
-      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/whats-new-in-tensorflow-221/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image1_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
