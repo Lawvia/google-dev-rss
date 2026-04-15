@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 02:41:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 02:39:07 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off</title>
+      <link>https://developers.googleblog.com/en/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_7z3w7s7z3w7.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_7z3w7s7z3w7s7z3w" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Cloud AI Agent Bake-Off highlights a shift from simple prompt engineering to rigorous agentic engineering, emphasizing that production-ready AI requires a modular, multi-agent architecture. The post outlines five key developer tips, including decomposing complex tasks into specialized sub-agents and using deterministic code for execution to prevent probabilistic errors. Furthermore, it advises developers to prioritize multimodality and open-source protocols like MCP to ensure agents are scalable, integrated, and future-proof against rapidly evolving model capabilities.]]&gt;</description>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_7z3w7s7z3w7.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Get ready for Google I/O: Livestream schedule revealed</title>
+      <link>https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-banner-Dark-4209x1253-A.2e16d0ba.fill-800x400.png" alt="Blog-banner-Dark-4209x1253-A" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google I/O returns May 19–20 to showcase major updates in AI, Android, Chrome, and Cloud, beginning with a keynote on the "agentic era" of development. The event will focus on new tools designed to automate complex workflows and simplify the creation of high-quality, AI-ready applications. Attendees can register to access live sessions, technical demos, and professional development resources both live and on-demand.]]&gt;</description>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-banner-Dark-4209x1253-A.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>TorchTPU: Running PyTorch Natively on TPUs at Google Scale</title>
       <link>https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/</link>
@@ -70,22 +86,6 @@
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/closing-the-knowledge-gap-with-agent-skills/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_API_Skills_Banner_v2.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Jump to play: Building with Gemini &amp; MediaPipe</title>
-      <link>https://developers.googleblog.com/en/jump-to-play-building-with-gemini-mediapipe/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/jump_to_play_banner.2e16d0ba.fill-800x400.png" alt="jump_to_play_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The provided workflow streamlines motion-controlled game development by using Gemini Canvas to rapidly prototype mechanics like the MediaPipe Pose Landmarker through high-level prompting. Developers can refine these prototypes in Google AI Studio by optimizing for low-latency "lite" models and stable tracking points, such as shoulder landmarks, to ensure responsive gameplay. The process concludes by using Gemini Code Assist to refactor experimental code into a modular, production-ready application capable of supporting various multimodal inputs.]]&gt;</description>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/jump-to-play-building-with-gemini-mediapipe/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/jump_to_play_banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Build a smart financial assistant with LlamaParse and Gemini 3.1</title>
-      <link>https://developers.googleblog.com/en/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/llamaindex_gemini-api_1.2e16d0ba.fill-800x400.png" alt="llamaindex_gemini-api (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This blog post introduces a workflow for extracting high-quality data from complex, unstructured documents by combining LlamaParse with Gemini 3.1 models. It demonstrates an event-driven architecture that uses Gemini 3.1 Pro for agentic parsing of dense financial tables and Gemini 3.1 Flash for cost-effective summarization. By following the provided tutorial, developers can build a personal finance assistant capable of transforming messy brokerage statements into structured, human-readable insights.]]&gt;</description>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/build-a-smart-financial-assistant-with-llamaparse-and-gemini-31/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/llamaindex_gemini-api_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
