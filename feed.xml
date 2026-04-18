@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Apr 2026 02:42:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 02:33:08 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI</title>
+      <link>https://developers.googleblog.com/en/a2ui-v0-9-generative-ui/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Hero.2e16d0ba.fill-800x400.jpg" alt="Hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;A2UI v0.9 introduces a framework-agnostic standard designed to help AI agents generate real-time, tailored UI widgets using a company’s existing design system. This update simplifies the developer experience with a new Agent SDK for Python, a shared web-core library, and official support for renderers like React, Flutter, and Angular. By decoupling UI intent from specific platforms, the release enables seamless, low-latency streaming of generative interfaces across web and mobile applications. Integrating with broader ecosystems like AG2 and Vercel, A2UI v0.9 aims to move generative UI from experimental demos to production-ready digital products.]]&gt;</description>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/a2ui-v0-9-generative-ui/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Hero.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs</title>
       <link>https://developers.googleblog.com/en/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/</link>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/developers-guide-to-building-adk-agents-with-skills/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/part1-cover.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>ADK Go 1.0 Arrives!</title>
-      <link>https://developers.googleblog.com/en/adk-go-10-arrives/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ADK_Go_Blog_Banner-Gemini_Generate.2e16d0ba.fill-800x400.png" alt="ADK_Go_Blog_Banner-Gemini_Generated_2750x1536" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The launch of Agent Development Kit (ADK) for Go 1.0 marks a significant shift from experimental AI scripts to production-ready services by prioritizing observability, security, and extensibility. Key updates include native OpenTelemetry integration for deep tracing, a new plugin system for self-healing logic, and "Human-in-the-Loop" confirmations to ensure safety during sensitive operations. Additionally, the release introduces YAML-based configurations for rapid iteration and refined Agent2Agent (A2A) protocols to support seamless communication across different programming languages. This framework empowers developers to build complex, reliable multi-agent systems using the high-performance engineering standards of Golang.]]&gt;</description>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/adk-go-10-arrives/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ADK_Go_Blog_Banner-Gemini_Generate.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
