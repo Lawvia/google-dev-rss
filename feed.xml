@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Apr 2026 02:45:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 02:46:04 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building real-world on-device AI with LiteRT and NPU</title>
+      <link>https://developers.googleblog.com/en/building-real-world-on-device-ai-with-litert-and-npu/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_ignk8signk8.2e16d0ba.fill-800x400.png" alt="Gemini_Generated_Image_ignk8signk8signk (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT is a production-ready framework designed to help mobile developers unlock the power of Neural Processing Units (NPUs), overcoming the performance and battery limitations of traditional CPU or GPU processing. By providing a unified API that abstracts away hardware complexities, it allows industry leaders like Google Meet and Epic Games to deploy sophisticated AI models for real-time video, animation, and speech recognition with significantly higher efficiency. The platform further supports developers through benchmarking tools and cross-platform compatibility, enabling seamless AI deployment across mobile devices, AI PCs, and industrial IoT hardware.]]&gt;</description>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/building-real-world-on-device-ai-with-litert-and-npu/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_ignk8signk8.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Agents CLI in Agent Platform: create to production in one CLI</title>
       <link>https://developers.googleblog.com/en/agents-cli-in-agent-platform-create-to-production-in-one-cli/</link>
@@ -78,14 +86,6 @@
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-A.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Supporting Google Account username change in your app</title>
-      <link>https://developers.googleblog.com/en/supporting-google-account-username-change-in-your-app/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Username_Change_DevBlog_Header.2e16d0ba.fill-800x400.png" alt="Username Change DevBlog Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has updated its account settings to allow U.S. users to change their @gmail.com usernames while keeping all existing account data and inboxes intact. For developers, this means that while old email addresses will remain active as aliases, apps that rely solely on email addresses for identification may face issues with account duplication or lost access. To ensure a seamless user experience, Google recommends migrating to the "subject ID" as the primary user identifier and allowing users to manually update their contact information within app settings.]]&gt;</description>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/supporting-google-account-username-change-in-your-app/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Username_Change_DevBlog_Header.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
