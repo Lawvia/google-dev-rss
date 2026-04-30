@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 03:21:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 03:22:36 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speeding Up AI: Bringing Google Colossus to PyTorch via GCSFS and Rapid Bucket</title>
+      <link>https://developers.googleblog.com/en/speeding-up-ai-bringing-google-colossus-to-pytorch-via-gcsfs-and-rapid-bucket/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2_1.2e16d0ba.fill-800x400.png" alt="image (2) (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud has introduced a high-performance integration that connects Rapid Storage directly to PyTorch via the fsspec interface to eliminate AI training bottlenecks. By utilizing Google’s Colossus architecture and bidirectional gRPC streaming, the solution offers up to 15 TiB/s aggregate throughput and significant reductions in latency. These improvements allow developers to speed up total training time by 23% with zero code changes required beyond updating the storage bucket type.]]&gt;</description>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/speeding-up-ai-bringing-google-colossus-to-pytorch-via-gcsfs-and-rapid-bucket/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2_1.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Building real-world on-device AI with LiteRT and NPU</title>
       <link>https://developers.googleblog.com/en/building-real-world-on-device-ai-with-litert-and-npu/</link>
@@ -48,14 +56,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Subagents have arrived in Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI subagents hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini CLI has introduced subagents, specialized expert agents that handle complex or high-volume tasks in isolated context windows to keep the primary session fast and focused. These agents can be customized via Markdown files, run in parallel to boost productivity, and are easily invoked using the @agent syntax for targeted delegation. This architecture prevents "context rot" by consolidating intricate multi-step executions into concise summaries for the main orchestrator.]]&gt;</description>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>New enhancements for merchant initiated transactions with the Google Pay API</title>
       <link>https://developers.googleblog.com/en/new-enhancements-for-merchant-initiated-transactions-with-the-google-pay-api/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2.2e16d0ba.fill-800x400.png" alt="image (2)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has introduced enhancements to the Google Pay API to provide developers with greater flexibility and control over merchant-initiated transactions (MIT). The update includes new objects within the PaymentDataRequest to specifically handle recurring subscriptions, deferred payments like hotel bookings, and automatic account reloads. By allowing merchants to clearly define future payment terms, these changes improve transparency for users and help reduce transaction declines through better token management. Developers can now implement these features to create more seamless and secure long-term payment experiences.]]&gt;</description>
@@ -64,12 +64,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Get ready for Google I/O: Livestream schedule revealed</title>
-      <link>https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-banner-Dark-4209x1253-A.2e16d0ba.fill-800x400.png" alt="Blog-banner-Dark-4209x1253-A" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google I/O returns May 19–20 to showcase major updates in AI, Android, Chrome, and Cloud, beginning with a keynote on the "agentic era" of development. The event will focus on new tools designed to automate complex workflows and simplify the creation of high-quality, AI-ready applications. Attendees can register to access live sessions, technical demos, and professional development resources both live and on-demand.]]&gt;</description>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-banner-Dark-4209x1253-A.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Subagents have arrived in Gemini CLI</title>
+      <link>https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI subagents hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini CLI has introduced subagents, specialized expert agents that handle complex or high-volume tasks in isolated context windows to keep the primary session fast and focused. These agents can be customized via Markdown files, run in parallel to boost productivity, and are easily invoked using the @agent syntax for targeted delegation. This architecture prevents "context rot" by consolidating intricate multi-step executions into concise summaries for the main orchestrator.]]&gt;</description>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off</title>
@@ -80,12 +80,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_7z3w7s7z3w7.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>TorchTPU: Running PyTorch Natively on TPUs at Google Scale</title>
-      <link>https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-A.2e16d0ba.fill-800x400.png" alt="Blog-A" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;TorchTPU is a new engineering stack designed to provide a native, high-performance experience for running PyTorch workloads on Google’s TPU infrastructure with minimal code changes. It features an "Eager First" approach with multiple execution modes and utilizes the XLA compiler to optimize distributed training across massive clusters. Moving into 2026, the project aims to further reduce compilation overhead and expand support for dynamic shapes and custom kernels to ensure seamless scalability for the next generation of AI.]]&gt;</description>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-A.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Get ready for Google I/O: Livestream schedule revealed</title>
+      <link>https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-banner-Dark-4209x1253-A.2e16d0ba.fill-800x400.png" alt="Blog-banner-Dark-4209x1253-A" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google I/O returns May 19–20 to showcase major updates in AI, Android, Chrome, and Cloud, beginning with a keynote on the "agentic era" of development. The event will focus on new tools designed to automate complex workflows and simplify the creation of high-quality, AI-ready applications. Attendees can register to access live sessions, technical demos, and professional development resources both live and on-demand.]]&gt;</description>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/get-ready-for-google-io-livestream-schedule-revealed/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog-banner-Dark-4209x1253-A.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
