@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2026 03:22:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 02:50:45 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supercharging LLM inference on Google TPUs: Achieving 3X speedups with diffusion-style speculative decoding</title>
+      <link>https://developers.googleblog.com/en/supercharging-llm-inference-on-google-tpus-achieving-3x-speedups-with-diffusion-style-speculative-decoding/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5uj3px5uj3p.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_5uj3px5uj3px5uj3" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Researchers at UCSD have successfully implemented DFlash, a block-diffusion speculative decoding method, on Google TPUs to bypass the sequential bottlenecks of traditional autoregressive drafting. By "painting" entire blocks of candidate tokens in a single forward pass rather than predicting them one-by-one, the system achieved average speedups of 3.13x, with peak performance nearly doubling that of existing methods like EAGLE-3. This open-source integration into the vLLM ecosystem optimizes TPU hardware by leveraging "free" parallel verification and high-quality draft predictions for complex reasoning tasks.]]&gt;</description>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/supercharging-llm-inference-on-google-tpus-achieving-3x-speedups-with-diffusion-style-speculative-decoding/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5uj3px5uj3p.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Building with Gemini Embedding 2: Agentic multimodal RAG and beyond</title>
       <link>https://developers.googleblog.com/en/building-with-gemini-embedding-2/</link>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Build Better AI Agents: 5 Developer Tips from the Agent Bake-Off</title>
-      <link>https://developers.googleblog.com/en/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_7z3w7s7z3w7.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_7z3w7s7z3w7s7z3w" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Cloud AI Agent Bake-Off highlights a shift from simple prompt engineering to rigorous agentic engineering, emphasizing that production-ready AI requires a modular, multi-agent architecture. The post outlines five key developer tips, including decomposing complex tasks into specialized sub-agents and using deterministic code for execution to prevent probabilistic errors. Furthermore, it advises developers to prioritize multimodality and open-source protocols like MCP to ensure agents are scalable, integrated, and future-proof against rapidly evolving model capabilities.]]&gt;</description>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/build-better-ai-agents-5-developer-tips-from-the-agent-bake-off/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_7z3w7s7z3w7.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
