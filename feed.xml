@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2026 03:26:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 03:33:51 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Long-running AI agents that pause, resume, and never lose context with ADK</title>
+      <link>https://developers.googleblog.com/en/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Long-running-agent-banner.2e16d0ba.fill-800x400.jpg" alt="Long-running-agent-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How to transition from stateless chatbots to production-grade agents capable of managing long-running enterprise workflows, such as HR onboarding, that span days or weeks. It introduces the Agent Development Kit (ADK) and its architectural shifts, specifically using durable state machines and persistent session storage to ensure an agent never loses context during "idle time" or server restarts. By leveraging event-driven webhooks and multi-agent delegation, the tutorial demonstrates how to build resilient systems that "sleep" during pauses and wake up to resume complex tasks with high reasoning accuracy.]]&gt;</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Long-running-agent-banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Supercharging LLM inference on Google TPUs: Achieving 3X speedups with diffusion-style speculative decoding</title>
       <link>https://developers.googleblog.com/en/supercharging-llm-inference-on-google-tpus-achieving-3x-speedups-with-diffusion-style-speculative-decoding/</link>
@@ -70,14 +78,6 @@
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>New enhancements for merchant initiated transactions with the Google Pay API</title>
-      <link>https://developers.googleblog.com/en/new-enhancements-for-merchant-initiated-transactions-with-the-google-pay-api/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2.2e16d0ba.fill-800x400.png" alt="image (2)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has introduced enhancements to the Google Pay API to provide developers with greater flexibility and control over merchant-initiated transactions (MIT). The update includes new objects within the PaymentDataRequest to specifically handle recurring subscriptions, deferred payments like hotel bookings, and automatic account reloads. By allowing merchants to clearly define future payment terms, these changes improve transparency for users and help reduce transaction declines through better token management. Developers can now implement these features to create more seamless and secure long-term payment experiences.]]&gt;</description>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/new-enhancements-for-merchant-initiated-transactions-with-the-google-pay-api/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Subagents have arrived in Gemini CLI</title>
