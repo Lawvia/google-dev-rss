@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 03:33:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 03:33:21 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build Long-running AI agents that pause, resume, and never lose context with ADK</title>
