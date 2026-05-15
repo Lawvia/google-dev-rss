@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 May 2026 03:33:21 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 03:36:43 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accelerating on-device AI: A look at Arm and Google AI Edge optimization</title>
+      <link>https://developers.googleblog.com/en/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ARM_Audio.2e16d0ba.fill-800x400.png" alt="ARM Audio" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Integration of Arm Scalable Matrix Extension 2 (SME2) and the Google AI Edge software stack enables high-performance, on-device generative AI by turning the CPU into a powerful matrix-compute accelerator. Using Stability AI’s "stable-audio-open-small" model as a case study, it outlines a streamlined "Convert, Optimize, and Deploy" pipeline that utilizes LiteRT, XNNPACK, and KleidiAI to automate hardware acceleration. The resulting implementation achieves over a 2x speedup in audio generation and a 4x reduction in memory usage while maintaining high audio quality on Arm-powered mobile devices and laptops.]]&gt;</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ARM_Audio.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Announcing Genkit Middleware: Intercept, extend, and harden your agentic apps</title>
+      <link>https://developers.googleblog.com/en/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/8tcoTizqNz4MNzc.2e16d0ba.fill-800x400.png" alt="8tcoTizqNz4MNzc" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Genkit is an open-source framework designed to help developers build production-ready, agentic AI applications using TypeScript, Go, Dart, and Python. The framework utilizes a powerful middleware system that intercepts generation calls to inject custom behaviors like retries, model fallbacks, and human-in-the-loop tool approvals. By attaching hooks at the generate, model, and tool layers, developers can ensure high reliability and deterministic control over model outputs. Furthermore, Genkit allows for the creation and stacking of custom middleware, all of which can be inspected and debugged through a dedicated Developer UI.]]&gt;</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/8tcoTizqNz4MNzc.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Build Long-running AI agents that pause, resume, and never lose context with ADK</title>
       <link>https://developers.googleblog.com/en/build-long-running-ai-agents-that-pause-resume-and-never-lose-context-with-adk/</link>
@@ -70,22 +86,6 @@
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/a2ui-v0-9-generative-ui/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Hero.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>MaxText Expands Post-Training Capabilities: Introducing SFT and RL on Single-Host TPUs</title>
-      <link>https://developers.googleblog.com/en/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" alt="Building-1-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;MaxText has introduced new support for Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) on single-host TPU configurations, leveraging JAX and the Tunix library for high-performance model refinement. These features enable developers to easily adapt pre-trained models for specialized tasks and complex reasoning using efficient algorithms like GRPO and GSPO. This update streamlines the post-training workflow, offering a scalable path from single-host setups to larger multi-host configurations.]]&gt;</description>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/maxtext-expands-post-training-capabilities-introducing-sft-and-rl-on-single-host-tpus/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Subagents have arrived in Gemini CLI</title>
-      <link>https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.2e16d0ba.fill-800x400.png" alt="Gemini CLI subagents hero image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini CLI has introduced subagents, specialized expert agents that handle complex or high-volume tasks in isolated context windows to keep the primary session fast and focused. These agents can be customized via Markdown files, run in parallel to boost productivity, and are easily invoked using the @agent syntax for targeted delegation. This architecture prevents "context rot" by consolidating intricate multi-step executions into concise summaries for the main orchestrator.]]&gt;</description>
-      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/subagents-have-arrived-in-gemini-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_CLI_subagents_hero_image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
