@@ -5,15 +5,15 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 03:40:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 03:57:12 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcing ADK for Kotlin and ADK for Android 0.1.0: Building AI Agents on Android and Beyond</title>
-      <link>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;ADK for Kotlin brings agentic workflows to your backend projects, while ADK for Android provides spe...]]&gt;</description>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Enhancing Android Checkout with Dynamic Callbacks in Google Pay</title>
+      <link>https://developers.googleblog.com/en/enhancing-android-checkout-with-dynamic-callbacks-in-google-pay/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/64hUBg8v5KEHEW6_2.2e16d0ba.fill-800x400.png" alt="64hUBg8v5KEHEW6 (2)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We are excited to bring Express checkout with Google Pay for Android native apps enabling developers...]]&gt;</description>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/enhancing-android-checkout-with-dynamic-callbacks-in-google-pay/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/64hUBg8v5KEHEW6_2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Empowering Service Providers and Hardware Partners with Gemini for Home</title>
@@ -24,12 +24,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Blazing fast on-device GenAI with LiteRT-LM</title>
-      <link>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" alt="may2026_liteRT-LM_v2_2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge’s LiteRT-LM provides a production-proven, highly optimized infrastructure for running Gemma 4 across cross-platform mobile and edge environments. It actively unlocks the model's native multimodal and agentic features on-device by utilizing memory-efficient dynamic loading, Multi-Token Prediction for up to a 2.2x speedup, and advanced orchestration tools like Thinking Mode and Constrained Decoding. Furthermore, the engine is rapidly expanding its integration surfaces beyond Android, introducing new native Swift APIs for Apple ecosystems and WebGPU-accelerated JavaScript APIs for high-performance, serverless browser inference.]]&gt;</description>
+      <title>Announcing ADK for Kotlin and ADK for Android 0.1.0: Building AI Agents on Android and Beyond</title>
+      <link>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;ADK for Kotlin brings agentic workflows to your backend projects, while ADK for Android provides spe...]]&gt;</description>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>One Year of Innovation: Celebrating 100k Members in the Google Cloud x NVIDIA Developer Community</title>
+      <link>https://developers.googleblog.com/en/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/0049-GDP-NVIDIA_x_Google_Cloud_Dev.2e16d0ba.fill-800x400.png" alt="0049-GDP-NVIDIA x Google Cloud Developer Community Blog _ Design [GDP-13]-May15_revised-01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Cloud and NVIDIA developer community is celebrating its first anniversary with 100,000 members and a renewed focus on providing builders with advanced AI infrastructure and resources. To accelerate development, the community offers curated learning pathways for mastering LLM optimization, GPU-accelerated data analytics, and monthly expert-led webinars. Moving into its second year, the initiative will expand to include hands-on labs, engineering events, and specialized content focused on the growth of agentic AI.]]&gt;</description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/0049-GDP-NVIDIA_x_Google_Cloud_Dev.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>A Smarter Google AI Edge Gallery: MCP integration, notifications, and session continuity</title>
@@ -48,14 +56,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400_Q9r0CZs.png" type="image/png" />
     </item>
     <item>
-      <title>One Year of Innovation: Celebrating 100k Members in the Google Cloud x NVIDIA Developer Community</title>
-      <link>https://developers.googleblog.com/en/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/0049-GDP-NVIDIA_x_Google_Cloud_Dev.2e16d0ba.fill-800x400.png" alt="0049-GDP-NVIDIA x Google Cloud Developer Community Blog _ Design [GDP-13]-May15_revised-01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Cloud and NVIDIA developer community is celebrating its first anniversary with 100,000 members and a renewed focus on providing builders with advanced AI infrastructure and resources. To accelerate development, the community offers curated learning pathways for mastering LLM optimization, GPU-accelerated data analytics, and monthly expert-led webinars. Moving into its second year, the initiative will expand to include hands-on labs, engineering events, and specialized content focused on the growth of agentic AI.]]&gt;</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/0049-GDP-NVIDIA_x_Google_Cloud_Dev.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>All the news from the Google I/O 2026 Developer keynote</title>
       <link>https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_5.2e16d0ba.fill-800x400.png" alt="image (5)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google announced the transition from assistive AI to independent agents, highlighting the launch of the Gemini 3.5 series and major updates to its Antigravity agent-first development platform. For mobile developers, the post introduces new Android CLI tools, the Android Bench evaluation leaderboard, and an automated Migration agent designed to rapidly convert various frameworks into native Kotlin code. Web development is also being transformed through Chrome DevTools for agents, the HTML-in-Canvas API, and the proposal of WebMCP, an open web standard that enables browser-based AI agents to execute complex tasks.]]&gt;</description>
@@ -72,20 +72,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x600_.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
+      <title>Blazing fast on-device GenAI with LiteRT-LM</title>
+      <link>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" alt="may2026_liteRT-LM_v2_2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge’s LiteRT-LM provides a production-proven, highly optimized infrastructure for running Gemma 4 across cross-platform mobile and edge environments. It actively unlocks the model's native multimodal and agentic features on-device by utilizing memory-efficient dynamic loading, Multi-Token Prediction for up to a 2.2x speedup, and advanced orchestration tools like Thinking Mode and Constrained Decoding. Furthermore, the engine is rapidly expanding its integration surfaces beyond Android, introducing new native Swift APIs for Apple ecosystems and WebGPU-accelerated JavaScript APIs for high-performance, serverless browser inference.]]&gt;</description>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
       <title>Accelerating on-device AI: A look at Arm and Google AI Edge optimization</title>
       <link>https://developers.googleblog.com/en/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ARM_Audio.2e16d0ba.fill-800x400.png" alt="ARM Audio" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Integration of Arm Scalable Matrix Extension 2 (SME2) and the Google AI Edge software stack enables high-performance, on-device generative AI by turning the CPU into a powerful matrix-compute accelerator. Using Stability AI’s "stable-audio-open-small" model as a case study, it outlines a streamlined "Convert, Optimize, and Deploy" pipeline that utilizes LiteRT, XNNPACK, and KleidiAI to automate hardware acceleration. The resulting implementation achieves over a 2x speedup in audio generation and a 4x reduction in memory usage while maintaining high audio quality on Arm-powered mobile devices and laptops.]]&gt;</description>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/accelerating-on-device-ai-a-look-at-arm-and-google-ai-edge-optimization/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ARM_Audio.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Announcing Genkit Middleware: Intercept, extend, and harden your agentic apps</title>
-      <link>https://developers.googleblog.com/en/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/8tcoTizqNz4MNzc.2e16d0ba.fill-800x400.png" alt="8tcoTizqNz4MNzc" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Genkit is an open-source framework designed to help developers build production-ready, agentic AI applications using TypeScript, Go, Dart, and Python. The framework utilizes a powerful middleware system that intercepts generation calls to inject custom behaviors like retries, model fallbacks, and human-in-the-loop tool approvals. By attaching hooks at the generate, model, and tool layers, developers can ensure high reliability and deterministic control over model outputs. Furthermore, Genkit allows for the creation and stacking of custom middleware, all of which can be inspected and debugged through a dedicated Developer UI.]]&gt;</description>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/8tcoTizqNz4MNzc.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
