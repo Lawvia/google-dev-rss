@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 May 2026 03:44:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 03:44:55 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supercharge your integration workflow with the Google Pay &amp; Wallet Developer MCP server</title>
+      <link>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" alt="pay-wallet-mcp-server-hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has announced the new Google Pay &amp; Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions, check integration status, and manage merchant accounts. Ultimately, this integration aims to reduce friction and accelerate development workflows by minimizing context switching and providing up-to-date, grounded AI support.]]&gt;</description>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>How the community trained Gemma to "Think" with Tunix and TPUs</title>
+      <link>https://developers.googleblog.com/en/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" alt="Building-1-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Tunix Hackathon on Kaggle challenged developers to transform small, non-reasoning base models into general reasoning engines using Kaggle TPUs and a limited compute budget. The winning teams achieved this by implementing multi-stage post-training pipelines that combined Supervised Fine-Tuning (SFT) with advanced alignment techniques like GRPO and SimPO. Ultimately, the competition democratized AI development by proving that highly capable, structured reasoning models can be successfully trained by the community using accessible, open-source resources.]]&gt;</description>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>The latest updates to Google Pay</title>
       <link>https://developers.googleblog.com/en/the-latest-updates-to-google-pay/</link>
@@ -24,14 +40,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/64hUBg8v5KEHEW6_2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Empowering Service Providers and Hardware Partners with Gemini for Home</title>
-      <link>https://developers.googleblog.com/en/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" alt="io26-blog-01-intro-hero@4x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.]]&gt;</description>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
       <title>Announcing ADK for Kotlin and ADK for Android 0.1.0: Building AI Agents on Android and Beyond</title>
       <link>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;ADK for Kotlin brings agentic workflows to your backend projects, while ADK for Android provides spe...]]&gt;</description>
@@ -40,36 +48,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Blazing fast on-device GenAI with LiteRT-LM</title>
-      <link>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" alt="may2026_liteRT-LM_v2_2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge’s LiteRT-LM provides a production-proven, highly optimized infrastructure for running Gemma 4 across cross-platform mobile and edge environments. It actively unlocks the model's native multimodal and agentic features on-device by utilizing memory-efficient dynamic loading, Multi-Token Prediction for up to a 2.2x speedup, and advanced orchestration tools like Thinking Mode and Constrained Decoding. Furthermore, the engine is rapidly expanding its integration surfaces beyond Android, introducing new native Swift APIs for Apple ecosystems and WebGPU-accelerated JavaScript APIs for high-performance, serverless browser inference.]]&gt;</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Empowering Service Providers and Hardware Partners with Gemini for Home</title>
+      <link>https://developers.googleblog.com/en/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" alt="io26-blog-01-intro-hero@4x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.]]&gt;</description>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>A Smarter Google AI Edge Gallery: MCP integration, notifications, and session continuity</title>
-      <link>https://developers.googleblog.com/en/a-smarter-google-ai-edge-gallery-mcp-integration-notifications-and-session-continuity/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_gallery_2x.2e16d0ba.fill-800x400.png" alt="may2026_gallery_2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google AI Edge Gallery app has expanded its on-device AI capabilities by introducing experimental support for the open-source Model Context Protocol (MCP) on Android, allowing Gemma 4 to coordinate complex tasks across external data sources like Google Workspace and Google Maps. To enable more proactive and persistent user interactions, the update adds a "Schedule Notification" skill for automating routines and a persistent chat history feature that restores long session contexts nearly instantly. Driven by an open-source toolkit, the platform encourages community developers to build and share custom utility-focused workflows, prompt configurations, and tool integrations via its GitHub repository.]]&gt;</description>
+      <title>All the news from the Google I/O 2026 Developer keynote</title>
+      <link>https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_5.2e16d0ba.fill-800x400.png" alt="image (5)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google announced the transition from assistive AI to independent agents, highlighting the launch of the Gemini 3.5 series and major updates to its Antigravity agent-first development platform. For mobile developers, the post introduces new Android CLI tools, the Android Bench evaluation leaderboard, and an automated Migration agent designed to rapidly convert various frameworks into native Kotlin code. Web development is also being transformed through Chrome DevTools for agents, the HTML-in-Canvas API, and the proposal of WebMCP, an open web standard that enables browser-based AI agents to execute complex tasks.]]&gt;</description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/a-smarter-google-ai-edge-gallery-mcp-integration-notifications-and-session-continuity/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_gallery_2x.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Google Tensor SDK Beta with LiteRT</title>
-      <link>https://developers.googleblog.com/en/google-tensor-sdk-beta-with-litert/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400_Q9r0CZs.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Tensor ML SDK is graduating to its Beta phase, allowing developers to build and deploy high-performance machine learning models directly onto the TPU of Google Pixel 10 devices. By integrating with LiteRT, Google's edge deployment framework, the SDK provides a unified workflow for developers to convert, compile, and run PyTorch or TFLite models with robust fallback options. Additionally, a new model garden offers over 100 classic and generative AI models, including Gemma 3, enabling low-latency, private features like speech recognition, computer vision, and text generation.]]&gt;</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/google-tensor-sdk-beta-with-litert/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400_Q9r0CZs.png" type="image/png" />
-    </item>
-    <item>
-      <title>One Year of Innovation: Celebrating 100k Members in the Google Cloud x NVIDIA Developer Community</title>
-      <link>https://developers.googleblog.com/en/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/0049-GDP-NVIDIA_x_Google_Cloud_Dev.2e16d0ba.fill-800x400.png" alt="0049-GDP-NVIDIA x Google Cloud Developer Community Blog _ Design [GDP-13]-May15_revised-01" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Cloud and NVIDIA developer community is celebrating its first anniversary with 100,000 members and a renewed focus on providing builders with advanced AI infrastructure and resources. To accelerate development, the community offers curated learning pathways for mastering LLM optimization, GPU-accelerated data analytics, and monthly expert-led webinars. Moving into its second year, the initiative will expand to include hands-on labs, engineering events, and specialized content focused on the growth of agentic AI.]]&gt;</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/0049-GDP-NVIDIA_x_Google_Cloud_Dev.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_5.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>An important update: Transitioning Gemini CLI to Antigravity CLI</title>
@@ -80,12 +72,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x600_.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>All the news from the Google I/O 2026 Developer keynote</title>
-      <link>https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_5.2e16d0ba.fill-800x400.png" alt="image (5)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google announced the transition from assistive AI to independent agents, highlighting the launch of the Gemini 3.5 series and major updates to its Antigravity agent-first development platform. For mobile developers, the post introduces new Android CLI tools, the Android Bench evaluation leaderboard, and an automated Migration agent designed to rapidly convert various frameworks into native Kotlin code. Web development is also being transformed through Chrome DevTools for agents, the HTML-in-Canvas API, and the proposal of WebMCP, an open web standard that enables browser-based AI agents to execute complex tasks.]]&gt;</description>
+      <title>Blazing fast on-device GenAI with LiteRT-LM</title>
+      <link>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" alt="may2026_liteRT-LM_v2_2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge’s LiteRT-LM provides a production-proven, highly optimized infrastructure for running Gemma 4 across cross-platform mobile and edge environments. It actively unlocks the model's native multimodal and agentic features on-device by utilizing memory-efficient dynamic loading, Multi-Token Prediction for up to a 2.2x speedup, and advanced orchestration tools like Thinking Mode and Constrained Decoding. Furthermore, the engine is rapidly expanding its integration surfaces beyond Android, introducing new native Swift APIs for Apple ecosystems and WebGPU-accelerated JavaScript APIs for high-performance, serverless browser inference.]]&gt;</description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_5.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Google Tensor SDK Beta with LiteRT</title>
+      <link>https://developers.googleblog.com/en/google-tensor-sdk-beta-with-litert/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400_Q9r0CZs.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Tensor ML SDK is graduating to its Beta phase, allowing developers to build and deploy high-performance machine learning models directly onto the TPU of Google Pixel 10 devices. By integrating with LiteRT, Google's edge deployment framework, the SDK provides a unified workflow for developers to convert, compile, and run PyTorch or TFLite models with robust fallback options. Additionally, a new model garden offers over 100 classic and generative AI models, including Gemma 3, enabling low-latency, private features like speech recognition, computer vision, and text generation.]]&gt;</description>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/google-tensor-sdk-beta-with-litert/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400_Q9r0CZs.png" type="image/png" />
     </item>
   </channel>
 </rss>
