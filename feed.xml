@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 04:13:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 04:06:12 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supercharge your integration workflow with the Google Pay &amp; Wallet Developer MCP server</title>
@@ -42,7 +42,7 @@
     <item>
       <title>Announcing ADK for Kotlin and ADK for Android 0.1.0: Building AI Agents on Android and Beyond</title>
       <link>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;ADK for Kotlin brings agentic workflows to your backend projects, while ADK for Android provides spe...]]&gt;</description>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has announced the launch of version 0.1.0 of the Agent Development Kit (ADK) for Kotlin, alongside a specialized ADK library for Android. This open-source framework simplifies the creation of AI agents by managing complex orchestration, session sharing, and error handling across cloud and edge environments. The release supports hybrid orchestration, enabling developers to build multi-agent systems where a cloud-based model can seamlessly offload specific tasks to local, on-device models like Gemini Nano to enhance user privacy.]]&gt;</description>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" type="image/png" />
