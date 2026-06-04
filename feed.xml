@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2026 04:15:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 04:09:17 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gemma 4 12B: The Developer Guide</title>
+      <link>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" alt="placeholder" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]&gt;</description>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge</title>
+      <link>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" alt="banner_final (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.]]&gt;</description>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Supercharge your integration workflow with the Google Pay &amp; Wallet Developer MCP server</title>
       <link>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
@@ -70,22 +86,6 @@
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/an-important-update-transitioning-gemini-cli-to-antigravity-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x600_.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Blazing fast on-device GenAI with LiteRT-LM</title>
-      <link>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" alt="may2026_liteRT-LM_v2_2x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge’s LiteRT-LM provides a production-proven, highly optimized infrastructure for running Gemma 4 across cross-platform mobile and edge environments. It actively unlocks the model's native multimodal and agentic features on-device by utilizing memory-efficient dynamic loading, Multi-Token Prediction for up to a 2.2x speedup, and advanced orchestration tools like Thinking Mode and Constrained Decoding. Furthermore, the engine is rapidly expanding its integration surfaces beyond Android, introducing new native Swift APIs for Apple ecosystems and WebGPU-accelerated JavaScript APIs for high-performance, serverless browser inference.]]&gt;</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/blazing-fast-on-device-genai-with-litert-lm/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/may2026_liteRT-LM_v2_2x.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Google Tensor SDK Beta with LiteRT</title>
-      <link>https://developers.googleblog.com/en/google-tensor-sdk-beta-with-litert/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400_Q9r0CZs.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Tensor ML SDK is graduating to its Beta phase, allowing developers to build and deploy high-performance machine learning models directly onto the TPU of Google Pixel 10 devices. By integrating with LiteRT, Google's edge deployment framework, the SDK provides a unified workflow for developers to convert, compile, and run PyTorch or TFLite models with robust fallback options. Additionally, a new model garden offers over 100 classic and generative AI models, including Gemma 3, enabling low-latency, private features like speech recognition, computer vision, and text generation.]]&gt;</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/google-tensor-sdk-beta-with-litert/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400_Q9r0CZs.png" type="image/png" />
     </item>
   </channel>
 </rss>
