@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 03:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 03:36:51 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducing the Google Colab CLI</title>
+      <link>https://developers.googleblog.com/en/introducing-the-google-colab-cli/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-06-05_at_12.53.56P.2e16d0ba.fill-800x400.png" alt="Screenshot 2026-06-05 at 12.53.56 PM" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has announced the Google Colab Command-Line Interface (CLI), a new tool that allows developers and AI agents to connect local terminals to remote Colab runtimes for frictionless execution. The lightweight CLI enables users to easily request high-powered GPUs, run local Python scripts remotely, and seamlessly retrieve artifact logs or models like fine-tuned Gemma 3 adapters. By integrating directly into standard terminal environments, the tool is highly programmable and ready to be used by AI agents such as Antigravity or Claude Code to manage complex machine learning pipelines.]]&gt;</description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-the-google-colab-cli/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-06-05_at_12.53.56P.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Gemma 4 12B: The Developer Guide</title>
       <link>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</link>
@@ -78,14 +86,6 @@
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_5.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>An important update: Transitioning Gemini CLI to Antigravity CLI</title>
-      <link>https://developers.googleblog.com/en/an-important-update-transitioning-gemini-cli-to-antigravity-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x600_.2e16d0ba.fill-800x400.png" alt="GeminiCLI-AntigravityCLI_1200x600_BlogHeader" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is unifying its AI terminal tools by transitioning the community-focused Gemini CLI into Antigravity CLI, a new agent-first platform built for complex, multi-agent workflows. This new Go-based tool offers faster execution, asynchronous processing, and a unified architecture that syncs with the Antigravity 2.0 desktop application. While enterprise customers will maintain existing access, individual and free users must transition to the new platform before Gemini CLI stops serving requests on June 18, 2026.]]&gt;</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/an-important-update-transitioning-gemini-cli-to-antigravity-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GeminiCLI-AntigravityCLI_1200x600_.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
