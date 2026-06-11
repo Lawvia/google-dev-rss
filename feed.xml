@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jun 2026 03:52:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 04:05:00 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DiffusionGemma: The Developer Guide</title>
+      <link>https://developers.googleblog.com/en/diffusiongemma-the-developer-guide/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/diffusion_banner.2e16d0ba.fill-800x400.png" alt="diffusion_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;DiffusionGemma is an experimental text-generation model built on the Gemma 4 architecture that uses diffusion-based parallel generation instead of token-by-token autoregression, enabling much faster inference, bidirectional context awareness, and real-time self-correction while remaining deployable on consumer GPUs. Its architecture generates and refines 256-token blocks in parallel through iterative denoising, allowing it to handle complex constraint-based tasks such as Sudoku more effectively than traditional language models and demonstrating strong gains from fine-tuning. The model integrates with vLLM and other popular inference frameworks, giving developers access to a new non-autoregressive approach that combines high performance, efficient long-context scaling, and straightforward customi]]&gt;</description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/diffusiongemma-the-developer-guide/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/diffusion_banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Introducing the Google Colab CLI</title>
       <link>https://developers.googleblog.com/en/introducing-the-google-colab-cli/</link>
@@ -14,14 +22,6 @@
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-the-google-colab-cli/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-06-05_at_12.53.56P.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Gemma 4 12B: The Developer Guide</title>
-      <link>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" alt="placeholder" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]&gt;</description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge</title>
@@ -32,12 +32,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Supercharge your integration workflow with the Google Pay &amp; Wallet Developer MCP server</title>
-      <link>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" alt="pay-wallet-mcp-server-hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has announced the new Google Pay &amp; Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions, check integration status, and manage merchant accounts. Ultimately, this integration aims to reduce friction and accelerate development workflows by minimizing context switching and providing up-to-date, grounded AI support.]]&gt;</description>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>Gemma 4 12B: The Developer Guide</title>
+      <link>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" alt="placeholder" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]&gt;</description>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>How the community trained Gemma to "Think" with Tunix and TPUs</title>
@@ -46,6 +46,14 @@
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Supercharge your integration workflow with the Google Pay &amp; Wallet Developer MCP server</title>
+      <link>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" alt="pay-wallet-mcp-server-hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has announced the new Google Pay &amp; Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions, check integration status, and manage merchant accounts. Ultimately, this integration aims to reduce friction and accelerate development workflows by minimizing context switching and providing up-to-date, grounded AI support.]]&gt;</description>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>The latest updates to Google Pay</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>All the news from the Google I/O 2026 Developer keynote</title>
-      <link>https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_5.2e16d0ba.fill-800x400.png" alt="image (5)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google announced the transition from assistive AI to independent agents, highlighting the launch of the Gemini 3.5 series and major updates to its Antigravity agent-first development platform. For mobile developers, the post introduces new Android CLI tools, the Android Bench evaluation leaderboard, and an automated Migration agent designed to rapidly convert various frameworks into native Kotlin code. Web development is also being transformed through Chrome DevTools for agents, the HTML-in-Canvas API, and the proposal of WebMCP, an open web standard that enables browser-based AI agents to execute complex tasks.]]&gt;</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/all-the-news-from-the-google-io-2026-developer-keynote/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_5.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
