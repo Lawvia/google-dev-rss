@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 04:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 04:14:37 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking the Power of the TPU Stack: Introducing our new Developer Hub</title>
+      <link>https://developers.googleblog.com/en/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_v5e_-_Board_4_-_Web.2e16d0ba.fill-800x400.jpg" alt="TPU v5e - Board 4 - Web" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has officially launched the TPU Developer Hub, a centralized educational resource designed to help model builders and developers maximize the performance of Google Cloud TPUs. The hub offers code-first resources, open-source recipes, and deep-dive documentation covering hardware architecture, software optimization, debugging, parallelism, and networking. These materials are tailored for both human developers and AI-assisted tools to streamline everything from large-scale training to low-latency inference workloads.]]&gt;</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_v5e_-_Board_4_-_Web.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Enhance Security and Trust: New Session Metadata in Sign in with Google</title>
+      <link>https://developers.googleblog.com/en/enhance-security-and-trust-new-session-metadata-in-sign-in-with-google/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-usability-safety-updates-go.2e16d0ba.fill-800x400.png" alt="Usability and Safety Updates to Google Auth Platform" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is enhancing Sign in with Google by introducing new OIDC standard claims—specifically auth_time and amr (Authentication Methods Reference) to provide developers with deeper session metadata. These updates allow verified apps to verify the "freshness" of a user's login and the specific authentication methods used (such as MFA or hardware keys), enabling more dynamic, risk-based access controls. By leveraging these federated identity signals, platforms can better prevent account takeover and fraud while implementing granular security policies like step-up authentication for sensitive actions.]]&gt;</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/enhance-security-and-trust-new-session-metadata-in-sign-in-with-google/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-usability-safety-updates-go.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>DiffusionGemma: The Developer Guide</title>
       <link>https://developers.googleblog.com/en/diffusiongemma-the-developer-guide/</link>
@@ -24,20 +40,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-06-05_at_12.53.56P.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge</title>
-      <link>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" alt="banner_final (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.]]&gt;</description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Gemma 4 12B: The Developer Guide</title>
       <link>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" alt="placeholder" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]&gt;</description>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge</title>
+      <link>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" alt="banner_final (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.]]&gt;</description>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>How the community trained Gemma to "Think" with Tunix and TPUs</title>
@@ -70,22 +86,6 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/enhancing-android-checkout-with-dynamic-callbacks-in-google-pay/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/64hUBg8v5KEHEW6_2.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Announcing ADK for Kotlin and ADK for Android 0.1.0: Building AI Agents on Android and Beyond</title>
-      <link>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" alt="GoogleForDevelopers-ComboIO-Wagtail-1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has announced the launch of version 0.1.0 of the Agent Development Kit (ADK) for Kotlin, alongside a specialized ADK library for Android. This open-source framework simplifies the creation of AI agents by managing complex orchestration, session sharing, and error handling across cloud and edge environments. The release supports hybrid orchestration, enabling developers to build multi-agent systems where a cloud-based model can seamlessly offload specific tasks to local, on-device models like Gemini Nano to enhance user privacy.]]&gt;</description>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/adk-kotlin-android-building-ai-agents/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-ComboIO-Wagtai.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Empowering Service Providers and Hardware Partners with Gemini for Home</title>
-      <link>https://developers.googleblog.com/en/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" alt="io26-blog-01-intro-hero@4x" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is expanding its smart home ecosystem by launching a full-stack Gemini AI offering that integrates advanced camera intelligence, natural language queries, and daily activity summaries. This initiative provides service providers and hardware manufacturers with turnkey reference designs and APIs to build proactive, branded services without extensive research and development. Ultimately, the program aims to move beyond basic device control toward an AI-native home that can understand context and care for users' needs in real time.]]&gt;</description>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/empowering-service-providers-and-hardware-partners-with-gemini-for-home/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/io26-blog-01-intro-hero4x.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
