@@ -5,15 +5,23 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jun 2026 04:14:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 04:06:09 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Unlocking the Power of the TPU Stack: Introducing our new Developer Hub</title>
-      <link>https://developers.googleblog.com/en/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_v5e_-_Board_4_-_Web.2e16d0ba.fill-800x400.jpg" alt="TPU v5e - Board 4 - Web" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has officially launched the TPU Developer Hub, a centralized educational resource designed to help model builders and developers maximize the performance of Google Cloud TPUs. The hub offers code-first resources, open-source recipes, and deep-dive documentation covering hardware architecture, software optimization, debugging, parallelism, and networking. These materials are tailored for both human developers and AI-assisted tools to streamline everything from large-scale training to low-latency inference workloads.]]&gt;</description>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_v5e_-_Board_4_-_Web.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>Announcing the Agentic Resource Discovery specification</title>
+      <link>https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxwo.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_gzxwoagzxwoagzxw" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...]]&gt;</description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxwo.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs</title>
+      <link>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" alt="header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.]]&gt;</description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Enhance Security and Trust: New Session Metadata in Sign in with Google</title>
@@ -22,6 +30,14 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/enhance-security-and-trust-new-session-metadata-in-sign-in-with-google/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-usability-safety-updates-go.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Unlocking the Power of the TPU Stack: Introducing our new Developer Hub</title>
+      <link>https://developers.googleblog.com/en/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_v5e_-_Board_4_-_Web.2e16d0ba.fill-800x400.jpg" alt="TPU v5e - Board 4 - Web" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has officially launched the TPU Developer Hub, a centralized educational resource designed to help model builders and developers maximize the performance of Google Cloud TPUs. The hub offers code-first resources, open-source recipes, and deep-dive documentation covering hardware architecture, software optimization, debugging, parallelism, and networking. These materials are tailored for both human developers and AI-assisted tools to streamline everything from large-scale training to low-latency inference workloads.]]&gt;</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_v5e_-_Board_4_-_Web.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>DiffusionGemma: The Developer Guide</title>
@@ -40,20 +56,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-06-05_at_12.53.56P.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Gemma 4 12B: The Developer Guide</title>
-      <link>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" alt="placeholder" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]&gt;</description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge</title>
       <link>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" alt="banner_final (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.]]&gt;</description>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Gemma 4 12B: The Developer Guide</title>
+      <link>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" alt="placeholder" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]&gt;</description>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>How the community trained Gemma to "Think" with Tunix and TPUs</title>
@@ -70,22 +86,6 @@
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>The latest updates to Google Pay</title>
-      <link>https://developers.googleblog.com/en/the-latest-updates-to-google-pay/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-AICloudCombo2-.2e16d0ba.fill-800x400.png" alt="GoogleForDevelopers-AICloudCombo2-Wagtail-1600x476" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Pay is evolving for "agentic commerce" by introducing the Universal Commerce Protocol and a new MCP server that allows AI agents to manage integrations and analyze trends. New Android updates introduce dynamic callbacks for seamless express checkouts and extend payment support into social media apps via WebViews. Additionally, the platform is launching cross-device biometric authentication and new transaction signals to help merchants reduce friction and optimize processing costs.]]&gt;</description>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/the-latest-updates-to-google-pay/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GoogleForDevelopers-AICloudCombo2-.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Enhancing Android Checkout with Dynamic Callbacks in Google Pay</title>
-      <link>https://developers.googleblog.com/en/enhancing-android-checkout-with-dynamic-callbacks-in-google-pay/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/64hUBg8v5KEHEW6_2.2e16d0ba.fill-800x400.png" alt="64hUBg8v5KEHEW6 (2)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We are excited to bring Express checkout with Google Pay for Android native apps enabling developers...]]&gt;</description>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/enhancing-android-checkout-with-dynamic-callbacks-in-google-pay/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/64hUBg8v5KEHEW6_2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
