@@ -5,15 +5,15 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2026 04:06:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 04:24:33 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcing the Agentic Resource Discovery specification</title>
-      <link>https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxwo.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_gzxwoagzxwoagzxw" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...]]&gt;</description>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxwo.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>How A2A is Building a World of Collaborative Agents</title>
+      <link>https://developers.googleblog.com/en/how-a2a-is-building-a-world-of-collaborative-agents/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2.original_6xqVyTd.2e16d0ba.fill-800x400.jpg" alt="image2.original_6xqVyTd" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Celebrating the first anniversary of the Agent-to-Agent (A2A) protocol, this blog post highlights how the framework enables autonomous AI agents to securely collaborate and hand off tasks without the rigidity of traditional APIs. By delegating complex workflows to specialized peer agents, A2A prevents context pollution, ensures data privacy, and simplifies application design through modularity. To demonstrate this ecosystem in action, the post spotlights FoldRun—an agentic interface for life sciences that orchestrates complex protein structure predictions—alongside diverse A2A use cases spanning commerce, data streaming, DevOps, and telecommunications.]]&gt;</description>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-a2a-is-building-a-world-of-collaborative-agents/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2.original_6xqVyTd.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs</title>
@@ -22,6 +22,14 @@
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Announcing the Agentic Resource Discovery specification</title>
+      <link>https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxwo.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_gzxwoagzxwoagzxw" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...]]&gt;</description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxwo.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Enhance Security and Trust: New Session Metadata in Sign in with Google</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Supercharge your integration workflow with the Google Pay &amp; Wallet Developer MCP server</title>
-      <link>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" alt="pay-wallet-mcp-server-hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has announced the new Google Pay &amp; Wallet Developer MCP server, an open-standard tool designed to securely connect AI development assistants and IDEs with real-time API and account context. The server allows developers to remain within their development environment to search official documentation, validate Wallet pass definitions, check integration status, and manage merchant accounts. Ultimately, this integration aims to reduce friction and accelerate development workflows by minimizing context switching and providing up-to-date, grounded AI support.]]&gt;</description>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/supercharge-your-integration-workflow-with-the-google-pay-wallet-developer-mcp-server/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/pay-wallet-dev-mcp-thumb.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
