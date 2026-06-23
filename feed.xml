@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2026 04:22:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 03:39:54 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A</title>
+      <link>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" alt="banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]&gt;</description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Measuring What Matters with Jules</title>
+      <link>https://developers.googleblog.com/en/measuring-what-matters-with-jules/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Measuring_What_Matters_with_Jules_.2e16d0ba.fill-800x400.png" alt="Measuring What Matters with Jules 1.0" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...]]&gt;</description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/measuring-what-matters-with-jules/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Measuring_What_Matters_with_Jules_.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>How A2A is Building a World of Collaborative Agents</title>
       <link>https://developers.googleblog.com/en/how-a2a-is-building-a-world-of-collaborative-agents/</link>
@@ -16,20 +32,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2.original_6xqVyTd.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs</title>
-      <link>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" alt="header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.]]&gt;</description>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
       <title>Announcing the Agentic Resource Discovery specification</title>
       <link>https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxwo.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_gzxwoagzxwoagzxw" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;An open specification for finding and verifying tools, skills, and agents across the web.Agents are ...]]&gt;</description>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-the-agentic-resource-discovery-specification/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_gzxwoagzxwo.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs</title>
+      <link>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" alt="header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.]]&gt;</description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Enhance Security and Trust: New Session Metadata in Sign in with Google</title>
@@ -70,22 +86,6 @@
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Gemma 4 12B: The Developer Guide</title>
-      <link>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" alt="placeholder" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly released Gemma 4 12B is a dense, multimodal model designed for high-performance local AI execution on consumer devices. By introducing a novel, encoder-free architecture, it bypasses traditional visual and audio encoders to feed multimodal data directly into the LLM backbone.]]&gt;</description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/hello-gemma.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>How the community trained Gemma to "Think" with Tunix and TPUs</title>
-      <link>https://developers.googleblog.com/en/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" alt="Building-1-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Tunix Hackathon on Kaggle challenged developers to transform small, non-reasoning base models into general reasoning engines using Kaggle TPUs and a limited compute budget. The winning teams achieved this by implementing multi-stage post-training pipelines that combined Supervised Fine-Tuning (SFT) with advanced alignment techniques like GRPO and SimPO. Ultimately, the competition democratized AI development by proving that highly capable, structured reasoning models can be successfully trained by the community using accessible, open-source resources.]]&gt;</description>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/how-the-community-trained-gemma-to-think-with-tunix-and-tpus/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Building-1-banner_Tg8sqqU.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
