@@ -5,15 +5,23 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 03:45:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 04:01:13 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A</title>
-      <link>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" alt="banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]&gt;</description>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>Driving the Agent Quality Flywheel from Your Coding Agent</title>
+      <link>https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/flywheel-blog-hero-image.2e16d0ba.fill-800x400.png" alt="flywheel-blog-hero-image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.]]&gt;</description>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/flywheel-blog-hero-image.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine, built-in human-in-the-loop, and dynamic orchestration</title>
+      <link>https://developers.googleblog.com/en/announcing-adk-go-20/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Gen_ADKGo20_banner_blog.2e16d0ba.fill-800x400.jpg" alt="Gemini_Gen_ADKGo20_banner_blog" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Agent Development Kit (ADK) for Go 2.0 has been released, introducing a first-class, graph-based workflow engine to help developers compose complex, multi-agent applications. This update adds built-in primitives for human-in-the-loop (HITL) orchestration, dynamic execution using plain Go code, and automated resilience features like exponential backoff retries. By unifying the execution model, both single-agent applications and intricate graphs now run on the same runtime, simplifying telemetry and state persistence.]]&gt;</description>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-adk-go-20/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Gen_ADKGo20_banner_blog.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Measuring What Matters with Jules</title>
@@ -22,6 +30,14 @@
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/measuring-what-matters-with-jules/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Measuring_What_Matters_with_Jules_.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A</title>
+      <link>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" alt="banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]&gt;</description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>How A2A is Building a World of Collaborative Agents</title>
@@ -48,14 +64,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Enhance Security and Trust: New Session Metadata in Sign in with Google</title>
-      <link>https://developers.googleblog.com/en/enhance-security-and-trust-new-session-metadata-in-sign-in-with-google/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-usability-safety-updates-go.2e16d0ba.fill-800x400.png" alt="Usability and Safety Updates to Google Auth Platform" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is enhancing Sign in with Google by introducing new OIDC standard claims—specifically auth_time and amr (Authentication Methods Reference) to provide developers with deeper session metadata. These updates allow verified apps to verify the "freshness" of a user's login and the specific authentication methods used (such as MFA or hardware keys), enabling more dynamic, risk-based access controls. By leveraging these federated identity signals, platforms can better prevent account takeover and fraud while implementing granular security policies like step-up authentication for sensitive actions.]]&gt;</description>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/enhance-security-and-trust-new-session-metadata-in-sign-in-with-google/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-usability-safety-updates-go.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Unlocking the Power of the TPU Stack: Introducing our new Developer Hub</title>
       <link>https://developers.googleblog.com/en/unlocking-the-power-of-the-tpu-stack-introducing-our-new-developer-hub/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_v5e_-_Board_4_-_Web.2e16d0ba.fill-800x400.jpg" alt="TPU v5e - Board 4 - Web" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has officially launched the TPU Developer Hub, a centralized educational resource designed to help model builders and developers maximize the performance of Google Cloud TPUs. The hub offers code-first resources, open-source recipes, and deep-dive documentation covering hardware architecture, software optimization, debugging, parallelism, and networking. These materials are tailored for both human developers and AI-assisted tools to streamline everything from large-scale training to low-latency inference workloads.]]&gt;</description>
@@ -64,28 +72,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_v5e_-_Board_4_-_Web.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
+      <title>Enhance Security and Trust: New Session Metadata in Sign in with Google</title>
+      <link>https://developers.googleblog.com/en/enhance-security-and-trust-new-session-metadata-in-sign-in-with-google/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-usability-safety-updates-go.2e16d0ba.fill-800x400.png" alt="Usability and Safety Updates to Google Auth Platform" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is enhancing Sign in with Google by introducing new OIDC standard claims—specifically auth_time and amr (Authentication Methods Reference) to provide developers with deeper session metadata. These updates allow verified apps to verify the "freshness" of a user's login and the specific authentication methods used (such as MFA or hardware keys), enabling more dynamic, risk-based access controls. By leveraging these federated identity signals, platforms can better prevent account takeover and fraud while implementing granular security policies like step-up authentication for sensitive actions.]]&gt;</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/enhance-security-and-trust-new-session-metadata-in-sign-in-with-google/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-usability-safety-updates-go.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
       <title>DiffusionGemma: The Developer Guide</title>
       <link>https://developers.googleblog.com/en/diffusiongemma-the-developer-guide/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/diffusion_banner.2e16d0ba.fill-800x400.png" alt="diffusion_banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;DiffusionGemma is an experimental text-generation model built on the Gemma 4 architecture that uses diffusion-based parallel generation instead of token-by-token autoregression, enabling much faster inference, bidirectional context awareness, and real-time self-correction while remaining deployable on consumer GPUs. Its architecture generates and refines 256-token blocks in parallel through iterative denoising, allowing it to handle complex constraint-based tasks such as Sudoku more effectively than traditional language models and demonstrating strong gains from fine-tuning. The model integrates with vLLM and other popular inference frameworks, giving developers access to a new non-autoregressive approach that combines high performance, efficient long-context scaling, and straightforward customi]]&gt;</description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/diffusiongemma-the-developer-guide/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/diffusion_banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Introducing the Google Colab CLI</title>
-      <link>https://developers.googleblog.com/en/introducing-the-google-colab-cli/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-06-05_at_12.53.56P.2e16d0ba.fill-800x400.png" alt="Screenshot 2026-06-05 at 12.53.56 PM" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has announced the Google Colab Command-Line Interface (CLI), a new tool that allows developers and AI agents to connect local terminals to remote Colab runtimes for frictionless execution. The lightweight CLI enables users to easily request high-powered GPUs, run local Python scripts remotely, and seamlessly retrieve artifact logs or models like fine-tuned Gemma 3 adapters. By integrating directly into standard terminal environments, the tool is highly programmable and ready to be used by AI agents such as Antigravity or Claude Code to manage complex machine learning pipelines.]]&gt;</description>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/introducing-the-google-colab-cli/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-06-05_at_12.53.56P.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Bringing Gemma 4 12B to your Laptop: Unlocking Local, Agentic Workflows with Google AI Edge</title>
-      <link>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" alt="banner_final (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google DeepMind’s Gemma 4 12B model brings agentic, multimodal AI capabilities to everyday laptops with 16GB of RAM, enabling local data processing and visual insight generation. Users can leverage this model on macOS through the Google AI Edge Gallery for dynamic Python code execution and visualization, as well as via Google AI Edge Eloquent for completely offline voice dictation and text editing. Additionally, developer workflows are enhanced by the LiteRT-LM CLI's new serve command, which creates an industry-compatible local endpoint to power fully-local AI tools and agents.]]&gt;</description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/bringing-gemma-4-12b-to-your-laptop-unlocking-local-agentic-workflows-with-google-ai-edge/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_final_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
