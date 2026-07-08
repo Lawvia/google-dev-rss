@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2026 03:30:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 02:46:43 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText</title>
