@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 02:46:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 03:33:33 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bridging the Domain Gap: AI Race Coach built with Antigravity and Gemini</title>
+      <link>https://developers.googleblog.com/en/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GGBM3681_1.2e16d0ba.fill-800x400.jpg" alt="GGBM3681 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;On May 23, 2026, fresh off the stage at Google I/O, our Google Developer Experts (GDEs) converged on...]]&gt;</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GGBM3681_1.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText</title>
       <link>https://developers.googleblog.com/en/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</link>
@@ -40,20 +48,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Driving the Agent Quality Flywheel from Your Coding Agent</title>
-      <link>https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/flywheel-blog-hero-image.2e16d0ba.fill-800x400.png" alt="flywheel-blog-hero-image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.]]&gt;</description>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/flywheel-blog-hero-image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine, built-in human-in-the-loop, and dynamic orchestration</title>
       <link>https://developers.googleblog.com/en/announcing-adk-go-20/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Gen_ADKGo20_banner_blog.2e16d0ba.fill-800x400.jpg" alt="Gemini_Gen_ADKGo20_banner_blog" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Agent Development Kit (ADK) for Go 2.0 has been released, introducing a first-class, graph-based workflow engine to help developers compose complex, multi-agent applications. This update adds built-in primitives for human-in-the-loop (HITL) orchestration, dynamic execution using plain Go code, and automated resilience features like exponential backoff retries. By unifying the execution model, both single-agent applications and intricate graphs now run on the same runtime, simplifying telemetry and state persistence.]]&gt;</description>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-adk-go-20/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Gen_ADKGo20_banner_blog.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Driving the Agent Quality Flywheel from Your Coding Agent</title>
+      <link>https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/flywheel-blog-hero-image.2e16d0ba.fill-800x400.png" alt="flywheel-blog-hero-image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Building AI agents often leaves developers uncertain if prompt tweaks to fix single errors will accidentally cause widespread regressions in production. To bridge this gap, Google has introduced a new developer skill for coding agents that automates a five-stage evaluation flywheel: preparing data, running inference, grading with adaptive AutoRaters, analyzing failure clusters, and executing targeted optimizations. Running continuously against production traffic or on-demand via synthetic scenarios, this tool allows developers to describe testing goals in plain language while an independent evaluation service safely validates and counts actual performance improvements.]]&gt;</description>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/flywheel-blog-hero-image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Measuring What Matters with Jules</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/how-a2a-is-building-a-world-of-collaborative-agents/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2.original_6xqVyTd.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>A2UI + MCP Apps: Combining the best of declarative and custom agentic UIs</title>
-      <link>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" alt="header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post introduces three architectural patterns designed to integrate Model Context Protocol (MCP) Apps and Agent-to-User Interface (A2UI) to solve the tradeoff between highly custom iframe environments and native, declarative rendering. By combining these approaches, developers can serve native-feeling UIs directly over MCP servers, embed complex and stateful iframe apps securely inside declarative views, or inject generative UI components into legacy systems. Ultimately, these hybrid frameworks empower engineering teams to deliver secure, performant, and brand-consistent agentic user experiences tailored to their specific project constraints.]]&gt;</description>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/a2ui-and-mcp-apps/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
