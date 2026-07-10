@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 03:33:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 03:26:11 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LiteRT.js, Google's high performance Web AI Inference</title>
+      <link>https://developers.googleblog.com/en/litertjs-googles-high-performance-web-ai-inference/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner3.2e16d0ba.fill-800x400.png" alt="banner3" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI runtime to the web. Built for JavaScript developers, LiteRT.js delivers state-of-the-art ML model inference performance on WebGPU and upcoming WebNN, with a fallback to WebAssembly for CPU. This post provides a quick tour of LiteRT.js and gives web developers everything they need to get started.]]&gt;</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/litertjs-googles-high-performance-web-ai-inference/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner3.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Bridging the Domain Gap: AI Race Coach built with Antigravity and Gemini</title>
       <link>https://developers.googleblog.com/en/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</link>
@@ -24,6 +32,14 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Cloud-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
+      <title>Why we built ADK 2.0</title>
+      <link>https://developers.googleblog.com/en/why-we-built-adk-20/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" alt="gfd-why-adk2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Answering the questions of "why we built ADK 2.0". This explains the rationale, some of the features, and why a developer should consider upgrading. This will be published the day after ADK go 2.0 launches.]]&gt;</description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/why-we-built-adk-20/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
       <title>Build agentic full-stack apps with Genkit</title>
       <link>https://developers.googleblog.com/en/build-agentic-full-stack-apps-with-genkit/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single interface. The API supports flexible, server- or client-managed state persistence—allowing for advanced workflows like history branching, long-running detached tasks, and multi-agent coordination—while seamlessly connecting backends to frontends via a unified wire protocol. Currently available in preview for TypeScript and Go, it also integrates with the Genkit Developer UI to allow developers to easily test, debug, and inspect agent snapshots without writing client code.]]&gt;</description>
@@ -38,14 +54,6 @@
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/ml-development-in-vs-code-with-google-cloud-power-workbench-extension-now-available/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/VS_code_blogpost_banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Why we built ADK 2.0</title>
-      <link>https://developers.googleblog.com/en/why-we-built-adk-20/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" alt="gfd-why-adk2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Answering the questions of "why we built ADK 2.0". This explains the rationale, some of the features, and why a developer should consider upgrading. This will be published the day after ADK go 2.0 launches.]]&gt;</description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/why-we-built-adk-20/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine, built-in human-in-the-loop, and dynamic orchestration</title>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>How A2A is Building a World of Collaborative Agents</title>
-      <link>https://developers.googleblog.com/en/how-a2a-is-building-a-world-of-collaborative-agents/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2.original_6xqVyTd.2e16d0ba.fill-800x400.jpg" alt="image2.original_6xqVyTd" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Celebrating the first anniversary of the Agent-to-Agent (A2A) protocol, this blog post highlights how the framework enables autonomous AI agents to securely collaborate and hand off tasks without the rigidity of traditional APIs. By delegating complex workflows to specialized peer agents, A2A prevents context pollution, ensures data privacy, and simplifies application design through modularity. To demonstrate this ecosystem in action, the post spotlights FoldRun—an agentic interface for life sciences that orchestrates complex protein structure predictions—alongside diverse A2A use cases spanning commerce, data streaming, DevOps, and telecommunications.]]&gt;</description>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/how-a2a-is-building-a-world-of-collaborative-agents/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image2.original_6xqVyTd.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
