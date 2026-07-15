@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 02:33:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 02:32:11 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)</title>
+      <link>https://developers.googleblog.com/en/systems-engineering-playbook-optimizing-qwen-35-397b-moe-on-ironwood-tpu7x/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rhl8wrrhl8w.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_rhl8wrrhl8wrrhl8" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To serve the 397B-parameter Qwen 3.5 Mixture-of-Experts (MoE) model on Ironwood TPUs, engineers developed a modular JAX/Pallas optimization stack that achieved up to a 4.7x inference speedup for prefill-heavy workloads. The team bypassed severe hardware sharding constraints by deploying a hybrid Data Parallelism and Expert Parallelism (DP+EP) topology, paired with custom low-level communication fusions like a hierarchical reduce-scatter to optimize cross-device token routing. Finally, by executing hardware-aware custom kernels—such as Batched Ragged Page Attention and a fully-fused Gated DeltaNet (GDN) block—they successfully saturated HBM bandwidth and TensorCore MXUs to push system throughput near its theoretical roofline limits.]]&gt;</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/systems-engineering-playbook-optimizing-qwen-35-397b-moe-on-ironwood-tpu7x/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rhl8wrrhl8w.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Unlocking the Next Era of On-Device AI with Google Tensor and Pixel</title>
+      <link>https://developers.googleblog.com/en/unlocking-the-next-era-of-on-device-ai-with-google-tensor-and-pixel/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/IMG_5052.2e16d0ba.fill-800x400.jpg" alt="IMG_5052" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;At Google I/O Connect India, Google showcased the future of 100% private, on-device AI powered by the custom Tensor SoC and TPU for the new Pixel 10 family. The event debuted the lightweight Gemma 4 E2B model, which runs natively on the device to enable completely offline multimodal features like AI chat, real-time image recognition, and personal agent tasks. Developers can start building these secure, edge-based applications today by accessing the newly announced Tensor SDK beta and its accompanying open-source resources.]]&gt;</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/unlocking-the-next-era-of-on-device-ai-with-google-tensor-and-pixel/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/IMG_5052.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>LiteRT.js, Google's high performance Web AI Inference</title>
       <link>https://developers.googleblog.com/en/litertjs-googles-high-performance-web-ai-inference/</link>
@@ -32,14 +48,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Cloud-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Why we built ADK 2.0</title>
-      <link>https://developers.googleblog.com/en/why-we-built-adk-20/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" alt="gfd-why-adk2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Answering the questions of "why we built ADK 2.0". This explains the rationale, some of the features, and why a developer should consider upgrading. This will be published the day after ADK go 2.0 launches.]]&gt;</description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/why-we-built-adk-20/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Build agentic full-stack apps with Genkit</title>
       <link>https://developers.googleblog.com/en/build-agentic-full-stack-apps-with-genkit/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single interface. The API supports flexible, server- or client-managed state persistence—allowing for advanced workflows like history branching, long-running detached tasks, and multi-agent coordination—while seamlessly connecting backends to frontends via a unified wire protocol. Currently available in preview for TypeScript and Go, it also integrates with the Genkit Developer UI to allow developers to easily test, debug, and inspect agent snapshots without writing client code.]]&gt;</description>
@@ -56,6 +64,14 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/VS_code_blogpost_banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
+      <title>Why we built ADK 2.0</title>
+      <link>https://developers.googleblog.com/en/why-we-built-adk-20/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" alt="gfd-why-adk2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Answering the questions of "why we built ADK 2.0". This explains the rationale, some of the features, and why a developer should consider upgrading. This will be published the day after ADK go 2.0 launches.]]&gt;</description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/why-we-built-adk-20/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
       <title>Build reliable multi-agent applications with ADK Go 2.0. Discover our new graph-based workflow engine, built-in human-in-the-loop, and dynamic orchestration</title>
       <link>https://developers.googleblog.com/en/announcing-adk-go-20/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Gen_ADKGo20_banner_blog.2e16d0ba.fill-800x400.jpg" alt="Gemini_Gen_ADKGo20_banner_blog" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Agent Development Kit (ADK) for Go 2.0 has been released, introducing a first-class, graph-based workflow engine to help developers compose complex, multi-agent applications. This update adds built-in primitives for human-in-the-loop (HITL) orchestration, dynamic execution using plain Go code, and automated resilience features like exponential backoff retries. By unifying the execution model, both single-agent applications and intricate graphs now run on the same runtime, simplifying telemetry and state persistence.]]&gt;</description>
@@ -70,22 +86,6 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/driving-the-agent-quality-flywheel-from-your-coding-agent/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/flywheel-blog-hero-image.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Measuring What Matters with Jules</title>
-      <link>https://developers.googleblog.com/en/measuring-what-matters-with-jules/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Measuring_What_Matters_with_Jules_.2e16d0ba.fill-800x400.png" alt="Measuring What Matters with Jules 1.0" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;AI coding agents are rapidly shifting from reactive assistants that complete tasks when prompted to ...]]&gt;</description>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/measuring-what-matters-with-jules/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Measuring_What_Matters_with_Jules_.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Build Cross-Language Multi-Agent Team with Google’s Agent Development Kit and A2A</title>
-      <link>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" alt="banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How a Python agent and a Go agent collaborate on contract compliance using the Agent2Agent protocolY...]]&gt;</description>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/build-cross-language-multi-agent-team-with-google-agent-development-kit-and-a2a/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
