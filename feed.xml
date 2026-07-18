@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jul 2026 02:42:49 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 02:33:33 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evolving Spec-Driven Development: Conductor Now Supports Antigravity</title>
@@ -16,20 +16,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Expanding Choice in Gemini Enterprise Agent Platform: Introducing Grounding with Parallel Web Search</title>
-      <link>https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_post_banner_proposal.2e16d0ba.fill-800x400.jpg" alt="blog post banner proposal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anchor their AI agents in verifiable, real-time web results, significantly improving factual accuracy for complex enterprise workflows. Additionally, the partnership offers expanded architectural flexibility, allowing users to programmatically extract, permanently cache, and process web data alongside other large language models.]]&gt;</description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_post_banner_proposal.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
       <title>Building scalable AI agents with modular prompt transpilation</title>
       <link>https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular "skill files" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.]]&gt;</description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Expanding Choice in Gemini Enterprise Agent Platform: Introducing Grounding with Parallel Web Search</title>
+      <link>https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_post_banner_proposal.2e16d0ba.fill-800x400.jpg" alt="blog post banner proposal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anchor their AI agents in verifiable, real-time web results, significantly improving factual accuracy for complex enterprise workflows. Additionally, the partnership offers expanded architectural flexibility, allowing users to programmatically extract, permanently cache, and process web data alongside other large language models.]]&gt;</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_post_banner_proposal.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)</title>
