@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 02:44:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 02:42:59 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run Ray on TPU, Part 2: Ray AI libraries</title>
+      <link>https://developers.googleblog.com/en/run-ray-on-tpu-part-2-ray-ai-libraries/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_pp6EXuC.png" alt="header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correctly gang-schedule large multi-host models, while Ray Data eliminates data-loading bottlenecks by feeding accelerators directly with native JAX batches. Finally, JaxTrainer streamlines distributed training across TPUs by automatically handling cross-slice coordination, checkpointing, and fault tolerance.]]&gt;</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/run-ray-on-tpu-part-2-ray-ai-libraries/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_pp6EXuC.png" type="image/png" />
+    </item>
     <item>
       <title>Scaling Agentic RL: High-Throughput Agentic Training with Tunix</title>
       <link>https://developers.googleblog.com/en/scaling-agentic-rl-high-throughput-agentic-training-with-tunix/</link>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Cloud-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Why we built ADK 2.0</title>
-      <link>https://developers.googleblog.com/en/why-we-built-adk-20/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" alt="gfd-why-adk2-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Answering the questions of "why we built ADK 2.0". This explains the rationale, some of the features, and why a developer should consider upgrading. This will be published the day after ADK go 2.0 launches.]]&gt;</description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/why-we-built-adk-20/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gfd-why-adk2-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
