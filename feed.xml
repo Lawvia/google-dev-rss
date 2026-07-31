@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 02:27:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 02:52:57 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Google microbenchmarks for evaluating TPU performance</title>
+      <link>https://developers.googleblog.com/en/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_mcirobenchmark_banner_image.2e16d0ba.fill-800x400.jpg" alt="TPU mcirobenchmark banner image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google's open-source TPU microbenchmark suite provides developers with granular performance metrics across Network, Compute, HBM, Host Transfer, and Attention components to validate real-world hardware capabilities. By leveraging these benchmarks to establish a Roofline model, engineers can accurately diagnose whether their machine learning workloads are compute-, memory-, or network-bound. This empirical baseline directly guides targeted software optimizations—such as kernel tuning, mesh sharding, and rematerialization—to maximize hardware utilization for large-scale model deployments.]]&gt;</description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_mcirobenchmark_banner_image.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Run Ray on TPU, Part 2: Ray AI libraries</title>
       <link>https://developers.googleblog.com/en/run-ray-on-tpu-part-2-ray-ai-libraries/</link>
@@ -40,20 +48,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Evolving Spec-Driven Development: Conductor Now Supports Antigravity</title>
-      <link>https://developers.googleblog.com/en/evolving-spec-driven-development-conductor-now-supports-antigravity/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" alt="ADK + Gemini CLI: Supercharge Your Agent Building Vibe" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.]]&gt;</description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/evolving-spec-driven-development-conductor-now-supports-antigravity/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Expanding Choice in Gemini Enterprise Agent Platform: Introducing Grounding with Parallel Web Search</title>
       <link>https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_post_banner_proposal.2e16d0ba.fill-800x400.jpg" alt="blog post banner proposal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anchor their AI agents in verifiable, real-time web results, significantly improving factual accuracy for complex enterprise workflows. Additionally, the partnership offers expanded architectural flexibility, allowing users to programmatically extract, permanently cache, and process web data alongside other large language models.]]&gt;</description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_post_banner_proposal.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Evolving Spec-Driven Development: Conductor Now Supports Antigravity</title>
+      <link>https://developers.googleblog.com/en/evolving-spec-driven-development-conductor-now-supports-antigravity/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" alt="ADK + Gemini CLI: Supercharge Your Agent Building Vibe" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Conductor has evolved from a Gemini CLI extension into a portable plugin, bringing conversational Spec-Driven Development (SDD) to ecosystems like Antigravity CLI and Claude. Rather than relying on strict command sequences, developers can now chat naturally with their AI assistant while it dynamically manages persistent markdown artifacts (like spec.md and plan.md) in the background. This update eliminates workflow friction while ensuring your repository remains a version-controlled, single source of truth for your project's architecture and state across different AI tools.]]&gt;</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/evolving-spec-driven-development-conductor-now-supports-antigravity/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GGBM3681_1.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText</title>
-      <link>https://developers.googleblog.com/en/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Cloud-1-banner.2e16d0ba.fill-800x400.png" alt="Gemini_Generated_Image_b07hglb07hglb07h" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX ecosystem utilizes elastic training via Pathways, which converts a hardware failure into a catchable Python exception so the running process can survive. When an unplanned failure occurs, the system automatically replaces only the broken worker, restores the last viable checkpoint from Cloud Storage, and resumes training in place—minimizing total downtime to under two minutes without ever restarting the main controller process.]]&gt;</description>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/we-terminated-a-tpu-mid-training-and-it-recovered-in-seconds-introduction-to-elastic-training-with-maxtext/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Cloud-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
