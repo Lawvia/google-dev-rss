@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jul 2026 02:52:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 02:51:55 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA</title>
+      <link>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" alt="unnamed (8)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.]]&gt;</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Enable on-demand expertise with Agent Skills in Genkit Go</title>
+      <link>https://developers.googleblog.com/en/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-genkit-go-skills.2e16d0ba.fill-800x400.png" alt="banner-genkit-go-skills" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To prevent context window bloat and reduce token consumption, Genkit Go introduces Agent Skills based on a progressive disclosure architecture. Developers can package specialized instructions, scripts, and references into modular SKILL.md bundles where only the frontmatter metadata is initially exposed to the agent's system prompt. When a task matches the skill's description, Genkit's middleware dynamically loads the full instruction body and associated assets, ensuring the model accesses precise workflows exactly when needed.]]&gt;</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-genkit-go-skills.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>How to use Google microbenchmarks for evaluating TPU performance</title>
       <link>https://developers.googleblog.com/en/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/</link>
@@ -40,20 +56,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_pp6EXuC.png" type="image/png" />
     </item>
     <item>
-      <title>Building scalable AI agents with modular prompt transpilation</title>
-      <link>https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular "skill files" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.]]&gt;</description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Expanding Choice in Gemini Enterprise Agent Platform: Introducing Grounding with Parallel Web Search</title>
       <link>https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_post_banner_proposal.2e16d0ba.fill-800x400.jpg" alt="blog post banner proposal" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anchor their AI agents in verifiable, real-time web results, significantly improving factual accuracy for complex enterprise workflows. Additionally, the partnership offers expanded architectural flexibility, allowing users to programmatically extract, permanently cache, and process web data alongside other large language models.]]&gt;</description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog_post_banner_proposal.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Building scalable AI agents with modular prompt transpilation</title>
+      <link>https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" alt="Agent Development Kit: Making it easy to build multi-agent applications" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To resolve the scaling bottlenecks and runtime errors caused by monolithic system prompts, engineering teams should treat prompts as build artifacts by modularizing instructions into reusable templates. By running these modular "skill files" through a transpiler, developers can enforce static validation, catch missing dependencies at build time, and integrate prompt generation directly into their CI/CD pipelines. This deterministic approach prevents code drift and ultimately establishes a safe framework where agents can propose updates to their own logic via standard pull requests.]]&gt;</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Evolving Spec-Driven Development: Conductor Now Supports Antigravity</title>
@@ -70,22 +86,6 @@
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/systems-engineering-playbook-optimizing-qwen-35-397b-moe-on-ironwood-tpu7x/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rhl8wrrhl8w.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>LiteRT.js, Google's high performance Web AI Inference</title>
-      <link>https://developers.googleblog.com/en/litertjs-googles-high-performance-web-ai-inference/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner3.2e16d0ba.fill-800x400.png" alt="banner3" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI runtime to the web. Built for JavaScript developers, LiteRT.js delivers state-of-the-art ML model inference performance on WebGPU and upcoming WebNN, with a fallback to WebAssembly for CPU. This post provides a quick tour of LiteRT.js and gives web developers everything they need to get started.]]&gt;</description>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/litertjs-googles-high-performance-web-ai-inference/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner3.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Bridging the Domain Gap: AI Race Coach built with Antigravity and Gemini</title>
-      <link>https://developers.googleblog.com/en/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GGBM3681_1.2e16d0ba.fill-800x400.jpg" alt="GGBM3681 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;On May 23, 2026, fresh off the stage at Google I/O, our Google Developer Experts (GDEs) converged on...]]&gt;</description>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/bridging-the-domain-gap-ai-race-coach-built-with-antigravity-and-gemini/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/GGBM3681_1.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
