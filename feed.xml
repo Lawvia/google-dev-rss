@@ -5,15 +5,15 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 02:52:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 02:35:59 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA</title>
-      <link>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" alt="unnamed (8)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.]]&gt;</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Scaling real-time AI agents with session-aware load balancing</title>
+      <link>https://developers.googleblog.com/en/scaling-real-time-ai-agents-with-session-aware-load-balancing/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner_8.2e16d0ba.fill-800x400.png" alt="Ai-1-banner (8)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement application-level session tracking directly within the runtime to accurately measure the committed concurrent workload of active conversations. By feeding these precise session counts alongside standard CPU utilization metrics into a hybrid routing algorithm, infrastructure can effectively distribute stateful AI traffic and prevent individual backend bottlenecks.]]&gt;</description>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/scaling-real-time-ai-agents-with-session-aware-load-balancing/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner_8.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Enable on-demand expertise with Agent Skills in Genkit Go</title>
@@ -22,6 +22,14 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-genkit-go-skills.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA</title>
+      <link>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" alt="unnamed (8)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.]]&gt;</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>How to use Google microbenchmarks for evaluating TPU performance</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/evolving-spec-driven-development-conductor-now-supports-antigravity/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/adk-gemini-cli-agent-building-bann.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)</title>
-      <link>https://developers.googleblog.com/en/systems-engineering-playbook-optimizing-qwen-35-397b-moe-on-ironwood-tpu7x/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rhl8wrrhl8w.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_rhl8wrrhl8wrrhl8" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To serve the 397B-parameter Qwen 3.5 Mixture-of-Experts (MoE) model on Ironwood TPUs, engineers developed a modular JAX/Pallas optimization stack that achieved up to a 4.7x inference speedup for prefill-heavy workloads. The team bypassed severe hardware sharding constraints by deploying a hybrid Data Parallelism and Expert Parallelism (DP+EP) topology, paired with custom low-level communication fusions like a hierarchical reduce-scatter to optimize cross-device token routing. Finally, by executing hardware-aware custom kernels—such as Batched Ragged Page Attention and a fully-fused Gated DeltaNet (GDN) block—they successfully saturated HBM bandwidth and TensorCore MXUs to push system throughput near its theoretical roofline limits.]]&gt;</description>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/systems-engineering-playbook-optimizing-qwen-35-397b-moe-on-ironwood-tpu7x/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rhl8wrrhl8w.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
