@@ -5,7 +5,7 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2026 01:47:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 01:51:17 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agent Plugins package your skills, tools, and more</title>
@@ -24,7 +24,7 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-4209x1253.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>A unified API for AI model routing</title>
+      <title>Model routing with Google Cloud API Gateway</title>
       <link>https://developers.googleblog.com/en/a-unified-api-for-ai-model-routing/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Model_Routing_via_API_Gateway___He.2e16d0ba.fill-800x400.jpg" alt="Model Routing via API Gateway _ Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing open-source proxies. Developers can easily configure these routing rules directly within their OpenAPI 3.x specifications by mapping virtual model names to specific backend targets on a shared host. Once deployed, the Gateway acts as a serverless ingress layer that accepts standard OpenAI-compatible requests, automatically transcodes the payload to the native schema of the target model, and routes the traffic on the fly.]]&gt;</description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
