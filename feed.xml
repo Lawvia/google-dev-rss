@@ -5,15 +5,23 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2026 02:02:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 01:59:33 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mastering Edge AI on Raspberry Pi with LiteRT and Gemma</title>
-      <link>https://developers.googleblog.com/en/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner.2e16d0ba.fill-800x400.png" alt="Banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Deploying secure, real-time Edge AI on Raspberry Pi is now simplified using LiteRT and lightweight Gemma open models. LiteRT optimizes CPU and GPU performance, delivering fast token speeds for models like Gemma4, enabling real-time local reasoning for robotics. Developers can quickly convert, quantize, and run these models using the lightweight LiteRT CLI tool. Support for Hailo AI accelerators is also coming very soon.]]&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>HeyGen x Google Cloud: Bringing Avatar IV to TPUs</title>
+      <link>https://developers.googleblog.com/en/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_eshxr7eshxr.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_eshxr7eshxr7eshx" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;HeyGen ported their 18B+ parameter Avatar IV video generation model to Google Cloud's Trillium (v6e) TPUs via torchax and XLA, utilizing FSDP and Ulysses sequence parallelism across an eight-chip mesh. To achieve a 1.86x speedup for real-time streaming, the engineering team pipelined exposed all-to-all collectives, aligned sparse attention block sizes to eliminate mask padding, and bypassed softmax serial dependencies using a precomputed Cauchy-Schwarz upper bound. These custom Pallas kernel and compiler optimizations were deployed only after passing rigorous two-tier quality gates to guarantee byte-identical or mathematically equivalent pixel outputs.]]&gt;</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_eshxr7eshxr.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Introducing Credentio: Open Source C++ Library for C2PA Content Credentials from Google</title>
+      <link>https://developers.googleblog.com/en/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/credentio-hero-updated.2e16d0ba.fill-800x400.png" alt="credentio-hero-updated" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Credentio is a newly released, open-source C++ library from Google that allows developers to integrate high-performance, local-first validation of C2PA Content Credentials into their client and server applications. By processing assets entirely locally with a highly optimized memory footprint, the library delivers instant validation verdicts for multi-gigabyte media files without incurring cloud latency, bandwidth costs, or data privacy risks. The library currently features deep manifest parsing alongside configurable trust list integration, and is available now on Google Source with future plans to support full credential generation and embedding.]]&gt;</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/introducing-credentio-open-source-c-library-for-c2pa-content-credentials-from-google/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/credentio-hero-updated.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Why Go is an Ideal Language for AI-Assisted Software Engineering</title>
@@ -22,6 +30,14 @@
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Go_Logo_-_Blue.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Mastering Edge AI on Raspberry Pi with LiteRT and Gemma</title>
+      <link>https://developers.googleblog.com/en/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner.2e16d0ba.fill-800x400.png" alt="Banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Deploying secure, real-time Edge AI on Raspberry Pi is now simplified using LiteRT and lightweight Gemma open models. LiteRT optimizes CPU and GPU performance, delivering fast token speeds for models like Gemma4, enabling real-time local reasoning for robotics. Developers can quickly convert, quantize, and run these models using the lightweight LiteRT CLI tool. Support for Hailo AI accelerators is also coming very soon.]]&gt;</description>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Agent Plugins package your skills, tools, and more</title>
@@ -70,22 +86,6 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>How to use Google microbenchmarks for evaluating TPU performance</title>
-      <link>https://developers.googleblog.com/en/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_mcirobenchmark_banner_image.2e16d0ba.fill-800x400.jpg" alt="TPU mcirobenchmark banner image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google's open-source TPU microbenchmark suite provides developers with granular performance metrics across Network, Compute, HBM, Host Transfer, and Attention components to validate real-world hardware capabilities. By leveraging these benchmarks to establish a Roofline model, engineers can accurately diagnose whether their machine learning workloads are compute-, memory-, or network-bound. This empirical baseline directly guides targeted software optimizations—such as kernel tuning, mesh sharding, and rematerialization—to maximize hardware utilization for large-scale model deployments.]]&gt;</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/how-to-use-google-microbenchmarks-for-evaluating-tpu-performance/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/TPU_mcirobenchmark_banner_image.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Run Ray on TPU, Part 2: Ray AI libraries</title>
-      <link>https://developers.googleblog.com/en/run-ray-on-tpu-part-2-ray-ai-libraries/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_pp6EXuC.png" alt="header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correctly gang-schedule large multi-host models, while Ray Data eliminates data-loading bottlenecks by feeding accelerators directly with native JAX batches. Finally, JaxTrainer streamlines distributed training across TPUs by automatically handling cross-slice coordination, checkpointing, and fault tolerance.]]&gt;</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/run-ray-on-tpu-part-2-ray-ai-libraries/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_pp6EXuC.png" type="image/png" />
     </item>
   </channel>
 </rss>
