@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 01:17:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 01:15:15 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build zero-trust AI agents with Google's Agent Development Kit</title>
+      <link>https://developers.googleblog.com/en/build-zero-trust-ai-agents-with-googles-agent-development-kit/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_1.2e16d0ba.fill-800x400.jpg" alt="banner (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Building autonomous AI agents that mutate production state requires moving beyond soft system prompts to a robust zero-trust architecture. To secure Google Agent Development Kit (ADK) workflows against prompt injections and malicious execution, developers must implement hardware-backed cryptographic signatures for database writes, kernel-level sandboxing with gVisor for dynamic code, and deterministic semantic gateways for I/O validation. By enforcing these hard security boundaries at the infrastructure level, you can safely deploy multi-tool AI agents without risking unauthorized data manipulation or server compromise.]]&gt;</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/build-zero-trust-ai-agents-with-googles-agent-development-kit/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner_1.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>HeyGen x Google Cloud: Bringing Avatar IV to TPUs</title>
       <link>https://developers.googleblog.com/en/heygen-x-google-cloud-bringing-avatar-iv-to-tpus/</link>
@@ -24,20 +32,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/credentio-hero-updated.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Why Go is an Ideal Language for AI-Assisted Software Engineering</title>
-      <link>https://developers.googleblog.com/en/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Go_Logo_-_Blue.2e16d0ba.fill-800x400.png" alt="Go Logo - Blue" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;As AI coding assistants shift the developer's primary role from writing boilerplate to reviewing and maintaining systems, language choice becomes critical for long-term architectural integrity. Go directly addresses this new paradigm by utilizing its strict compiler, integrated toolchain, and uncompromising readability to provide deterministic guardrails that help AI models self-correct and generate highly standardized code. By enforcing ecosystem-wide consistency and strict backward compatibility, the Go platform empowers engineering teams to efficiently verify, optimize, and maintain high-velocity, AI-generated output in production environments.]]&gt;</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Go_Logo_-_Blue.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Mastering Edge AI on Raspberry Pi with LiteRT and Gemma</title>
       <link>https://developers.googleblog.com/en/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner.2e16d0ba.fill-800x400.png" alt="Banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Deploying secure, real-time Edge AI on Raspberry Pi is now simplified using LiteRT and lightweight Gemma open models. LiteRT optimizes CPU and GPU performance, delivering fast token speeds for models like Gemma4, enabling real-time local reasoning for robotics. Developers can quickly convert, quantize, and run these models using the lightweight LiteRT CLI tool. Support for Hailo AI accelerators is also coming very soon.]]&gt;</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Why Go is an Ideal Language for AI-Assisted Software Engineering</title>
+      <link>https://developers.googleblog.com/en/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Go_Logo_-_Blue.2e16d0ba.fill-800x400.png" alt="Go Logo - Blue" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;As AI coding assistants shift the developer's primary role from writing boilerplate to reviewing and maintaining systems, language choice becomes critical for long-term architectural integrity. Go directly addresses this new paradigm by utilizing its strict compiler, integrated toolchain, and uncompromising readability to provide deterministic guardrails that help AI models self-correct and generate highly standardized code. By enforcing ecosystem-wide consistency and strict backward compatibility, the Go platform empowers engineering teams to efficiently verify, optimize, and maintain high-velocity, AI-generated output in production environments.]]&gt;</description>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Go_Logo_-_Blue.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Agent Plugins package your skills, tools, and more</title>
@@ -78,14 +86,6 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-genkit-go-skills.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA</title>
-      <link>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" alt="unnamed (8)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.]]&gt;</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/unnamed_8.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
