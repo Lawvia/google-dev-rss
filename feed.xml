@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 01:19:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 01:17:00 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Evaluate Live &amp; Voice Agents in ADK</title>
+      <link>https://developers.googleblog.com/en/how-to-evaluate-live-voice-agents-in-adk/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Evaluating_Live_Agent_in_ADK_.2e16d0ba.fill-800x400.png" alt="Evaluating Live Agent in ADK" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Moving live voice agents from demo to production requires rigorous, automated testing to handle the unpredictability of real multi-turn conversations. ADK now provides native live evaluation, allowing developers to test graph-based agent workflows against LLM-driven simulated users that generate actual audio via Gemini TTS. By defining evaluation scenarios and natural-language rubrics, you can automatically score audio responses and tool executions, inspect the resulting transcripts in ADK Web, or run the CLI directly in your CI/CD pipeline.]]&gt;</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-to-evaluate-live-voice-agents-in-adk/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Evaluating_Live_Agent_in_ADK_.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Build zero-trust AI agents with Google's Agent Development Kit</title>
       <link>https://developers.googleblog.com/en/build-zero-trust-ai-agents-with-googles-agent-development-kit/</link>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/scaling-real-time-ai-agents-with-session-aware-load-balancing/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-banner_8.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Enable on-demand expertise with Agent Skills in Genkit Go</title>
-      <link>https://developers.googleblog.com/en/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-genkit-go-skills.2e16d0ba.fill-800x400.png" alt="banner-genkit-go-skills" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To prevent context window bloat and reduce token consumption, Genkit Go introduces Agent Skills based on a progressive disclosure architecture. Developers can package specialized instructions, scripts, and references into modular SKILL.md bundles where only the frontmatter metadata is initially exposed to the agent's system prompt. When a task matches the skill's description, Genkit's middleware dynamically loads the full instruction body and associated assets, ensuring the model accesses precise workflows exactly when needed.]]&gt;</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/enable-on-demand-expertise-with-agent-skills-in-genkit-go/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-genkit-go-skills.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
