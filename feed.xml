@@ -5,13 +5,13 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Sep 2026 03:21:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 03:19:12 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4 engineering patterns behind the strongest AI Agents Challenge submissions</title>
       <link>https://developers.googleblog.com/en/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5wdk45wdk45.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_5wdk45wdk45wdk45" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, strict unified validation for model fallbacks, and tiered routing to minimize expensive inference calls. By prioritizing these structural practices over simple linear prompt chains, developers can build more resilient, low-latency, and cost-effective agentic workflows.]]&gt;</description>
-      <pubDate>Thu, 03 Sep 2026 03:21:30 +0000</pubDate>
+      <pubDate>Fri, 04 Sep 2026 03:19:12 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5wdk45wdk45.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
