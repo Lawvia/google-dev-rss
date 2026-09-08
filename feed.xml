@@ -5,13 +5,13 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2026 03:20:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 03:27:50 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Driving Developer Excellence: Inside the Program Sprints</title>
       <link>https://developers.googleblog.com/en/driving-developer-excellence-inside-the-program-sprints/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_9_j6IHMbN.2e16d0ba.fill-800x400.png" alt="image (9)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This recent sprint focused on optimizing enterprise AI governance, including refining setup prerequisites, securing extension configurations, and clarifying policy enforcement mechanics to ensure a smoother, more reliable deployment. Developers can now leverage updated documentation and standardized code samples to improve their experience with Agent Gateway and Semantic Governance configurations.]]&gt;</description>
-      <pubDate>Mon, 07 Sep 2026 03:20:51 +0000</pubDate>
+      <pubDate>Tue, 08 Sep 2026 03:27:50 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/driving-developer-excellence-inside-the-program-sprints/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_9_j6IHMbN.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -19,7 +19,7 @@
       <title>4 engineering patterns behind the strongest AI Agents Challenge submissions</title>
       <link>https://developers.googleblog.com/en/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5wdk45wdk45.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_5wdk45wdk45wdk45" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consistently implemented bidirectional MCP for seamless inter-agent communication, async event buses for parallel execution, strict unified validation for model fallbacks, and tiered routing to minimize expensive inference calls. By prioritizing these structural practices over simple linear prompt chains, developers can build more resilient, low-latency, and cost-effective agentic workflows.]]&gt;</description>
-      <pubDate>Mon, 07 Sep 2026 03:20:51 +0000</pubDate>
+      <pubDate>Tue, 08 Sep 2026 03:27:50 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_5wdk45wdk45.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
