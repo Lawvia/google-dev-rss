@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 04:56:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 04:59:28 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ML Drift: Next-Gen GPU AI/ML Inference at the Edge</title>
+      <link>https://developers.googleblog.com/en/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_c5igf5c5igf.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_c5igf5c5igf5c5ig" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge has introduced ML Drift, a high-performance, universal GPU compute framework designed to accelerate on-device AI and machine learning inference. By abstracting the complexities of hardware and low-level APIs—including OpenGL ES, OpenCL, Metal, and WebGPU—ML Drift enables developers to build real-time, interactive ML experiences, from sophisticated video effects to generative AI, across mobile and desktop platforms.]]&gt;</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_c5igf5c5igf.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent</title>
+      <link>https://developers.googleblog.com/en/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_2g9cog2g9co.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_2g9cog2g9cog2g9c" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference implementation that runs beside your production agent in Google Cloud, sweeps and verifies failure clusters against conversation transcripts, and diagnoses root causes anchored to the exact deployed source snapshot.]]&gt;</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/the-outer-loop-insights-first-an-ambient-quality-agent-that-diagnoses-your-production-agent/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_2g9cog2g9co.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Supercharge your development with the Google Developer Knowledge API ecosystem</title>
       <link>https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/</link>
@@ -35,31 +51,31 @@
       <title>Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs</title>
       <link>https://developers.googleblog.com/en/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2_UVrdPMU.2e16d0ba.fill-800x400.jpg" alt="header (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To address the quadratic latency bottleneck of self-attention in high-resolution video diffusion models, developers implemented Sparse VideoGen (SVG) to dynamically route attention heads to highly structured spatial or temporal sparse masks. Translating this algorithmic sparsity into physical hardware speedups on TPUs required optimizing the Splash Attention kernel by bypassing empty memory tiles, restricting exact coordinate masking strictly to boundary tiles, and permuting token memory layouts into temporal-major order for contiguous access. By aligning these sparse masks with actual hardware tile execution, the combined optimizations significantly reduced wasted matrix operations and achieved up to a 1.69x end-to-end inference speedup for 1440p video generation.]]&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 04:56:32 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 04:59:28 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2_UVrdPMU.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs</title>
-      <link>https://developers.googleblog.com/en/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_EW6cAWs.jpg" alt="header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.]]&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 04:56:32 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_EW6cAWs.jpg" type="image/png" />
     </item>
     <item>
       <title>Turn your REST APIs into MCP tools with Google Cloud API Gateway</title>
       <link>https://developers.googleblog.com/en/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_d4kjkdd4kjk.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_d4kjkdd4kjkdd4kj" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard REST operations into discoverable, agent-ready tools. The gateway automatically transcodes incoming MCP JSON-RPC requests into REST calls, ensuring that your existing authentication, quotas, and logging policies apply seamlessly to agent traffic without requiring new infrastructure.]]&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 04:56:32 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 04:59:28 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_d4kjkdd4kjk.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs</title>
+      <link>https://developers.googleblog.com/en/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_EW6cAWs.jpg" alt="header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stages on all held-out evaluations. The implementation achieved up to 57.4% Model Flops Utilization (MFU) and demonstrated robust infrastructure portability by surviving mid-run cluster resizes and cross-generation TPU shifts without requiring recipe alterations. Crucially, the exercise proved the necessity of comprehensive held-out validation by catching a silent data-loader memorization bug that artificially depressed training loss and would have otherwise faked a performance win.]]&gt;</description>
+      <pubDate>Fri, 09 Oct 2026 04:59:28 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/reproducing-olmo-3-7b-pre-training-in-maxtext-case-study-of-large-scale-training-on-tpus/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header.2e16d0ba.fill-800x400_EW6cAWs.jpg" type="image/png" />
     </item>
     <item>
       <title>Introducing Support for Local AI Models in the Antigravity SDK</title>
       <link>https://developers.googleblog.com/en/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agy_litrt.2e16d0ba.fill-800x400.png" alt="agy_litrt" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowing a cloud model to act as a lightweight planner while local models securely handle token-intensive tasks—like code auditing and patching—directly on-device. Furthermore, the SDK provides drop-in support for OpenAI-compatible inference servers like Ollama and vLLM, enabling the seamless creation of privacy-first, autonomous local utilities.]]&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 04:56:32 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 04:59:28 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/introducing-support-for-local-ai-models-in-the-antigravity-sdk/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/agy_litrt.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
@@ -67,25 +83,9 @@
       <title>Colab is now part of your Google AI plan</title>
       <link>https://developers.googleblog.com/en/colab-is-now-part-of-your-google-ai-plan/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-one-banner-v2.2e16d0ba.fill-800x400.png" alt="google-one-banner-v2" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Unlock premium Google Colab compute with Google AI. Subscribers now get priority accelerators, Premium GPUs, and background execution for long training runs.]]&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 04:56:32 +0000</pubDate>
+      <pubDate>Fri, 09 Oct 2026 04:59:28 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/colab-is-now-part-of-your-google-ai-plan/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/google-one-banner-v2.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Why client SDK generation belongs in the open</title>
-      <link>https://developers.googleblog.com/en/why-client-sdk-generation-belongs-in-the-open/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Copy_of_why_client_SDK_generation_.2e16d0ba.fill-800x400.png" alt="Copy of why client SDK generation belongs in the open" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly open-sourced suite equips developers with deterministic, multi-language SDK generators that natively support strict typing and SSE streaming, alongside tools for compiling agent-native CLIs and documentation MCP servers. Engineering teams can now safely integrate this robust tooling directly into their CI pipelines to automatically generate reliable client libraries for their own APIs, all while retaining complete licensing control over the output code.]]&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 04:56:32 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/why-client-sdk-generation-belongs-in-the-open/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Copy_of_why_client_SDK_generation_.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform</title>
-      <link>https://developers.googleblog.com/en/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog_Banner_3.2e16d0ba.fill-800x400.jpg" alt="Blog_Banner_3" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live requests. It utilizes a multi-tiered detection pipeline—combining lightweight statistical scanning with deep LLM-based reasoning—to identify logical anomalies and policy violations grounded in the OWASP Agentic Top 10. Developers can triage these automated findings within Security Command Center or leverage the exposed API to programmatically block subsequent tool calls when an agent breaches defined risk thresholds.]]&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 04:56:32 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Blog_Banner_3.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
