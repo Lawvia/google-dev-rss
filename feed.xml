@@ -5,8 +5,32 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Oct 2026 03:34:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 03:30:30 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Three layers, one repo: a tour of google/adk-recipes</title>
+      <link>https://developers.googleblog.com/en/three-layers-one-repo-a-tour-of-googleadk-recipes/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_1.2e16d0ba.fill-800x400.png" alt="1 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The google/adk-recipes repository unifies Agent Development Kit (ADK) resources into three structured layers—core/, plugins/, and contrib/—serving as a single source of truth for building AI agents. Developers can leverage reference patterns, install modular vertical skills (such as retail product search and virtual try-on) directly into their coding assistants, and deploy production-ready services across multiple languages. This cohesive structure streamlines the entire workflow from initial scaffolding to full deployment on Google Cloud infrastructure.]]&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/three-layers-one-repo-a-tour-of-googleadk-recipes/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_1.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Announcing DPoP Support for Google OAuth: Securing Refresh Tokens</title>
+      <link>https://developers.googleblog.com/en/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_s1iz7fs1iz7fs1iz" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.]]&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Evaluating AI agents: moving past the vibe check</title>
+      <link>https://developers.googleblog.com/en/evaluating-ai-agents-moving-past-the-vibe-check/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/evaluating-ai-agents-banner-1600x9.2e16d0ba.fill-800x400.png" alt="evaluating-ai-agents-banner-1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.]]&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/evaluating-ai-agents-moving-past-the-vibe-check/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/evaluating-ai-agents-banner-1600x9.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster</title>
       <link>https://developers.googleblog.com/en/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/</link>
@@ -14,14 +38,6 @@
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bib6g3bib6g.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Gemini 4 Argon for Robotics</title>
-      <link>https://developers.googleblog.com/en/gemini-4-argon-for-robotics/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-800x400.png" alt="argon__robotics__hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API, and Google Antigravity—to build and test sophisticated robotic applications. By leveraging simulation tools like MuJoCo and code-as-policies, engineers can seamlessly transition from real-world data or sketches to physically verified robot control and self-improvement workflows.]]&gt;</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemini-4-argon-for-robotics/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon</title>
@@ -32,12 +48,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rwc022rwc02.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>ML Drift: Next-Gen GPU AI/ML Inference at the Edge</title>
-      <link>https://developers.googleblog.com/en/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_c5igf5c5igf.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_c5igf5c5igf5c5ig" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge has introduced ML Drift, a high-performance, universal GPU compute framework designed to accelerate on-device AI and machine learning inference. By abstracting the complexities of hardware and low-level APIs—including OpenGL ES, OpenCL, Metal, and WebGPU—ML Drift enables developers to build real-time, interactive ML experiences, from sophisticated video effects to generative AI, across mobile and desktop platforms.]]&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_c5igf5c5igf.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>Gemini 4 Argon for Robotics</title>
+      <link>https://developers.googleblog.com/en/gemini-4-argon-for-robotics/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-800x400.png" alt="argon__robotics__hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API, and Google Antigravity—to build and test sophisticated robotic applications. By leveraging simulation tools like MuJoCo and code-as-policies, engineers can seamlessly transition from real-world data or sketches to physically verified robot control and self-improvement workflows.]]&gt;</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/gemini-4-argon-for-robotics/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent</title>
@@ -48,6 +64,14 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_2g9cog2g9co.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
+      <title>ML Drift: Next-Gen GPU AI/ML Inference at the Edge</title>
+      <link>https://developers.googleblog.com/en/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_c5igf5c5igf.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_c5igf5c5igf5c5ig" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge has introduced ML Drift, a high-performance, universal GPU compute framework designed to accelerate on-device AI and machine learning inference. By abstracting the complexities of hardware and low-level APIs—including OpenGL ES, OpenCL, Metal, and WebGPU—ML Drift enables developers to build real-time, interactive ML experiences, from sophisticated video effects to generative AI, across mobile and desktop platforms.]]&gt;</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_c5igf5c5igf.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
       <title>Supercharge your development with the Google Developer Knowledge API ecosystem</title>
       <link>https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/dk_api_tools.2e16d0ba.fill-800x400.jpg" alt="dk_api_tools" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.]]&gt;</description>
@@ -56,36 +80,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/dk_api_tools.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>EmbeddingGemma 2: The Developer Guide</title>
-      <link>https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/embeddinggemma-2-the-developer-gui.2e16d0ba.fill-800x400.png" alt="embeddinggemma-2-the-developer-guide" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectively load modular modality encoders—ranging from 270M to 740M parameters—to optimize memory usage. Additionally, Matryoshka Representation Learning enables dynamic dimension truncation down to 128d, significantly reducing vector database storage requirements while maintaining high retrieval performance.]]&gt;</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/embeddinggemma-2-the-developer-guide/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/embeddinggemma-2-the-developer-gui.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>Bring multimodal semantic search to the edge with EmbeddingGemma 2</title>
       <link>https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_amiggaamigg.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_amiggaamiggaamig" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.]]&gt;</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_amiggaamigg.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Accelerating Spatio-Temporal Attention for Video Diffusion on TPUs</title>
-      <link>https://developers.googleblog.com/en/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2_UVrdPMU.2e16d0ba.fill-800x400.jpg" alt="header (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;To address the quadratic latency bottleneck of self-attention in high-resolution video diffusion models, developers implemented Sparse VideoGen (SVG) to dynamically route attention heads to highly structured spatial or temporal sparse masks. Translating this algorithmic sparsity into physical hardware speedups on TPUs required optimizing the Splash Attention kernel by bypassing empty memory tiles, restricting exact coordinate masking strictly to boundary tiles, and permuting token memory layouts into temporal-major order for contiguous access. By aligning these sparse masks with actual hardware tile execution, the combined optimizations significantly reduced wasted matrix operations and achieved up to a 1.69x end-to-end inference speedup for 1440p video generation.]]&gt;</description>
-      <pubDate>Thu, 15 Oct 2026 03:34:48 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/accelerating-spatio-temporal-attention-for-video-diffusion-on-tpus/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2_UVrdPMU.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Turn your REST APIs into MCP tools with Google Cloud API Gateway</title>
-      <link>https://developers.googleblog.com/en/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_d4kjkdd4kjk.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_d4kjkdd4kjkdd4kj" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotations (like x-google-api-management.mcp) to existing OpenAPI 3.x specifications, developers can instantly convert standard REST operations into discoverable, agent-ready tools. The gateway automatically transcodes incoming MCP JSON-RPC requests into REST calls, ensuring that your existing authentication, quotas, and logging policies apply seamlessly to agent traffic without requiring new infrastructure.]]&gt;</description>
-      <pubDate>Thu, 15 Oct 2026 03:34:48 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_d4kjkdd4kjk.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
