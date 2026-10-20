@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 03:37:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 03:48:22 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Native Model Authoring for Edge with LiteRT Tensor API</title>
+      <link>https://developers.googleblog.com/en/native-model-authoring-for-edge-with-litert-tensor-api/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbguxw.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_bguxwvbguxwvbgux" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Meet the LiteRT Tensor API: giving developers native C++ control over the model graph to unify end-to-end ML computations on heterogeneous edge hardware.]]&gt;</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/native-model-authoring-for-edge-with-litert-tensor-api/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbguxw.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK</title>
+      <link>https://developers.googleblog.com/en/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/option4_minimal_flow_diagram_1600x.2e16d0ba.fill-800x400.png" alt="option4_minimal_flow_diagram_1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updates or background execution patterns to keep conversations fluid during long-running backend queries. Additionally, configuring response scheduling behaviors such as WHEN_IDLE, INTERRUPT, or SILENT gives developers precise control over when and how tool results are delivered into the conversation.]]&gt;</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/option4_minimal_flow_diagram_1600x.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Three layers, one repo: a tour of google/adk-recipes</title>
       <link>https://developers.googleblog.com/en/three-layers-one-repo-a-tour-of-googleadk-recipes/</link>
@@ -14,14 +30,6 @@
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/three-layers-one-repo-a-tour-of-googleadk-recipes/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_1.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Announcing DPoP Support for Google OAuth: Securing Refresh Tokens</title>
-      <link>https://developers.googleblog.com/en/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_s1iz7fs1iz7fs1iz" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.]]&gt;</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Evaluating AI agents: moving past the vibe check</title>
@@ -32,6 +40,14 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/evaluating-ai-agents-banner-1600x9.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
+      <title>Announcing DPoP Support for Google OAuth: Securing Refresh Tokens</title>
+      <link>https://developers.googleblog.com/en/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_s1iz7fs1iz7fs1iz" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.]]&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
       <title>Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster</title>
       <link>https://developers.googleblog.com/en/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bib6g3bib6g.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_bib6g3bib6g3bib6" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Developers can expose OpenAPI 3.0.x specifications as discoverable MCP tools, leverage existing security policies and API products, and trace end-to-end requests using W3C trace context headers.]]&gt;</description>
@@ -40,20 +56,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bib6g3bib6g.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon</title>
-      <link>https://developers.googleblog.com/en/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rwc022rwc02.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_rwc022rwc022rwc0" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How our engineering team ran Gemini 4 Argon unattended overnight with .agents/skills and /goal mode to cut in-memory session prep overhead by 40% in long sessions and speed up cold imports by 21% in Google's open-source Python Agent Development Kit (ADK).]]&gt;</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rwc022rwc02.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
       <title>Gemini 4 Argon for Robotics</title>
       <link>https://developers.googleblog.com/en/gemini-4-argon-for-robotics/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-800x400.png" alt="argon__robotics__hero" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Gemini 4 Argon is a general-purpose physical reasoning model designed to enhance workflows across the robotics stack with advanced capabilities in physical understanding, code generation, and visual-semantic reasoning. Developers can access and integrate Argon across Google's developer platforms—including Google AI Studio, the Gemini API, and Google Antigravity—to build and test sophisticated robotic applications. By leveraging simulation tools like MuJoCo and code-as-policies, engineers can seamlessly transition from real-world data or sketches to physically verified robot control and self-improvement workflows.]]&gt;</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-4-argon-for-robotics/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Optimizing a 200,000-line Python codebase overnight with Gemini 4 Argon</title>
+      <link>https://developers.googleblog.com/en/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rwc022rwc02.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_rwc022rwc022rwc0" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How our engineering team ran Gemini 4 Argon unattended overnight with .agents/skills and /goal mode to cut in-memory session prep overhead by 40% in long sessions and speed up cold imports by 21% in Google's open-source Python Agent Development Kit (ADK).]]&gt;</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_rwc022rwc02.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent</title>
@@ -70,22 +86,6 @@
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_c5igf5c5igf.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Supercharge your development with the Google Developer Knowledge API ecosystem</title>
-      <link>https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/dk_api_tools.2e16d0ba.fill-800x400.jpg" alt="dk_api_tools" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date documentation across Firebase, Google Cloud, Android, and more. By using the official MCP server, developers can connect tools directly to Google’s documentation corpus, ensuring that AI-generated code and guidance are based on authoritative, real-time context.]]&gt;</description>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/supercharge-your-development-with-the-google-developer-knowledge-api-ecosystem/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/dk_api_tools.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Bring multimodal semantic search to the edge with EmbeddingGemma 2</title>
-      <link>https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_amiggaamigg.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_amiggaamiggaamig" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities cross-platform using MediaPipe Tasks or optimize fine-grained performance across CPU, GPU, and NPU accelerators with LiteRT. The model enables ultra-low-latency local solutions like search-as-you-type media retrieval, keyframe video moments finding, and zero-shot intent routing.]]&gt;</description>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/google-ai-edge-with-embeddinggemma-2/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_amiggaamigg.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
