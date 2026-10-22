@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 03:39:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 03:38:47 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond</title>
+      <link>https://developers.googleblog.com/en/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_2.2e16d0ba.fill-800x400.png" alt="1 (2)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The Agents CLI Extension System enables developers to use frameworks like LangChain, LangGraph, or custom enterprise stacks while retaining a unified deployment and evaluation workflow. It details a first-party LangChain template that scaffolds, runs, and deploys agents without requiring the Agent Development Kit (ADK). Additionally, it demonstrates how platform teams can author custom extensions to enforce policies such as automated software bill of materials (SBOM) scans during deployment.]]&gt;</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_2.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon</title>
       <link>https://developers.googleblog.com/en/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/</link>
@@ -24,14 +32,6 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/inferenceblog.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer</title>
-      <link>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_8zpqf88zpqf88zpq" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.]]&gt;</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
       <title>Integrating TorchTPU into TorchTitan and Optimizing Models for TPU</title>
       <link>https://developers.googleblog.com/en/integrating-torchtpu-into-torchtitan-and-optimizing-models-for-tpu/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-800x400.jpg" alt="Torch Titan Header Image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;TorchTPU integrates a native torch.device("tpu") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this with production-grade scaling primitives like SimpleFSDP, Graph Trainer, and custom Pallas kernels that achieve high Model Flops Utilization (MFU) across dense and MoE architectures. Developers can leverage these battle-tested optimization playbooks, recipes, and the Hugging Face modeling backend to efficiently scale their own workloads on TPU infrastructure.]]&gt;</description>
@@ -40,12 +40,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Native Model Authoring for Edge with LiteRT Tensor API</title>
-      <link>https://developers.googleblog.com/en/native-model-authoring-for-edge-with-litert-tensor-api/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbguxw.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_bguxwvbguxwvbgux" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Meet the LiteRT Tensor API: giving developers native C++ control over the model graph to unify end-to-end ML computations on heterogeneous edge hardware.]]&gt;</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/native-model-authoring-for-edge-with-litert-tensor-api/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbguxw.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer</title>
+      <link>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_8zpqf88zpqf88zpq" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.]]&gt;</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK</title>
@@ -54,6 +54,14 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/step-by-step-guide-build-a-voice-agent-that-never-goes-silent-using-adk/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/option4_minimal_flow_diagram_1600x.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Native Model Authoring for Edge with LiteRT Tensor API</title>
+      <link>https://developers.googleblog.com/en/native-model-authoring-for-edge-with-litert-tensor-api/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbguxw.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_bguxwvbguxwvbgux" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Meet the LiteRT Tensor API: giving developers native C++ control over the model graph to unify end-to-end ML computations on heterogeneous edge hardware.]]&gt;</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/native-model-authoring-for-edge-with-litert-tensor-api/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbguxw.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Announcing DPoP Support for Google OAuth: Securing Refresh Tokens</title>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/evaluating-ai-agents-moving-past-the-vibe-check/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/evaluating-ai-agents-banner-1600x9.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster</title>
-      <link>https://developers.googleblog.com/en/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bib6g3bib6g.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_bib6g3bib6g3bib6" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and tool execution remain entirely inside your infrastructure while pulling configuration updates from the control plane. Developers can expose OpenAPI 3.0.x specifications as discoverable MCP tools, leverage existing security policies and API products, and trace end-to-end requests using W3C trace context headers.]]&gt;</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-mcp-support-in-apigee-hybrid-agentic-tools-that-run-in-your-own-cluster/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bib6g3bib6g.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
