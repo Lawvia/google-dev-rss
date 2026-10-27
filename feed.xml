@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 03:38:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 04:02:20 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Preview, edit, and collaborate on markdown (.md) files natively in Google Docs and Drive</title>
+      <link>https://developers.googleblog.com/en/preview-edit-and-collaborate-on-markdown-md-files-natively-in-google-docs-and-drive/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_11_a479DBi.2e16d0ba.fill-800x400.png" alt="image (11)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Workspace now offers native support for Markdown (.md) files, allowing developers and AI agents to seamlessly collaborate on documentation directly in Google Docs without manual file conversions. This integration preserves native file fidelity for use with Git repositories and developer tools while unlocking standard Docs features like line-level commenting, rendered Drive previews, and tracked version history.]]&gt;</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/preview-edit-and-collaborate-on-markdown-md-files-natively-in-google-docs-and-drive/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/image_11_a479DBi.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Architecting Governed, Self-Evolving AI Agents on Google Cloud</title>
       <link>https://developers.googleblog.com/en/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</link>
@@ -32,12 +40,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon</title>
-      <link>https://developers.googleblog.com/en/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-800x400.jpg" alt="blog-header-image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Research has completed the 32-bit open-source Coral NPU RISC-V architecture with the introduction of its Matrix Execution Unit, which delivers up to 1 TOPS while targeting 10 mW average power for edge inference. Alongside this architecture, the release of the v1.0 open-source IREE/MLIR compiler allows developers to take models from JAX, PyTorch, and TensorFlow straight to Coral NPU hardware without writing custom assembly. Developers can now prototype and deploy these multimodal edge applications using new hardware options like the Synaptics Astra SR200 MCU series and globally available Coralboard devkits.12]]&gt;</description>
+      <title>Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer</title>
+      <link>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_8zpqf88zpqf88zpq" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.]]&gt;</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <guid>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Integrating TorchTPU into TorchTitan and Optimizing Models for TPU</title>
@@ -48,20 +56,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Torch_Titan_Header_Image.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer</title>
-      <link>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_8zpqf88zpqf88zpq" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.]]&gt;</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
       <title>Announcing New vLLM and SGLang Inference Engines on TPU</title>
       <link>https://developers.googleblog.com/en/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/inferenceblog.2e16d0ba.fill-800x400.jpg" alt="inferenceblog" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post announces native PyTorch backends for vLLM and SGLang powered by TorchTPU, enabling developers to run and optimize serving workloads using familiar PyTorch tools. Built in collaboration with open-source project maintainers, these engines include optimized TPU kernel implementations, production-ready features like KV cache management with TPU Sync, and disaggregated serving. Public benchmarks demonstrate state-of-the-art performance and industry-leading cost efficiency on Ironwood TPU across long-context and agentic workloads.]]&gt;</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/inferenceblog.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon</title>
+      <link>https://developers.googleblog.com/en/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-800x400.jpg" alt="blog-header-image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Research has completed the 32-bit open-source Coral NPU RISC-V architecture with the introduction of its Matrix Execution Unit, which delivers up to 1 TOPS while targeting 10 mW average power for edge inference. Alongside this architecture, the release of the v1.0 open-source IREE/MLIR compiler allows developers to take models from JAX, PyTorch, and TensorFlow straight to Coral NPU hardware without writing custom assembly. Developers can now prototype and deploy these multimodal edge applications using new hardware options like the Synaptics Astra SR200 MCU series and globally available Coralboard devkits.12]]&gt;</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/unifying-edge-ai-how-coral-npus-open-standard-brings-portable-energy-viable-intelligence-from-model-to-silicon/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-header-image.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK</title>
@@ -78,14 +86,6 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/native-model-authoring-for-edge-with-litert-tensor-api/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_bguxwvbguxw.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Announcing DPoP Support for Google OAuth: Securing Refresh Tokens</title>
-      <link>https://developers.googleblog.com/en/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_s1iz7fs1iz7fs1iz" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-lived refresh tokens while maintaining short-lived access tokens as standard Bearer tokens, developers achieve robust credential security without incurring high-QPS API performance overhead. Additionally, developers integrating multi-agent or Model Context Protocol (MCP) workloads can use Google Cloud Secure Token Service (STS) to handle secure token delegation across agent chains.]]&gt;</description>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-dpop-support-for-google-oauth-securing-refresh-tokens/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_s1iz7fs1iz7.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
