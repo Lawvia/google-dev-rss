@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2026 04:44:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 04:44:27 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Generative UI Apps with A2UI &amp; CopilotKit Agents</title>
+      <link>https://developers.googleblog.com/en/build-generative-ui-apps-with-a2ui-copilotkit-agents/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-800x400.png" alt="cover-without-title" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;See Google A2Ui in action! Learn how to natively render agentic UIs across Langchain, AWS Strands, Microsoft agents, and Google ADK using CopilotKit SDKs for A2UI.]]&gt;</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/build-generative-ui-apps-with-a2ui-copilotkit-agents/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Smaller apps and faster GPU inference with LiteRT in Google Play services</title>
       <link>https://developers.googleblog.com/en/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
@@ -78,14 +86,6 @@
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/inferenceblog.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer</title>
-      <link>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_8zpqf88zpqf88zpq" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visualization, split-pane views, and per-node trace overlays to catch export regressions and verify hardware delegation. These tools enable engineering teams to transparently debug execution graphs and pinpoint cycle-level latency bottlenecks locally.]]&gt;</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/bringing-visual-graph-debugging-to-custom-edge-compilers-with-model-explorer/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_8zpqf88zpqf.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
