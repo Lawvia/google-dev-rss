@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 04:44:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 04:28:57 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevFest is back!</title>
+      <link>https://developers.googleblog.com/en/devfest-is-back/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Developers_Blog_Header.2e16d0ba.fill-800x400.jpg" alt="Developers_Blog_Header" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;DevFest 2026 runs from October 1 to December 31, bringing together nearly a million developers across more than 800 global events centered on the agentic AI era. Under the theme "Build, Secure, Scale," participants gain hands-on experience with Google’s developer stack—including Gemini, Google AI Studio, Google Antigravity, and Web MCP—through live workshops and codelabs. The conference focuses on enabling developers to prototype rapidly, ensure secure and private deployments, and leverage production-ready infrastructure.]]&gt;</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/devfest-is-back/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Developers_Blog_Header.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Build Generative UI Apps with A2UI &amp; CopilotKit Agents</title>
       <link>https://developers.googleblog.com/en/build-generative-ui-apps-with-a2ui-copilotkit-agents/</link>
@@ -14,14 +22,6 @@
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/build-generative-ui-apps-with-a2ui-copilotkit-agents/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Smaller apps and faster GPU inference with LiteRT in Google Play services</title>
-      <link>https://developers.googleblog.com/en/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_aumrhbaumrh.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_aumrhbaumrhbaumr" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.]]&gt;</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_aumrhbaumrh.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Hill-Climbing Agent Quality with Agents CLI Evaluation</title>
@@ -32,12 +32,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_3.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype</title>
-      <link>https://developers.googleblog.com/en/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_17912945.2e16d0ba.fill-800x400.jpg" alt="cui_banner_light_1600x900_1791294579141" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google Developer Studio. The framework helps engineers organize their guides and solutions to effectively share AI-driven conversational interface designs with the developer community.]]&gt;</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_17912945.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>Smaller apps and faster GPU inference with LiteRT in Google Play services</title>
+      <link>https://developers.googleblog.com/en/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_aumrhbaumrh.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_aumrhbaumrhbaumr" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.]]&gt;</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_aumrhbaumrh.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Fast, reliable A2UI, with swappable inference formats</title>
@@ -46,6 +46,14 @@
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/fast-reliable-a2ui/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-header-1600x900_1.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Building Conversational Commerce with Multi-Agent Swarms on GCP: A Working Prototype</title>
+      <link>https://developers.googleblog.com/en/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_17912945.2e16d0ba.fill-800x400.jpg" alt="cui_banner_light_1600x900_1791294579141" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This document provides a publication template and metadata structure for a technical blog post focused on building Conversational User Interfaces (CUIs) using AI. It outlines key developer focus areas, product stacks, and approval workflows required for publishing technical content through Google Developer Studio. The framework helps engineers organize their guides and solutions to effectively share AI-driven conversational interface designs with the developer community.]]&gt;</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/building-conversational-commerce-with-multi-agent-swarms-on-gcp-a-working-prototype/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cui_banner_light_1600x900_17912945.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>Preview, edit, and collaborate on markdown (.md) files natively in Google Docs and Drive</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/powering-the-agent-development-lifecycle-with-any-framework-from-adk-to-langchain-and-beyond/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_2.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Announcing New vLLM and SGLang Inference Engines on TPU</title>
-      <link>https://developers.googleblog.com/en/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/inferenceblog.2e16d0ba.fill-800x400.jpg" alt="inferenceblog" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post announces native PyTorch backends for vLLM and SGLang powered by TorchTPU, enabling developers to run and optimize serving workloads using familiar PyTorch tools. Built in collaboration with open-source project maintainers, these engines include optimized TPU kernel implementations, production-ready features like KV cache management with TPU Sync, and disaggregated serving. Public benchmarks demonstrate state-of-the-art performance and industry-leading cost efficiency on Ironwood TPU across long-context and agentic workloads.]]&gt;</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-new-vllm-and-sglang-inference-engines-on-tpu/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/inferenceblog.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
