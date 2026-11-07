@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2026 05:29:52 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 04:58:20 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Distraction</title>
+      <link>https://developers.googleblog.com/en/agent-distraction/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Agent_Distraction_Cover_1600x900_1.2e16d0ba.fill-800x400.png" alt="Agent Distraction Cover 1600x900 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more steps, 77% more tokens, and 105% more wait time per session—split between chasing closed tickets (41%) and unauthorized scope creep on open bugs (57%). Higher-capability models show higher distraction rates, highlighting the need for automated cleanup and linters to maintain agent-friendly codebases]]&gt;</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/agent-distraction/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Agent_Distraction_Cover_1600x900_1.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Cost per task: Using cheap classifiers to route across Gemini models and thinking levels</title>
       <link>https://developers.googleblog.com/en/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/</link>
@@ -78,14 +86,6 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/streaming-comes-to-api-gateway-real-time-and-ai-ready-apis-without-changing-your-spec/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Streaming_feature_in__API_Gateway_.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Architecting Governed, Self-Evolving AI Agents on Google Cloud</title>
-      <link>https://developers.googleblog.com/en/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0n.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_g9d0nag9d0nag9d0" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Learn how Project Chrysalis combines Google Cloud's Gemini Enterprise Agent Platform, Agent Development Kit (ADK), BigQuery, and a four-gate defense-in-depth security stack (Model Armor, Cloud KMS, Binary Authorization, and OPA) to build governed, self-evolving AI agents that remediate live production outages in 1.8 seconds.]]&gt;</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/architecting-governed-self-evolving-ai-agents-on-gemini-agent-platform/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_g9d0nag9d0n.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
