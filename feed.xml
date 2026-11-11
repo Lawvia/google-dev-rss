@@ -5,15 +5,15 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 06:17:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 05:01:43 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Announcing Long-Context Training on TPUs with MaxText Context Parallelism</title>
-      <link>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" alt="long context banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud's MaxText framework now supports long-context training up to 14 million tokens on Cloud TPUs by implementing four context-parallel strategies: All-gather, A2A, P2P, and USP. Powered by the Tokamax Splash Attention kernel, these strategies effectively manage attention compute and memory bottlenecks without materializing full key-value sequences in high-bandwidth memory. Developers can adopt these capabilities in MaxText v0.2.4 to achieve high Model FLOPs Utilization (MFU) across large-scale model training workflows.]]&gt;</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <title>On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery</title>
+      <link>https://developers.googleblog.com/en/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yd9gceyd9gc.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_yd9gceyd9gceyd9g" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for optimized Android performance, or use MediaPipe Tasks and LiteRT for cross-platform open-weight model integration. This local pipeline seamlessly pairs lightweight speech models with on-device small language models like Gemini Nano and Gemma 4 to enable real-time streaming transcription and low-latency synthesis.]]&gt;</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yd9gceyd9gc.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>From prompt to app: Build with Google Maps in AI Studio</title>
@@ -22,6 +22,14 @@
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/from-prompt-to-app-build-with-google-maps-in-ai-studio/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BlogHeader.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Announcing Long-Context Training on TPUs with MaxText Context Parallelism</title>
+      <link>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" alt="long context banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud's MaxText framework now supports long-context training up to 14 million tokens on Cloud TPUs by implementing four context-parallel strategies: All-gather, A2A, P2P, and USP. Powered by the Tokamax Splash Attention kernel, these strategies effectively manage attention compute and memory bottlenecks without materializing full key-value sequences in high-bandwidth memory. Developers can adopt these capabilities in MaxText v0.2.4 to achieve high Model FLOPs Utilization (MFU) across large-scale model training workflows.]]&gt;</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>What is Pathways? Single-controller training for large models</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_aumrhbaumrh.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Fast, reliable A2UI, with swappable inference formats</title>
-      <link>https://developers.googleblog.com/en/fast-reliable-a2ui/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-header-1600x900_1.2e16d0ba.fill-800x400.png" alt="00-header-1600x900 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can also use controlled generation with TypeSafe's Jev system-decision models to render known-shape screens in under 300 ms while smaller models stream text. These updates require no changes to frontend renderers or component catalogs, offering flexible performance levers for generative UI development across Python, TypeScript, and Dart.]]&gt;</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/fast-reliable-a2ui/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-header-1600x900_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
