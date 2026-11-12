@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 05:01:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 06:05:45 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A2UI 1.0: Build delightful, fast, reliable, agentic experiences</title>
+      <link>https://developers.googleblog.com/en/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_iu9r44iu9r4.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_iu9r44iu9r44iu9r" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;A2UI 1.0 is an open protocol for generative UI that enables AI agents to render interactive, native screens across web, mobile, and desktop applications. Developers can leverage open-source renderer SDKs—including React, Angular, Lit, Flutter, SwiftUI, and Jetpack Compose—alongside agent SDKs for Python, TypeScript, and Dart. The release introduces bidirectional function calls, swappable inference formats, and secure data binding to help teams seamlessly integrate generative UI into their product stacks.]]&gt;</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_iu9r44iu9r4.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery</title>
       <link>https://developers.googleblog.com/en/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</link>
@@ -14,6 +22,14 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yd9gceyd9gc.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
+    <item>
+      <title>What is Pathways? Single-controller training for large models</title>
+      <link>https://developers.googleblog.com/en/what-is-pathways-single-controller-training-for-large-models/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" alt="banner-1600x900 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditional SPMD models like DDP and FSDP that rely on synchronous collectives, Pathways uses asynchronous dispatch and a central scheduler to maximize hardware utilization and prevent deadlocks in complex workloads. By decoupling model definition from physical hardware via virtual devices, developers can efficiently scale complex training architectures and seamlessly handle dynamic workloads like reinforcement learning post-training.]]&gt;</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/what-is-pathways-single-controller-training-for-large-models/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>From prompt to app: Build with Google Maps in AI Studio</title>
@@ -30,14 +46,6 @@
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>What is Pathways? Single-controller training for large models</title>
-      <link>https://developers.googleblog.com/en/what-is-pathways-single-controller-training-for-large-models/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" alt="banner-1600x900 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditional SPMD models like DDP and FSDP that rely on synchronous collectives, Pathways uses asynchronous dispatch and a central scheduler to maximize hardware utilization and prevent deadlocks in complex workloads. By decoupling model definition from physical hardware via virtual devices, developers can efficiently scale complex training architectures and seamlessly handle dynamic workloads like reinforcement learning post-training.]]&gt;</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/what-is-pathways-single-controller-training-for-large-models/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Agent Distraction</title>
@@ -78,14 +86,6 @@
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/hill-climbing-agent-quality-with-agents-cli-evaluation/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_3.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Smaller apps and faster GPU inference with LiteRT in Google Play services</title>
-      <link>https://developers.googleblog.com/en/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_aumrhbaumrh.2e16d0ba.fill-800x400.jpg" alt="Gemini_Generated_Image_aumrhbaumrhbaumr" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;LiteRT in Google Play services now offers GPU inference powered by ML Drift, delivering about 1.4x faster performance alongside the new CompiledModel API. Switching from bundled binaries reduces app size by approximately 8 MB while enabling seamless, automatic runtime updates across billions of devices. Developers can easily adopt these updates by updating their dependencies and utilizing the new Android Studio LiteRT skill for automated migration.]]&gt;</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/smaller-apps-and-faster-gpu-inference-with-litert-in-google-play-services/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_aumrhbaumrh.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
