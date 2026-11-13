@@ -5,8 +5,24 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:05:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 05:29:04 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catch Go bugs that fuzzing misses with Gemini and a constraint solver</title>
+      <link>https://developers.googleblog.com/en/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/title-image.2e16d0ba.fill-800x400.png" alt="title-image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How pairing Go's surviving compiler bounds-check traps with Gemini 4 Argon and the Z3 constraint solver catches latent out-of-bounds panics in Go code and uncovers a slice-capacity blind spot in go test -fuzz.]]&gt;</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/title-image.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>How Agent Anomaly Detection scores on benchmarks we didn't write</title>
+      <link>https://developers.googleblog.com/en/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner_-_1600x900.2e16d0ba.fill-800x400.png" alt="Banner - 1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Anomaly Detection (AAD) provides asynchronous, low-latency monitoring for AI agents by analyzing OpenTelemetry traces and logs to flag goal hijacks and tool misuse. Tested across five public security benchmarks, AAD successfully caught 87% of harmful instructions carried out by agents without adding runtime latency. Developers can integrate AAD alongside semantic governance and strict tool limits as part of a defense-in-depth strategy to secure agentic applications.]]&gt;</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Banner_-_1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>A2UI 1.0: Build delightful, fast, reliable, agentic experiences</title>
       <link>https://developers.googleblog.com/en/a2ui-10-build-delightful-fast-reliable-agentic-experiences/</link>
@@ -24,12 +40,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_yd9gceyd9gc.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>What is Pathways? Single-controller training for large models</title>
-      <link>https://developers.googleblog.com/en/what-is-pathways-single-controller-training-for-large-models/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" alt="banner-1600x900 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditional SPMD models like DDP and FSDP that rely on synchronous collectives, Pathways uses asynchronous dispatch and a central scheduler to maximize hardware utilization and prevent deadlocks in complex workloads. By decoupling model definition from physical hardware via virtual devices, developers can efficiently scale complex training architectures and seamlessly handle dynamic workloads like reinforcement learning post-training.]]&gt;</description>
+      <title>Announcing Long-Context Training on TPUs with MaxText Context Parallelism</title>
+      <link>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" alt="long context banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud's MaxText framework now supports long-context training up to 14 million tokens on Cloud TPUs by implementing four context-parallel strategies: All-gather, A2A, P2P, and USP. Powered by the Tokamax Splash Attention kernel, these strategies effectively manage attention compute and memory bottlenecks without materializing full key-value sequences in high-bandwidth memory. Developers can adopt these capabilities in MaxText v0.2.4 to achieve high Model FLOPs Utilization (MFU) across large-scale model training workflows.]]&gt;</description>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/what-is-pathways-single-controller-training-for-large-models/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
       <title>From prompt to app: Build with Google Maps in AI Studio</title>
@@ -40,12 +56,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/BlogHeader.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Announcing Long-Context Training on TPUs with MaxText Context Parallelism</title>
-      <link>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" alt="long context banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google Cloud's MaxText framework now supports long-context training up to 14 million tokens on Cloud TPUs by implementing four context-parallel strategies: All-gather, A2A, P2P, and USP. Powered by the Tokamax Splash Attention kernel, these strategies effectively manage attention compute and memory bottlenecks without materializing full key-value sequences in high-bandwidth memory. Developers can adopt these capabilities in MaxText v0.2.4 to achieve high Model FLOPs Utilization (MFU) across large-scale model training workflows.]]&gt;</description>
+      <title>What is Pathways? Single-controller training for large models</title>
+      <link>https://developers.googleblog.com/en/what-is-pathways-single-controller-training-for-large-models/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" alt="banner-1600x900 (1)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditional SPMD models like DDP and FSDP that rely on synchronous collectives, Pathways uses asynchronous dispatch and a central scheduler to maximize hardware utilization and prevent deadlocks in complex workloads. By decoupling model definition from physical hardware via virtual devices, developers can efficiently scale complex training architectures and seamlessly handle dynamic workloads like reinforcement learning post-training.]]&gt;</description>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/announcing-long-context-training-on-tpus-with-maxtext-context-parallelism/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_1v7191v7191.2e16d0ba.fill-800x400.jpg" type="image/png" />
+      <guid>https://developers.googleblog.com/en/what-is-pathways-single-controller-training-for-large-models/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/banner-1600x900_1.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Agent Distraction</title>
@@ -70,22 +86,6 @@
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/devfest-is-back/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Developers_Blog_Header.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Build Generative UI Apps with A2UI &amp; CopilotKit Agents</title>
-      <link>https://developers.googleblog.com/en/build-generative-ui-apps-with-a2ui-copilotkit-agents/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-800x400.png" alt="cover-without-title" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;See Google A2Ui in action! Learn how to natively render agentic UIs across Langchain, AWS Strands, Microsoft agents, and Google ADK using CopilotKit SDKs for A2UI.]]&gt;</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/build-generative-ui-apps-with-a2ui-copilotkit-agents/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/cover-without-title.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Hill-Climbing Agent Quality with Agents CLI Evaluation</title>
-      <link>https://developers.googleblog.com/en/hill-climbing-agent-quality-with-agents-cli-evaluation/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_3.2e16d0ba.fill-800x400.png" alt="1 (3)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post walks through the Agents CLI evaluation loop for systematically improving agent performance through continuous testing and grading. It demonstrates how to catch prompt regressions, evaluate model backend swaps using side-by-side trace comparisons, and automate evaluation passes. Developers will also learn how to integrate nightly scheduled runs with threshold-based alerting to track quality over time.]]&gt;</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/hill-climbing-agent-quality-with-agents-cli-evaluation/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/1_3.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
