@@ -5,8 +5,48 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 06:03:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 05:56:46 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to securely connect internal Cloud Run MCP servers to Gemini Enterprise</title>
+      <link>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" alt="header_image_1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.]]&gt;</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Agent Anomaly Detection: Safeguarding agents across other clouds</title>
+      <link>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" alt="00-hero-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Anomaly Detection now monitors ADK agents running across AWS, Azure, or on-premises by analyzing their traces and logs in your Google Cloud project. By ingesting OpenTelemetry-formatted data through the Telemetry API, it evaluates full conversations for behavioral drift without needing access to the agent's underlying runtime. This enables security teams to detect risks like rogue behaviors, tool misuse, and resource exhaustion across multi-cloud environments.]]&gt;</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Check what your AI agents do before they do it, with Semantic governance policies</title>
+      <link>https://developers.googleblog.com/en/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-800x400.png" alt="Semantic governance policies check three proposed agent actions: one email is allowed, and two actions are denied" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Semantic governance policies enable developers to govern AI agents by evaluating every proposed tool call inline before execution. Operating via Agent Gateway, the policy engine checks each action against user intent and plain-language rules to prevent unauthorized data sharing and prompt injection attacks. Developers can easily attach natural-language constraints to their agents and monitor auditable verdicts through Cloud Logging.]]&gt;</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>How to handle user, connector, and agent auth in Gemini Enterprise with a custom UI</title>
+      <link>https://developers.googleblog.com/en/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-image-1600x900.2e16d0ba.fill-800x400.png" alt="meta-image-1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;When building a custom enterprise UI on top of Gemini Enterprise's :streamAssist API, developers must manually implement three core authentication layers. These include authenticating users or workloads via Google Identity or Workforce/Workload Identity Federation, managing third-party 3-legged OAuth (3LO) for Federated Connectors through the Keystore, and configuring on-demand per-tool OAuth for custom ADK agents using Vertex AI Agent Engine and GCP Auth Manager.]]&gt;</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-image-1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Multi-Turn Agentic Reinforcement Learning with Tunix and Gemma 4 on Google TPUs</title>
+      <link>https://developers.googleblog.com/en/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta_4.2e16d0ba.fill-800x400.png" alt="Ai-1-meta (4)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post walks developers through training a multi-turn, tool-using LLM agent using Tunix and Gemma 4 on Cloud TPUs. By leveraging agentic Group Relative Policy Optimization (GRPO) and asynchronous vLLM rollouts, the approach significantly improves complex reasoning and tool compliance in interactive environments.]]&gt;</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta_4.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
     <item>
       <title>Distributed LLM Training Across Metros: Streaming DiLoCo in MaxText</title>
       <link>https://developers.googleblog.com/en/distributed-llm-training-across-metros-streaming-diloco-in-maxtext/</link>
@@ -16,12 +56,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Dilco_header.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Multi-Turn Agentic Reinforcement Learning with Tunix and Gemma 4 on Google TPUs</title>
-      <link>https://developers.googleblog.com/en/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta_4.2e16d0ba.fill-800x400.png" alt="Ai-1-meta (4)" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This post walks developers through training a multi-turn, tool-using LLM agent using Tunix and Gemma 4 on Cloud TPUs. By leveraging agentic Group Relative Policy Optimization (GRPO) and asynchronous vLLM rollouts, the approach significantly improves complex reasoning and tool compliance in interactive environments.]]&gt;</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Ai-1-meta_4.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Accelerating development for massive Git repositories</title>
+      <link>https://developers.googleblog.com/en/accelerating-development-for-massive-git-repositories/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ABFS-Header-Meta.2e16d0ba.fill-800x400.png" alt="ABFS-Header-Meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Meet Another Build File Service (ABFS), Google's open-source content-addressable filesystem and build cache that cuts Android checkouts to &lt;8s and builds to ~2m.]]&gt;</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/accelerating-development-for-massive-git-repositories/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ABFS-Header-Meta.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Build full-stack Android apps with Gemini in Google AI Studio</title>
@@ -40,52 +80,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics_Banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
     <item>
-      <title>Accelerating development for massive Git repositories</title>
-      <link>https://developers.googleblog.com/en/accelerating-development-for-massive-git-repositories/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ABFS-Header-Meta.2e16d0ba.fill-800x400.png" alt="ABFS-Header-Meta" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Meet Another Build File Service (ABFS), Google's open-source content-addressable filesystem and build cache that cuts Android checkouts to &lt;8s and builds to ~2m.]]&gt;</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/accelerating-development-for-massive-git-repositories/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/ABFS-Header-Meta.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
       <title>TPU Model Design Considerations and Optimization Guide</title>
       <link>https://developers.googleblog.com/en/tpu-model-design-considerations-and-optimization-guide/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_image.2e16d0ba.fill-800x400.jpg" alt="header image TPU model" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly launched AI-Hypercomputer/tpu-codesign guide provides hardware-grounded design rules to help developers maximize performance on TPUs for LLMs and Mixture-of-Experts (MoE) workloads. Key principles include aligning reduction and output dimensions to 256 for systolic arrays, adopting LatentMoE to compress routed token traffic, and mapping parallel axes directly onto physical links.]]&gt;</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/tpu-model-design-considerations-and-optimization-guide/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_image.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Securing Your Agents: A Hands-On Guide to Agent Anomaly Detection</title>
-      <link>https://developers.googleblog.com/en/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-banner.2e16d0ba.fill-800x400.png" alt="blog-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;This guide walks developers through setting up Agent Anomaly Detection on the Gemini Enterprise Agent Platform to monitor AI agent telemetry and catch behavioral risks. It demonstrates how to deploy a sample customer support agent, trigger out-of-scope security findings, and configure proactive alerts using Cloud Monitoring and Security Command Center.]]&gt;</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/blog-banner.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Agents are sessions, not requests: size GKE node pools for AI agent sessions</title>
-      <link>https://developers.googleblog.com/en/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-11-11_at_4.46.52PM.2e16d0ba.fill-800x400.png" alt="Screenshot 2026-11-11 at 4.46.52 PM" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;AI agent sessions remain active and idle for most of the workday, making traditional one-Pod-per-session allocations inefficient for cluster resources. By using open-source tools like Agent Substrate and AX on GKE, developers can park idle sessions in object storage to release compute resources while maintaining session state. This approach optimizes resource utilization and reduces Kubernetes node costs by up to 40%.]]&gt;</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Screenshot_2026-11-11_at_4.46.52PM.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch</title>
-      <link>https://developers.googleblog.com/en/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/zero_tim_tpu_blog_header_1600x900.2e16d0ba.fill-800x400.png" alt="zero_tim_tpu_blog_header_1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How we eliminated floating-point train–inference logprob drift for on-policy LLM reinforcement learning across 64 Cloud TPU v5p chips using a generalizable four-part JAX and Pallas recipe in Tunix.]]&gt;</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/zero_tim_tpu_blog_header_1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Catch Go bugs that fuzzing misses with Gemini and a constraint solver</title>
-      <link>https://developers.googleblog.com/en/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/title-image.2e16d0ba.fill-800x400.png" alt="title-image" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How pairing Go's surviving compiler bounds-check traps with Gemini 4 Argon and the Z3 constraint solver catches latent out-of-bounds panics in Go code and uncovers a slice-capacity blind spot in go test -fuzz.]]&gt;</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/title-image.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
   </channel>
 </rss>
