@@ -5,23 +5,15 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 06:11:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 08:48:08 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to securely connect internal Cloud Run MCP servers to Gemini Enterprise</title>
-      <link>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" alt="header_image_1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.]]&gt;</description>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>Agent Anomaly Detection: Safeguarding agents across other clouds</title>
-      <link>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" alt="00-hero-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Anomaly Detection now monitors ADK agents running across AWS, Azure, or on-premises by analyzing their traces and logs in your Google Cloud project. By ingesting OpenTelemetry-formatted data through the Telemetry API, it evaluates full conversations for behavioral drift without needing access to the agent's underlying runtime. This enables security teams to detect risks like rogue behaviors, tool misuse, and resource exhaustion across multi-cloud environments.]]&gt;</description>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+      <title>Did the user ask for this? Securing AI agents against intent hijacking with Semantic governance policies</title>
+      <link>https://developers.googleblog.com/en/did-the-user-ask-for-this-securing-ai-agents-against-intent-hijacking-with-semantic-governance-policies/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/intent-hijacking-header-fullname-b.2e16d0ba.fill-800x400.png" alt="intent-hijacking-header-fullname-blue" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Semantic governance policies protect AI agents from indirect prompt injection and intent hijacking by validating every proposed tool call against user intent and natural language constraints before execution. As demonstrated on the AgentDojo benchmark using a Gemini 2.5 Flash agent, this mechanism reduced attack success rates from 48.7% to 0.9% while maintaining high task utility. Developers can leverage these policies in preview within the Gemini platform via Agent Gateway to secure tool-use workflows.]]&gt;</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/did-the-user-ask-for-this-securing-ai-agents-against-intent-hijacking-with-semantic-governance-policies/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/intent-hijacking-header-fullname-b.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Check what your AI agents do before they do it, with Semantic governance policies</title>
@@ -32,12 +24,28 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
+      <title>How to securely connect internal Cloud Run MCP servers to Gemini Enterprise</title>
+      <link>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" alt="header_image_1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.]]&gt;</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
       <title>How to handle user, connector, and agent auth in Gemini Enterprise with a custom UI</title>
       <link>https://developers.googleblog.com/en/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/</link>
       <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-image-1600x900.2e16d0ba.fill-800x400.png" alt="meta-image-1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;When building a custom enterprise UI on top of Gemini Enterprise's :streamAssist API, developers must manually implement three core authentication layers. These include authenticating users or workloads via Google Identity or Workforce/Workload Identity Federation, managing third-party 3-legged OAuth (3LO) for Federated Connectors through the Keystore, and configuring on-demand per-tool OAuth for custom ADK agents using Vertex AI Agent Engine and GCP Auth Manager.]]&gt;</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-image-1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Agent Anomaly Detection: Safeguarding agents across other clouds</title>
+      <link>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" alt="00-hero-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Anomaly Detection now monitors ADK agents running across AWS, Azure, or on-premises by analyzing their traces and logs in your Google Cloud project. By ingesting OpenTelemetry-formatted data through the Telemetry API, it evaluates full conversations for behavioral drift without needing access to the agent's underlying runtime. This enables security teams to detect risks like rogue behaviors, tool misuse, and resource exhaustion across multi-cloud environments.]]&gt;</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Multi-Turn Agentic Reinforcement Learning with Tunix and Gemma 4 on Google TPUs</title>
@@ -78,14 +86,6 @@
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/gemini-hydrogen-for-robotics/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics_Banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>TPU Model Design Considerations and Optimization Guide</title>
-      <link>https://developers.googleblog.com/en/tpu-model-design-considerations-and-optimization-guide/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_image.2e16d0ba.fill-800x400.jpg" alt="header image TPU model" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;The newly launched AI-Hypercomputer/tpu-codesign guide provides hardware-grounded design rules to help developers maximize performance on TPUs for LLMs and Mixture-of-Experts (MoE) workloads. Key principles include aligning reduction and output dimensions to 256 for systolic arrays, adopting LatentMoE to compress routed token traffic, and mapping parallel axes directly onto physical links.]]&gt;</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/tpu-model-design-considerations-and-optimization-guide/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_image.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
