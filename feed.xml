@@ -5,8 +5,16 @@
     <link>https://developers.googleblog.com/en/search/</link>
     <description>Latest updates from Google Developers Search team</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 08:48:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 07:23:19 +0000</lastBuildDate>
     <atom:link href="https://lawvia.github.io/google-dev-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Files to Cited Answers in One API Call: Managed Ingestion and SearchDocuments in Agent Retrieval</title>
+      <link>https://developers.googleblog.com/en/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_en_1600x900.2e16d0ba.fill-800x400.jpg" alt="header_en_1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Retrieval in Vertex AI introduces managed ingestion and SearchDocuments to replace custom chunking and embedding pipelines. Developers can now import document and video files directly from Cloud Storage and query them with a single API call for cited page numbers and timestamped results. The feature supports hybrid retrieval, metadata filtering, reranking, and multimodal video audio search.]]&gt;</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_en_1600x900.2e16d0ba.fill-800x400.jpg" type="image/png" />
+    </item>
     <item>
       <title>Did the user ask for this? Securing AI agents against intent hijacking with Semantic governance policies</title>
       <link>https://developers.googleblog.com/en/did-the-user-ask-for-this-securing-ai-agents-against-intent-hijacking-with-semantic-governance-policies/</link>
@@ -16,20 +24,12 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/intent-hijacking-header-fullname-b.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Check what your AI agents do before they do it, with Semantic governance policies</title>
-      <link>https://developers.googleblog.com/en/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-800x400.png" alt="Semantic governance policies check three proposed agent actions: one email is allowed, and two actions are denied" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Semantic governance policies enable developers to govern AI agents by evaluating every proposed tool call inline before execution. Operating via Agent Gateway, the policy engine checks each action against user intent and plain-language rules to prevent unauthorized data sharing and prompt injection attacks. Developers can easily attach natural-language constraints to their agents and monitor auditable verdicts through Cloud Logging.]]&gt;</description>
+      <title>Agent Anomaly Detection: Safeguarding agents across other clouds</title>
+      <link>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" alt="00-hero-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Anomaly Detection now monitors ADK agents running across AWS, Azure, or on-premises by analyzing their traces and logs in your Google Cloud project. By ingesting OpenTelemetry-formatted data through the Telemetry API, it evaluates full conversations for behavioral drift without needing access to the agent's underlying runtime. This enables security teams to detect risks like rogue behaviors, tool misuse, and resource exhaustion across multi-cloud environments.]]&gt;</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-800x400.png" type="image/png" />
-    </item>
-    <item>
-      <title>How to securely connect internal Cloud Run MCP servers to Gemini Enterprise</title>
-      <link>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" alt="header_image_1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.]]&gt;</description>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>How to handle user, connector, and agent auth in Gemini Enterprise with a custom UI</title>
@@ -40,12 +40,20 @@
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/meta-image-1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
-      <title>Agent Anomaly Detection: Safeguarding agents across other clouds</title>
-      <link>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" alt="00-hero-banner" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Agent Anomaly Detection now monitors ADK agents running across AWS, Azure, or on-premises by analyzing their traces and logs in your Google Cloud project. By ingesting OpenTelemetry-formatted data through the Telemetry API, it evaluates full conversations for behavioral drift without needing access to the agent's underlying runtime. This enables security teams to detect risks like rogue behaviors, tool misuse, and resource exhaustion across multi-cloud environments.]]&gt;</description>
+      <title>How to securely connect internal Cloud Run MCP servers to Gemini Enterprise</title>
+      <link>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" alt="header_image_1600x900" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.]]&gt;</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/agent-anomaly-detection-safeguarding-agents-across-other-clouds/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/00-hero-banner.2e16d0ba.fill-800x400.png" type="image/png" />
+      <guid>https://developers.googleblog.com/en/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_image_1600x900.2e16d0ba.fill-800x400.png" type="image/png" />
+    </item>
+    <item>
+      <title>Check what your AI agents do before they do it, with Semantic governance policies</title>
+      <link>https://developers.googleblog.com/en/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/</link>
+      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-800x400.png" alt="Semantic governance policies check three proposed agent actions: one email is allowed, and two actions are denied" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Semantic governance policies enable developers to govern AI agents by evaluating every proposed tool call inline before execution. Operating via Agent Gateway, the policy engine checks each action against user intent and plain-language rules to prevent unauthorized data sharing and prompt injection attacks. Developers can easily attach natural-language constraints to their agents and monitor auditable verdicts through Cloud Logging.]]&gt;</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://developers.googleblog.com/en/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/header_2.2e16d0ba.fill-800x400.png" type="image/png" />
     </item>
     <item>
       <title>Multi-Turn Agentic Reinforcement Learning with Tunix and Gemma 4 on Google TPUs</title>
@@ -78,14 +86,6 @@
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
       <guid>https://developers.googleblog.com/en/build-full-stack-android-apps-with-gemini-in-google-ai-studio/</guid>
       <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Gemini_Generated_Image_41reuz41reu.2e16d0ba.fill-800x400.jpg" type="image/png" />
-    </item>
-    <item>
-      <title>Gemini 4 Hydrogen: a faster model for general purpose robotics</title>
-      <link>https://developers.googleblog.com/en/gemini-hydrogen-for-robotics/</link>
-      <description>&lt;![CDATA[&lt;img src="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics_Banner.2e16d0ba.fill-800x400.jpg" alt="Gemini-4-hydrogen-robotics__KW__header__16x9" style="max-width: 100%; height: auto;"&gt;&lt;br&gt;&lt;br&gt;Google's Gemini 4 Hydrogen brings strong spatial and embodied reasoning capabilities to a fast, efficient model built specifically for robotics. To help developers put these capabilities to work, the new Robotics plugin for Google Antigravity transforms the platform into a comprehensive workbench supporting rapid hardware bring-up, MuJoCo simulation, and closed-loop control. Developers can leverage these tools to transition from an unboxed robot arm to a fully functional real-to-sim-to-real application in an afternoon using natural language prompts and day-one support in the google-genai SDKs.]]&gt;</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <guid>https://developers.googleblog.com/en/gemini-hydrogen-for-robotics/</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Robotics_Banner.2e16d0ba.fill-800x400.jpg" type="image/png" />
     </item>
   </channel>
 </rss>
